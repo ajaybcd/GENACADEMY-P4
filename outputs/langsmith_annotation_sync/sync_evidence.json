@@ -1,0 +1,236 @@
+{
+  "workbook_sha256": "4bd5b5e4c3b9ad881bfa0333b4ecd13ed8a897397c9c10ce21ecd723f18f3103",
+  "unique_tickets": 14,
+  "queues": [
+    {
+      "version": "baseline",
+      "name": "Week4 P4 baseline approved Excel reviews",
+      "id": "9b8652c6-6d49-456a-b450-937684e6919f",
+      "expected": 8,
+      "completed": 8,
+      "needs_my_review": 0
+    },
+    {
+      "version": "focused",
+      "name": "Week4 P4 focused approved Excel reviews",
+      "id": "ac189235-b699-4e67-9cb8-f2d85ed9c34c",
+      "expected": 7,
+      "completed": 7,
+      "needs_my_review": 0
+    }
+  ],
+  "records": [
+    {
+      "ticket_id": "t004",
+      "version": "baseline",
+      "run_id": "01a185b4-bacb-7cf5-9b7a-6c9bfb18c144",
+      "queue_item_id": "7510c74c-474c-44db-9830-758a276af63e",
+      "feedback_ids": [
+        "2bcb3c9b-66b0-53f5-bead-4382b0cadb89",
+        "f348ff3a-7df8-58be-a393-4a0368b4fdc4",
+        "4ebdba0e-e62b-5169-81a9-5b80a8f094a6",
+        "0b09bcbd-429b-5ef7-a020-f68e64cbafbf",
+        "9d345a2e-21c5-556d-ad49-da577e71b727"
+      ],
+      "approval": "Approved"
+    },
+    {
+      "ticket_id": "t005",
+      "version": "baseline",
+      "run_id": "01a185b4-ca5b-7344-8575-0e891a0b2cf5",
+      "queue_item_id": "c473be6b-8a54-4b64-9e94-50db79232695",
+      "feedback_ids": [
+        "a7d2696b-4b7b-57f0-b63a-6d9a158e4549",
+        "c6c35114-ea08-5288-93cb-0af83067a8c5",
+        "c0cdcfd6-e8da-55f9-8dc0-20b351d55b35",
+        "ef0721c8-135e-5fa1-acd9-4923c0dcf147",
+        "680becce-3222-5494-b0f4-55520814e986"
+      ],
+      "approval": "Approved"
+    },
+    {
+      "ticket_id": "t006",
+      "version": "baseline",
+      "run_id": "01a185b4-6d25-7331-9ed4-62ed41c10f9e",
+      "queue_item_id": "0cbf8e7f-b5c6-4cec-9ec0-9cb375480760",
+      "feedback_ids": [
+        "2a3ead77-518d-5d78-8645-e17135bca88b",
+        "ca353be6-5028-51ae-9911-a66fd320e710",
+        "8bf2d3ca-f77b-5164-a433-bfe76bdd8629",
+        "d77836e5-b7a4-5502-9a1d-92bcc363ad10",
+        "963e0619-6719-5b59-a67b-f3b9fbb95aff"
+      ],
+      "approval": "Approved"
+    },
+    {
+      "ticket_id": "t007",
+      "version": "baseline",
+      "run_id": "01a185b4-995e-77a1-864e-413bd5a9f3e9",
+      "queue_item_id": "8ab85912-db91-4cc2-b700-420c338f2085",
+      "feedback_ids": [
+        "089b0ec4-8dec-5f2b-82b8-7551082b007b",
+        "1feb9a95-2103-5f01-bc9f-3968618ba5c1",
+        "1eb92387-5782-54ab-a1ad-3e8d5b774e35",
+        "523e1d1a-bac9-5117-8af7-7326248322a2",
+        "141217d8-c4a6-55b2-8ac8-20a2e89c7dbf"
+      ],
+      "approval": "Approved"
+    },
+    {
+      "ticket_id": "t044",
+      "version": "baseline",
+      "run_id": "01a185b4-7bb2-75f4-9240-6f6afeab44d6",
+      "queue_item_id": "30d7c6da-18d4-4e1b-8aaf-27be702e6e73",
+      "feedback_ids": [
+        "152b26d7-8f12-514e-afe4-1a26837a8f6c",
+        "98bca5e5-50e7-5d56-aa5b-7f8e8147d64b",
+        "6c43cc12-7fe1-53c8-8bea-d899365d8173",
+        "b5c38ead-2be9-518f-b764-421c0eb769a1",
+        "bb7401a2-7f5e-5846-8121-e5d7bae603d0"
+      ],
+      "approval": "Approved"
+    },
+    {
+      "ticket_id": "t045",
+      "version": "baseline",
+      "run_id": "01a185b4-b18f-7719-b137-7d572619b8b7",
+      "queue_item_id": "033e2840-fb71-44a4-aa3d-0c73760c7288",
+      "feedback_ids": [
+        "1ab80841-fde3-5161-9f07-04df6dfb6219",
+        "750c609d-ea88-5044-997d-18b9afb7c962",
+        "173bc921-262e-5aec-9d8f-e178cb3c386c",
+        "90bd35bd-b454-5f5d-93ec-ec6dc45fe571",
+        "bfe3cac5-8ca2-5f5f-ab89-b09be887e12c"
+      ],
+      "approval": "Approved"
+    },
+    {
+      "ticket_id": "t046",
+      "version": "baseline",
+      "run_id": "01a185b4-9e56-7301-b288-9cc52664ff16",
+      "queue_item_id": "ba45da24-ab2d-47cb-b31f-1e75c88dd1ed",
+      "feedback_ids": [
+        "e19be959-58c3-57c8-8593-bedca93faee9",
+        "b4d1ef39-a0d5-5bb1-aadf-56e3dee49e8a",
+        "d3639ec4-d6a7-5932-9450-051c51581067",
+        "8a472991-3eb3-5754-b19a-a0ffd7512830",
+        "e461d02c-9a66-5b7b-9201-5faa7232c372"
+      ],
+      "approval": "Approved"
+    },
+    {
+      "ticket_id": "t047",
+      "version": "baseline",
+      "run_id": "01a185b4-8b8d-7100-befa-c0176d0b73c1",
+      "queue_item_id": "1b90c59b-99b7-4756-9dd8-16e634f6e093",
+      "feedback_ids": [
+        "3c772e50-d347-5300-8542-e07debca4184",
+        "4dff9543-9963-5edf-9ecc-555bd1501bf6",
+        "7648f786-41ff-5c50-be18-2956d8061e57",
+        "61855bee-31b0-5adf-9d39-588b725700c7",
+        "8d6f996a-0b48-53d8-9d79-26568af11cf6"
+      ],
+      "approval": "Approved"
+    },
+    {
+      "ticket_id": "t024",
+      "version": "focused",
+      "run_id": "01a185b5-423a-7dd0-8c30-2a311cbf88ab",
+      "queue_item_id": "a74efec5-cfed-43c5-86d6-7549c7f61ac8",
+      "feedback_ids": [
+        "04de4b4d-ea93-5492-bbd2-d44480bff130",
+        "ee666e77-b6e0-5c24-a532-8fd79c373824",
+        "9423317a-7529-5795-a670-ba481273946c",
+        "16df0941-62f5-580d-be28-b00114e1cc1e",
+        "c27e8345-3e3e-5eb1-beca-fb7d8ff875bc"
+      ],
+      "approval": "Approved"
+    },
+    {
+      "ticket_id": "t025",
+      "version": "focused",
+      "run_id": "01a185b4-f822-70dc-a6ed-78171e301c6b",
+      "queue_item_id": "03395b4e-2bdb-4559-bafd-6b9e1e391f2e",
+      "feedback_ids": [
+        "2f79c75f-1868-5db7-9bf5-4c3ab201cb8d",
+        "9c826008-dd68-5a78-b42e-2b82f8dd71e6",
+        "aeb7f84e-b5fe-56c8-addf-360a91e619ec",
+        "5c23a4e3-e4e4-5053-bf7f-f6393e8ea39f",
+        "86e60cd3-32f2-5d02-8936-cdaa91e5e73a"
+      ],
+      "approval": "Approved"
+    },
+    {
+      "ticket_id": "t026",
+      "version": "focused",
+      "run_id": "01a185b5-2fc4-7316-9249-981945f0db6e",
+      "queue_item_id": "d7f7af30-bff4-4ead-af62-da275b2f72d3",
+      "feedback_ids": [
+        "6354a14c-a9a1-590c-9ba2-2754d8df15b9",
+        "c9a8c262-5a56-56f4-aff8-9fd66924c2a2",
+        "79ea4485-1911-5b6c-b37c-9f3368fa0f1a",
+        "ae9df36e-92f1-5210-b629-21f24d5095a7",
+        "1cc70264-036d-5a24-a169-b65edc320c02"
+      ],
+      "approval": "Approved"
+    },
+    {
+      "ticket_id": "t027",
+      "version": "focused",
+      "run_id": "01a185b5-5895-7180-b0ef-55b4d41e17a1",
+      "queue_item_id": "a9b07e5a-78fb-4026-a1d9-4397d28a069f",
+      "feedback_ids": [
+        "b1bd2b69-b17d-5594-ba8e-5bfe6e3f3555",
+        "daf29f63-963c-504f-9dd8-bd9ed6eaa592",
+        "f77e11fb-84b0-50c9-a7b3-2e4aa93f64d6",
+        "593f55ce-bc33-526b-8e66-ad24978a3777",
+        "b9eac51a-e90f-5107-9033-ff68b3ec0a20"
+      ],
+      "approval": "Approved"
+    },
+    {
+      "ticket_id": "t028",
+      "version": "focused",
+      "run_id": "01a185b5-18c9-7048-8ef9-976f2d473447",
+      "queue_item_id": "835a7ce2-c122-49ba-8afc-a7a6cf58ea37",
+      "feedback_ids": [
+        "e3540b76-d11d-5ecd-a7b1-03aad7af0d9a",
+        "12cfce7a-0da8-5a65-b509-0ddb51b9f8d4",
+        "0c019166-d32b-5722-b4c6-a5efd5ed878c",
+        "b71f9657-8218-5c02-af24-4807b3d370b9",
+        "8456567e-4fc7-553a-aaf3-a391bbe7cb9f"
+      ],
+      "approval": "Approved"
+    },
+    {
+      "ticket_id": "t029",
+      "version": "focused",
+      "run_id": "01a185b5-474a-7469-8507-262edd098a29",
+      "queue_item_id": "e57c0db5-cf9b-41d5-8862-eaed3596b765",
+      "feedback_ids": [
+        "3f38e241-4cba-58c1-ad67-6564e028b716",
+        "ed3bddfe-00c5-558a-8460-4c72d6bd2d36",
+        "65f91a35-9743-5ce5-835a-6bbaff8d79c1",
+        "23ca2cc8-fd97-53a1-b80b-e986b5ebf7d4",
+        "931d1c23-52e4-5906-80ab-0370882f22c6"
+      ],
+      "approval": "Approved"
+    },
+    {
+      "ticket_id": "t046",
+      "version": "focused",
+      "run_id": "01a185b5-1f03-70a8-8d39-2663547ab114",
+      "queue_item_id": "cea3a4db-baa2-4923-8f7e-64122692c91c",
+      "feedback_ids": [
+        "6e0d4787-466e-532f-8f51-872d320dac62",
+        "2a5d8dfe-7209-528c-926f-b9d23ce90b3b",
+        "84f6832d-9f94-5a2c-83e8-3dee7196bfe5",
+        "2dcb084d-7ef2-5ae8-b5af-c8e51a790a6c",
+        "60721bd8-4e04-50ef-8873-2e5db5c70708"
+      ],
+      "approval": "Approved"
+    }
+  ],
+  "verified_feedback_records": 75,
+  "verified": true
+}

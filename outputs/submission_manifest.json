@@ -1,0 +1,193 @@
+{
+  "review_status": "All failed-case worksheet reviews approved",
+  "langsmith_status": "8 baseline and 7 focused completed; 75 feedback records verified",
+  "reviewed_fresh_scores": "93/100 baseline and 93/100 focused; 7 wins, 7 regressions",
+  "remaining_participant_action": "Record Loom walkthrough and supply its actual link to the course submission",
+  "files": [
+    {
+      "path": ".env.example",
+      "sha256": "f9fbcc9201f8ff5543ce03ff6b1febecd88110936f279be43371ca64b432b80a",
+      "bytes": 130
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "88fa2eca7e4aa84f48499ba2d3d2027061d561a512899ea89237f0f8de3a964f",
+      "bytes": 82
+    },
+    {
+      "path": "README.md",
+      "sha256": "444f7729edb2da14dd64ace259d9522fd8f4ef3c4e7fed1a43df48824b690097",
+      "bytes": 11428
+    },
+    {
+      "path": "build_deliverables.py",
+      "sha256": "3a1e2e6d2925b0830f7d5acf8aeeeb734eabd153b96db81dba3753504d07e1a8",
+      "bytes": 241
+    },
+    {
+      "path": "credentials.ps1",
+      "sha256": "588816ad3056fc0d815facc5c7eec9f419b301482c04b93e3fe90ea7acbf7b02",
+      "bytes": 6227
+    },
+    {
+      "path": "customer_support_evaluation.ipynb",
+      "sha256": "9ecef2cda6f6d443bdbe05f1c51c9c187e60a43fb47cbdef017d2c599da09f6a",
+      "bytes": 18041
+    },
+    {
+      "path": "finalize_submission.py",
+      "sha256": "bcffc3d9170b3190a9b1ae4c57707794b00e4ce2614882b64db6fc64bbec7ae3",
+      "bytes": 18914
+    },
+    {
+      "path": "live_runs/comparison.csv",
+      "sha256": "e3e250380ee85e39120dde17e47b389288ec9efd35e5a9d1aa1ff5684694afbc",
+      "bytes": 17036
+    },
+    {
+      "path": "live_runs/comparison.summary.json",
+      "sha256": "606dca4ac61dd9c2dcf5b597bc3c437b548f552da37ce4729d53d8c51fc27ad9",
+      "bytes": 216
+    },
+    {
+      "path": "live_runs/langsmith_evidence.json",
+      "sha256": "4b9efe269089cbe1265aa81e0033e90a058d0a0d42b3cd3902d5313db171922c",
+      "bytes": 1280
+    },
+    {
+      "path": "live_runs/week4-p4-baseline-22024e81.csv",
+      "sha256": "20bdf4d328b65af28d7c0a16a258af0bb34dec2e6eb4dd85f4e210e2e6447e39",
+      "bytes": 18562
+    },
+    {
+      "path": "live_runs/week4-p4-focused-7c8ba9cb.csv",
+      "sha256": "423cd8b4b4c383c8c5a69edfd95efe25ef47341702a95a0f1ce3d9b07622e213",
+      "bytes": 18538
+    },
+    {
+      "path": "outputs/customer_support_evaluation.xlsx",
+      "sha256": "4bd5b5e4c3b9ad881bfa0333b4ecd13ed8a897397c9c10ce21ecd723f18f3103",
+      "bytes": 46068
+    },
+    {
+      "path": "outputs/final_fresh_run_reviews.csv",
+      "sha256": "c7277dad5ef0abdb1a9741b600476af2bbb43640d5d4529ace4e67db85c37272",
+      "bytes": 27036
+    },
+    {
+      "path": "outputs/final_review_snapshot.json",
+      "sha256": "e81461467dfe120006af37df498ca01e147777abeb92b08667f754d5de7dd07e",
+      "bytes": 142588
+    },
+    {
+      "path": "outputs/final_saved_run_reviews.csv",
+      "sha256": "0284319ed7efacc41d410d2e1998c849caf9f66fb5fd925003224843d6ca12b0",
+      "bytes": 24135
+    },
+    {
+      "path": "outputs/langsmith_annotation_sync/completion_notes.txt",
+      "sha256": "0bf9f599bd69e3c85a2a86721e4302c883f24f71b81b7877d781838f833d72b7",
+      "bytes": 1879
+    },
+    {
+      "path": "outputs/langsmith_annotation_sync/review_transfer_plan.json",
+      "sha256": "623e2dca0ff44477e32070405be026ceb1c5e2ea5ccffb93184f75aaecc08c77",
+      "bytes": 18478
+    },
+    {
+      "path": "outputs/langsmith_annotation_sync/sync_evidence.json",
+      "sha256": "d3d9d27df7f603faa9919bae5330995756255d607776be77d0cc2b297b3bb253",
+      "bytes": 8214
+    },
+    {
+      "path": "outputs/langsmith_dataset.csv",
+      "sha256": "4aec874fffc5d7389072ecbf24adf4998fd8929ac540ea67f84162ae8e765630",
+      "bytes": 13496
+    },
+    {
+      "path": "outputs/project_report.html",
+      "sha256": "8054fb3c17fb57267a24905bb130959230c4f7bc3c14bcb725f0a126084f778e",
+      "bytes": 25477
+    },
+    {
+      "path": "outputs/source_manifest.json",
+      "sha256": "0dd5b014a2706258a13c7d9e5b23d31d0966ea865abaaef4903d41624985197d",
+      "bytes": 621
+    },
+    {
+      "path": "package_submission.py",
+      "sha256": "8f578ea6645127287cb2ad9d214d1571f4aa54cc74c7a6652a9b62d7ab88969c",
+      "bytes": 2979
+    },
+    {
+      "path": "project.py",
+      "sha256": "9323e09851abd868b9f3a79ee946a97b15792eab06e11dc17651931d69f14aa6",
+      "bytes": 18333
+    },
+    {
+      "path": "prompts/baseline.txt",
+      "sha256": "bb397ce57a21718684d1f45dd734c0a8d5b1916db1a121fb62b61d0419078f80",
+      "bytes": 520
+    },
+    {
+      "path": "prompts/focused.txt",
+      "sha256": "0784ffe3d15bfa0963b4d15a171888fe7920a659d0b57af45d828233d7f7a66f",
+      "bytes": 856
+    },
+    {
+      "path": "qa/langsmith-approved-field.png",
+      "sha256": "c6f90e79ec88a5ac58328af5794cea2d1e8d78e8669b709e8d5e97770a298a41",
+      "bytes": 68926
+    },
+    {
+      "path": "qa/langsmith-notes-and-approval.png",
+      "sha256": "971c447291a0f74fa91f32fde1761b6c6592dfa174ce45b8cfe92e1e70ff9eff",
+      "bytes": 75131
+    },
+    {
+      "path": "requirements.txt",
+      "sha256": "9b36b3539053396d0a35c58337b44df91bf0a2fa79f8122336159abdbbcbd2cb",
+      "bytes": 35
+    },
+    {
+      "path": "source/README.md",
+      "sha256": "497042bfe93ffba9ed09aab06b6d0809f610ca73bc0626c7c9d8db5c3bdfcf55",
+      "bytes": 3646
+    },
+    {
+      "path": "source/results_v1.csv",
+      "sha256": "f94803bbbf4d07dda942a704126e86c14d102a8f5ecad75905e3cb5a1e2ea77f",
+      "bytes": 24501
+    },
+    {
+      "path": "source/results_v2.csv",
+      "sha256": "7d9293d5838e89b8ee61650fa7505c14c42b9cdab812023beb3b948fb43c5cd5",
+      "bytes": 25777
+    },
+    {
+      "path": "source/week4_customer_support_evals.ipynb",
+      "sha256": "05279417d3afe81bb842c9a7006f63f1caf1d08220100bb6e1b711acc773d171",
+      "bytes": 92283
+    },
+    {
+      "path": "submission_analysis.py",
+      "sha256": "1d3f9bc99cb9e302e7dd6e759ad6cf087120b95de2db6611a2d8ecdd43e432bb",
+      "bytes": 6200
+    },
+    {
+      "path": "sync_annotation_queues.py",
+      "sha256": "6b08dcb1ba0ecc8d3f4a7232e3bf8bdb850d3aabe50695a40e92351846cc39b9",
+      "bytes": 11987
+    },
+    {
+      "path": "verify_submission.py",
+      "sha256": "5fd497e25d10f17f4e11d9945cb5998b9002140e802ce9f66092b23980708cc3",
+      "bytes": 2033
+    },
+    {
+      "path": "walkthrough_script.txt",
+      "sha256": "f5f1c79760c298038b0c4d3e7602e80f715417cdd2fc61377c37d71760a42df6",
+      "bytes": 2433
+    }
+  ]
+}

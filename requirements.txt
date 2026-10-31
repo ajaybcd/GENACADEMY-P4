@@ -1,0 +1,2 @@
+langsmith>=0.4.25,<1
+jupyter>=1,<2

@@ -1,0 +1,19 @@
+Customer support evaluation final walkthrough
+
+0:00 Show the final report and dataset. Explain the five-intent classification task and the 100 fixed tickets. Distinguish the source repository's broader revision from this project's single focused prompt change.
+
+0:25 Show the original LangSmith comparison: baseline 92/100, focused 94/100, eight wins and six regressions, no API errors. Explain Exact Match: output.intent equals the reference intent. This code-based evaluator uses no model tokens; the classifier calls used OpenAI.
+
+0:50 Show the one added routing-precedence paragraph. It addresses the baseline's confusion between refund remedies and underlying delivery or product problems. All other fresh experiment settings stayed fixed.
+
+1:15 Show t024-t029: refund payment and cancellation requests regress to order_status. The prompt change is not regression-free. Show t000 as a previously passing control that still passes.
+
+1:40 Show t046 on Fresh evaluation. The participant changed its reviewed reference from product_issue to refund_request. Both unchanged predictions rescore under the same reviewed label: baseline 93/100 and focused 93/100, seven wins and seven regressions. Original LangSmith dataset labels and evaluator scores remain intact. The final conclusion is no net accuracy gain under reviewed labels.
+
+2:05 Show completed workbook review: Evaluation 11/11 and Fresh evaluation 14/14 approved. Approval means the participant reviewed a case, not that its prediction passed. Notes were AI-assisted and subsequently reviewed and approved.
+
+2:25 Open Annotation Queues in LangSmith and select Completed. Show baseline 8/8 and focused 7/7, zero pending. These 15 run reviews cover 14 tickets because t046 is in both. Show week4_p4_review_notes, failure_category, week4_p4_workbook_approved, week4_p4_reviewed_intent and week4_p4_reviewed_exact_match. Explain the API import from approved Excel rows and its source provenance; no model calls were made for the transfer.
+
+2:55 Next test: distinguish a missing order from a missing refund payment and preserve cancellation/refund routing when non-delivery is absent. Settle the product-versus-remedy policy, then test on unseen seed families. The optional LLM judge was not attempted.
+
+Finish by showing the final report, executed notebook, workbook and annotation evidence. Record the Loom video yourself and provide its actual link in the course submission.

@@ -1,0 +1,10 @@
+{
+  "total": 100,
+  "paired_completed": 100,
+  "unresolved": 0,
+  "baseline_correct_paired": 92,
+  "focused_correct_paired": 94,
+  "accuracy_delta_percentage_points": 2.0,
+  "wins": 8,
+  "regressions": 6
+}

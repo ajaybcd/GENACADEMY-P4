@@ -1,0 +1,25 @@
+LangSmith annotation queue transfer completed
+
+Queue: Week4 P4 baseline approved Excel reviews
+Queue ID: 9b8652c6-6d49-456a-b450-937684e6919f
+Completed: 8 of 8
+Pending review: 0
+
+Queue: Week4 P4 focused approved Excel reviews
+Queue ID: ac189235-b699-4e67-9cb8-f2d85ed9c34c
+Completed: 7 of 7
+Pending review: 0
+
+The 15 run reviews cover 14 distinct tickets. Ticket t046 appears in both queues because its reviewed reference label differs from the original dataset label.
+
+Five feedback records were imported for each run: failure_category, week4_p4_review_notes, week4_p4_workbook_approved, week4_p4_reviewed_intent, and week4_p4_reviewed_exact_match. All 75 were read back; imported notes match the source workbook text.
+
+Reviews were explicitly approved by the participant in Excel, then imported through the API. Feedback source is recorded as API, with workbook sheet, row, original reference, and review provenance. For t025 and t026, column L was empty; the existing AI-assisted explanations in column K were imported and identified as such.
+
+Original run inputs, predictions, dataset reference labels, and original intent_exact_match evaluator feedback were not changed. Reviewed labels and scores are separate feedback fields. No model calls or classifier reruns were made.
+
+Only Fresh evaluation maps to the actual LangSmith experiment run IDs. Evaluation contains older repository results and was not attached to unrelated live runs.
+
+Open LangSmith, choose Annotation Queues, and find the two exact queue names above. Completed items may appear under Completed, Archived, or View all items rather than the pending-review view.
+
+Evidence: sync_evidence.json contains queue IDs, run IDs, queue item IDs, feedback IDs, completed counts, and the readback verification result. review_transfer_plan.json preserves the reviewed text and workbook SHA-256 used for the transfer.

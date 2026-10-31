@@ -1,0 +1,11 @@
+{
+  "repository": "The-Gen-Academy/4A-Customer-Support-Agent-Evaluation",
+  "commit": "ef517b274cf86a2c4fa8ae72fdc89b3dce80f41d",
+  "sha256": {
+    ".gitignore": "81a1c465f1dbbca8e0efdd94cce9eefb0cf5a58dfc25b0b9456e947b94e59102",
+    "README.md": "497042bfe93ffba9ed09aab06b6d0809f610ca73bc0626c7c9d8db5c3bdfcf55",
+    "results_v1.csv": "f94803bbbf4d07dda942a704126e86c14d102a8f5ecad75905e3cb5a1e2ea77f",
+    "results_v2.csv": "7d9293d5838e89b8ee61650fa7505c14c42b9cdab812023beb3b948fb43c5cd5",
+    "week4_customer_support_evals.ipynb": "05279417d3afe81bb842c9a7006f63f1caf1d08220100bb6e1b711acc773d171"
+  }
+}
