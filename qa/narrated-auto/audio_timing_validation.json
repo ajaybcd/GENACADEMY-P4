@@ -1,0 +1,104 @@
+{
+  "source": "C:\\Users\\Administrator\\Downloads\\Week-4\\p4\\customer-support\\outputs\\customer_support_project_presentation.pptx",
+  "source_sha256": "741f0193674770d905c49feed50e82999b710ad80a2d39296e208f8e9c188a48",
+  "slides": [
+    {
+      "slide": 1,
+      "start_ms": 0,
+      "advance_after_ms": 29400,
+      "audio_ms": 29150,
+      "embedded_audio": "ppt/media/narration_slide_01.wav",
+      "audio_sha256": "3cb0f04c84219b768af8042b0e0cbf49bf066fb2d1865d193f78adac6c105727",
+      "automatic_start_delay_ms": 0
+    },
+    {
+      "slide": 2,
+      "start_ms": 29400,
+      "advance_after_ms": 24600,
+      "audio_ms": 24350,
+      "embedded_audio": "ppt/media/narration_slide_02.wav",
+      "audio_sha256": "94d5ade62f9e80c28de6efa99cd29eba3ff3ed29463b9b74a87afa910e958a32",
+      "automatic_start_delay_ms": 0
+    },
+    {
+      "slide": 3,
+      "start_ms": 54000,
+      "advance_after_ms": 27700,
+      "audio_ms": 27450,
+      "embedded_audio": "ppt/media/narration_slide_03.wav",
+      "audio_sha256": "1c8b75310da7738a512b16273b457e2afe08dc2161ac314dec77bcdedf6c690a",
+      "automatic_start_delay_ms": 0
+    },
+    {
+      "slide": 4,
+      "start_ms": 81700,
+      "advance_after_ms": 23700,
+      "audio_ms": 23450,
+      "embedded_audio": "ppt/media/narration_slide_04.wav",
+      "audio_sha256": "9f85c90b48eba7884be740d34137eb37a53d4a1ef276e7a2d34dbe5b04e8259e",
+      "automatic_start_delay_ms": 0
+    },
+    {
+      "slide": 5,
+      "start_ms": 105400,
+      "advance_after_ms": 23050,
+      "audio_ms": 22800,
+      "embedded_audio": "ppt/media/narration_slide_05.wav",
+      "audio_sha256": "44991984500c0f09a6995d4d8b5fce65712b9e387ff83ecf7060c663cef642bd",
+      "automatic_start_delay_ms": 0
+    },
+    {
+      "slide": 6,
+      "start_ms": 128450,
+      "advance_after_ms": 27900,
+      "audio_ms": 27650,
+      "embedded_audio": "ppt/media/narration_slide_06.wav",
+      "audio_sha256": "052da07782eaf84105cf134577d6e45ec3703fddccee529018516769e92606d2",
+      "automatic_start_delay_ms": 0
+    },
+    {
+      "slide": 7,
+      "start_ms": 156350,
+      "advance_after_ms": 27250,
+      "audio_ms": 27000,
+      "embedded_audio": "ppt/media/narration_slide_07.wav",
+      "audio_sha256": "a335daea357b61f913d2d32e7ec94b05619c8665a5394971c97f2754eb4a446f",
+      "automatic_start_delay_ms": 0
+    },
+    {
+      "slide": 8,
+      "start_ms": 183600,
+      "advance_after_ms": 30600,
+      "audio_ms": 30350,
+      "embedded_audio": "ppt/media/narration_slide_08.wav",
+      "audio_sha256": "e698d32163554ed50ccb32539635d5153acf1dedb009c2a443e0e07ba750611a",
+      "automatic_start_delay_ms": 0
+    },
+    {
+      "slide": 9,
+      "start_ms": 214200,
+      "advance_after_ms": 22500,
+      "audio_ms": 22500,
+      "embedded_audio": "ppt/media/narration_slide_09.wav",
+      "audio_sha256": "aee52b791396354725f723560fd530b5a5e3e67665e39ce1c3d8dd4d64e47cda",
+      "automatic_start_delay_ms": 0
+    }
+  ],
+  "audio_start": "Automatic at slide entry",
+  "timings_enabled": true,
+  "visible_slide_range": [
+    1,
+    9
+  ],
+  "hidden_demo_guide": 10,
+  "native_powerpoint_playback_tested": false,
+  "sources": [
+    "https://learn.microsoft.com/en-us/office/open-xml/presentation/how-to-add-an-audio-to-a-slide-in-a-presentation",
+    "https://learn.microsoft.com/en-us/dotnet/api/documentformat.openxml.presentation.commonmedianode",
+    "https://learn.microsoft.com/en-us/dotnet/api/documentformat.openxml.presentation.showproperties"
+  ],
+  "duration_ms": 236700,
+  "embedded_audio_count": 9,
+  "original_shapes_and_tables_preserved": true,
+  "status": "PACKAGE_AND_TIMING_PASS"
+}

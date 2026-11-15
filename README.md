@@ -20,6 +20,7 @@ These scores apply to the **known 100 synthetic tickets**, derived from 25 seed 
 - [Word narration, 90-second demo and 20-point summary](outputs/project_transcript_and_summary.docx)
 - [20-line summary](outputs/project_summary_20_lines.txt)
 - [PowerPoint with speaker notes](outputs/customer_support_project_presentation.pptx)
+- [PowerPoint with embedded narration and automatic slide timings — 3:57](outputs/customer_support_project_presentation_narrated_auto.pptx)
 - [Highlighted v3 comparison and judge workbook](v3/outputs/01a1859d-2e04-77e0-b077-31f698f5300d/v3_evaluation_review.xlsx)
 - [Preserved historical review workbook](outputs/customer_support_evaluation.xlsx)
 - [V3 and judge report](v3/REPORT.html), [executed v3 notebook](v3/v3_analysis.ipynb)
@@ -40,6 +41,14 @@ These tracks use an **AI-generated Cedar voice**. The narration covers final v3 
 - [Recording instructions and disclosure](outputs/voiceover/README.txt)
 
 Download the WAV files to play them or import them into your video editor. Enable system-audio recording when playing them during a screen recording. Add the caption: “AI-generated voice-over; project review and approvals by Ajay David.”
+
+### Record the narrated PowerPoint in Loom
+
+Download `customer_support_project_presentation_narrated_auto.pptx` and open it in desktop Microsoft PowerPoint. The narration is embedded in the file; you do not need a separate WAV player. Slides 1–9 are configured to start narration automatically and advance over 3 minutes 56.7 seconds. Slide 10 remains a hidden demo guide. The voice is AI-generated.
+
+Start the Loom desktop recorder with system audio enabled and microphone off, then switch to PowerPoint and press **F5** to start from the beginning. Do not play the separate voice-over WAV simultaneously. [Recording instructions](outputs/narrated_presentation_instructions.txt).
+
+Package integrity, embedded-audio hashes, slide timings and rendered layouts passed checks. Native desktop PowerPoint playback has not been tested in this environment; make a short test recording before the final take.
 
 ## What changed
 

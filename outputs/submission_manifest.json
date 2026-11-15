@@ -21,8 +21,8 @@
     },
     {
       "path": "README.md",
-      "sha256": "bec6260568a3f60cc0c4f90d5bae9518f06aaf116e2444c050a1ede224439a1a",
-      "bytes": 7436
+      "sha256": "42201745fdd8aefed035863c61803628e1b92b6d0f5408dc64e2d14d674d4365",
+      "bytes": 8491
     },
     {
       "path": "build_deliverables.py",
@@ -2535,6 +2535,11 @@
       "bytes": 119149
     },
     {
+      "path": "outputs/customer_support_project_presentation_narrated_auto.pptx",
+      "sha256": "7c889acdeb0fe2d42745b3293674f5960f19ea47d6d1c77a85880cebb71d6ba0",
+      "bytes": 8964958
+    },
+    {
       "path": "outputs/final_fresh_run_reviews.csv",
       "sha256": "c7277dad5ef0abdb1a9741b600476af2bbb43640d5d4529ace4e67db85c37272",
       "bytes": 27036
@@ -2583,6 +2588,11 @@
       "path": "outputs/llm_judge_summary.json",
       "sha256": "017943506f1d1c3e2a693517e64a0e221ef4ffe27987f4e6f747616284b0ea0b",
       "bytes": 253
+    },
+    {
+      "path": "outputs/narrated_presentation_instructions.txt",
+      "sha256": "5e77a09ba089c9c73dcebfd63fc8d80edbf212ca7c694f8c5c22f1fd012daa19",
+      "bytes": 807
     },
     {
       "path": "outputs/presentation_content_with_judge.json",
@@ -2683,6 +2693,16 @@
       "path": "qa/langsmith-notes-and-approval.png",
       "sha256": "971c447291a0f74fa91f32fde1761b6c6592dfa174ce45b8cfe92e1e70ff9eff",
       "bytes": 75131
+    },
+    {
+      "path": "qa/narrated-auto/audio_timing_validation.json",
+      "sha256": "eacecd4ed9b72e6a673c02f90f840ee88e4cecf89d5ad3bdc885415f1fb91c0b",
+      "bytes": 3721
+    },
+    {
+      "path": "qa/narrated-auto/final_validation.json",
+      "sha256": "2bdbc8688161809fcf4ea38c509d0c5ea2ebec3fee42c212103cd24b1fef474b",
+      "bytes": 4090
     },
     {
       "path": "qa/presentation_content.json",
@@ -6113,5 +6133,6 @@
   "secrets_scan": "PASS; no keys, local credential store, environments or CA bundle included",
   "prior_remote_head": "09468c1be8f215da0b60c62324af686c5e648ec0",
   "existing_video_preserved": true,
-  "voiceover_added_utc": "2026-11-15T02:23:25.877453+00:00"
+  "voiceover_added_utc": "2026-11-15T02:23:25.877453+00:00",
+  "narrated_ppt_added_utc": "2026-11-15T02:43:32.421438+00:00"
 }
