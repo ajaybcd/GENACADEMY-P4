@@ -21,8 +21,8 @@
     },
     {
       "path": "README.md",
-      "sha256": "eec2d5900cc6f9b956a98543680e24cd424737e7ea6ceb4047fd5dfb2beee885",
-      "bytes": 6630
+      "sha256": "bec6260568a3f60cc0c4f90d5bae9518f06aaf116e2444c050a1ede224439a1a",
+      "bytes": 7436
     },
     {
       "path": "build_deliverables.py",
@@ -2608,6 +2608,31 @@
       "path": "outputs/source_manifest.json",
       "sha256": "0dd5b014a2706258a13c7d9e5b23d31d0966ea865abaaef4903d41624985197d",
       "bytes": 621
+    },
+    {
+      "path": "outputs/voiceover/README.txt",
+      "sha256": "d82d7a2ecabb290a2432145f4bd3fc5c30ef9210b7287f4c4021c76f0bb9a9fd",
+      "bytes": 1024
+    },
+    {
+      "path": "outputs/voiceover/final_v3_demo_90_seconds.wav",
+      "sha256": "2cb5d882f86aaf925337c2052e826038ad8440788d2e0ac7530e61fc42017d2a",
+      "bytes": 4320044
+    },
+    {
+      "path": "outputs/voiceover/final_v3_presentation_voiceover.wav",
+      "sha256": "7547ad03f2c3ab4315994b6ebf30cec8dc471b0ca586e572c84e7148f4e229d5",
+      "bytes": 11361644
+    },
+    {
+      "path": "outputs/voiceover/publication_manifest.json",
+      "sha256": "c733f17c7c2dc1ffc04778356eb8803c534091f9ea435ab1ce01cf1c6f7d3c79",
+      "bytes": 3547
+    },
+    {
+      "path": "outputs/voiceover/recording_cues.csv",
+      "sha256": "c2c3fccd3932f006c92a2b25da79b0bb6e7d77aa282d284b8b74be4f94368293",
+      "bytes": 671
     },
     {
       "path": "package_final_submission.py",
@@ -6087,5 +6112,6 @@
   ],
   "secrets_scan": "PASS; no keys, local credential store, environments or CA bundle included",
   "prior_remote_head": "09468c1be8f215da0b60c62324af686c5e648ec0",
-  "existing_video_preserved": true
+  "existing_video_preserved": true,
+  "voiceover_added_utc": "2026-11-15T02:23:25.877453+00:00"
 }

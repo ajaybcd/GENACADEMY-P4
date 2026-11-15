@@ -30,6 +30,17 @@ These scores apply to the **known 100 synthetic tickets**, derived from 25 seed 
 
 The existing [November 1 video walkthrough](outputs/2026-11-01%2021-08-52.mp4) predates v3. Use the updated transcript and demo script to record a walkthrough of the final results. The existing video and prior commits are preserved.
 
+## Final voice-over audio
+
+These tracks use an **AI-generated Cedar voice**. The narration covers final v3 classifier 100/100 and calibrated judge 100/100, with the historical results and limitations retained.
+
+- [Presentation narration — 3 minutes 57 seconds](outputs/voiceover/final_v3_presentation_voiceover.wav)
+- [Demo narration — exactly 90 seconds](outputs/voiceover/final_v3_demo_90_seconds.wav)
+- [Slide and screen-change cues](outputs/voiceover/recording_cues.csv)
+- [Recording instructions and disclosure](outputs/voiceover/README.txt)
+
+Download the WAV files to play them or import them into your video editor. Enable system-audio recording when playing them during a screen recording. Add the caption: “AI-generated voice-over; project review and approvals by Ajay David.”
+
 ## What changed
 
 GPT-4o-mini predicts one of order_status, refund_request, product_issue, account_help or other. V3 retains actual non-delivery as order_status and damaged products as product_issue, but explicitly routes missing refund money after a return and unwanted-order cancellation refunds to refund_request. Prompts, inputs, responses, settings and scoring evidence are saved under v3.

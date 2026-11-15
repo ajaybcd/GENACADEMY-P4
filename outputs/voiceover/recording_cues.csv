@@ -1,0 +1,15 @@
+track,start_seconds,start_time,screen
+presentation,0,00:00.00,1 Introduction
+presentation,29.4,00:29.40,2 Task and sources
+presentation,54.0,00:54.00,3 Evaluation method
+presentation,81.7,01:21.70,4 What went wrong
+presentation,105.4,01:45.40,5 The v3 change
+presentation,128.45,02:08.45,6 My review and annotations
+presentation,156.35,02:36.35,7 Before and after
+presentation,183.6,03:03.60,8 LLM judge calibration
+presentation,214.2,03:34.20,9 Conclusion
+demo,0,00:00.00,the final report
+demo,15,00:15.00,the highlighted v3 workbook
+demo,35,00:35.00,Judge v2 review
+demo,50,00:50.00,LangSmith comparison and feedback
+demo,72,01:12.00,evidence and GitHub

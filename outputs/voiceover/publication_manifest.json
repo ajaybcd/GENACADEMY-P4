@@ -1,0 +1,131 @@
+{
+  "ai_generated": true,
+  "voice": "cedar",
+  "model": "gpt-4o-mini-tts",
+  "created_utc": "2026-11-15T02:17:36.993017+00:00",
+  "script_source": "qa/presentation_content.json",
+  "documentation": "https://developers.openai.com/api/docs/guides/text-to-speech",
+  "final_tracks": [
+    {
+      "file": "final_v3_presentation_voiceover.wav",
+      "seconds": 236.7,
+      "sha256": "7547ad03f2c3ab4315994b6ebf30cec8dc471b0ca586e572c84e7148f4e229d5",
+      "peak": 27273
+    },
+    {
+      "file": "final_v3_demo_90_seconds.wav",
+      "seconds": 90.0,
+      "sha256": "2cb5d882f86aaf925337c2052e826038ad8440788d2e0ac7530e61fc42017d2a",
+      "peak": 30248
+    }
+  ],
+  "recording_cues": [
+    {
+      "track": "presentation",
+      "start_seconds": 0,
+      "start_time": "00:00.00",
+      "screen": "1 Introduction"
+    },
+    {
+      "track": "presentation",
+      "start_seconds": 29.4,
+      "start_time": "00:29.40",
+      "screen": "2 Task and sources"
+    },
+    {
+      "track": "presentation",
+      "start_seconds": 54.0,
+      "start_time": "00:54.00",
+      "screen": "3 Evaluation method"
+    },
+    {
+      "track": "presentation",
+      "start_seconds": 81.7,
+      "start_time": "01:21.70",
+      "screen": "4 What went wrong"
+    },
+    {
+      "track": "presentation",
+      "start_seconds": 105.4,
+      "start_time": "01:45.40",
+      "screen": "5 The v3 change"
+    },
+    {
+      "track": "presentation",
+      "start_seconds": 128.45,
+      "start_time": "02:08.45",
+      "screen": "6 My review and annotations"
+    },
+    {
+      "track": "presentation",
+      "start_seconds": 156.35,
+      "start_time": "02:36.35",
+      "screen": "7 Before and after"
+    },
+    {
+      "track": "presentation",
+      "start_seconds": 183.6,
+      "start_time": "03:03.60",
+      "screen": "8 LLM judge calibration"
+    },
+    {
+      "track": "presentation",
+      "start_seconds": 214.2,
+      "start_time": "03:34.20",
+      "screen": "9 Conclusion"
+    },
+    {
+      "track": "demo",
+      "start_seconds": 0,
+      "start_time": "00:00.00",
+      "screen": "the final report"
+    },
+    {
+      "track": "demo",
+      "start_seconds": 15,
+      "start_time": "00:15.00",
+      "screen": "the highlighted v3 workbook"
+    },
+    {
+      "track": "demo",
+      "start_seconds": 35,
+      "start_time": "00:35.00",
+      "screen": "Judge v2 review"
+    },
+    {
+      "track": "demo",
+      "start_seconds": 50,
+      "start_time": "00:50.00",
+      "screen": "LangSmith comparison and feedback"
+    },
+    {
+      "track": "demo",
+      "start_seconds": 72,
+      "start_time": "01:12.00",
+      "screen": "evidence and GitHub"
+    }
+  ],
+  "scope": "Final presentation and 90-second demo audio. Intermediate per-section WAV clips remain local.",
+  "files": [
+    {
+      "path": "final_v3_presentation_voiceover.wav",
+      "sha256": "7547ad03f2c3ab4315994b6ebf30cec8dc471b0ca586e572c84e7148f4e229d5",
+      "bytes": 11361644
+    },
+    {
+      "path": "final_v3_demo_90_seconds.wav",
+      "sha256": "2cb5d882f86aaf925337c2052e826038ad8440788d2e0ac7530e61fc42017d2a",
+      "bytes": 4320044
+    },
+    {
+      "path": "recording_cues.csv",
+      "sha256": "c2c3fccd3932f006c92a2b25da79b0bb6e7d77aa282d284b8b74be4f94368293",
+      "bytes": 671
+    },
+    {
+      "path": "README.txt",
+      "sha256": "d82d7a2ecabb290a2432145f4bd3fc5c30ef9210b7287f4c4021c76f0bb9a9fd",
+      "bytes": 1024
+    }
+  ]
+}
