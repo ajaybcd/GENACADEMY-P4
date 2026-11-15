@@ -69,7 +69,7 @@ def reconcile():
         'label_changes':[{'id':r['id'],'source_intent':r['source_intent'],'reviewed_intent':r['reviewed_intent']} for r in sheets['Fresh evaluation'] if r['source_intent']!=r['reviewed_intent']],
         'queues':queues,'feedback_records_verified':sync['verified_feedback_records'],'queue_run_reviews':len(sync['records']),'unique_queue_tickets':sync['unique_tickets'],
         'notes_from_column_k':[r['ticket_id'] for r in plan['records'] if r['note_source_column']=='K'],
-        'langsmith_evidence':evidence,'loom_status':'Recording and actual link still required from participant','optional_llm_judge':'Not attempted; optional','workbook_rows':sheets}
+        'langsmith_evidence':evidence,'loom_status':'Recording and actual link still required from participant','optional_llm_judge':judge_addon_status(),'workbook_rows':sheets}
 
 def save_snapshot():
     result=reconcile()
@@ -79,3 +79,11 @@ def save_snapshot():
         with (ROOT/'outputs'/filename).open('w',encoding='utf-8',newline='') as stream:
             writer=csv.DictWriter(stream,fieldnames=list(rows[0]));writer.writeheader();writer.writerows(rows)
     return result
+
+
+def judge_addon_status():
+    p=ROOT.parent/"llm-judge/results/summary.json"
+    if not p.exists(): return "Not attempted; optional"
+    j=json.loads(p.read_text(encoding="utf-8"))
+    n=sum(j[v]["assessments"] for v in ("baseline","focused"))
+    return f"Completed separate add-on: {n} assessments; rubric passes {j['baseline']['judge_pass']}/100 vs {j['focused']['judge_pass']}/100. Reviewed Exact Match remains 93/100 vs 93/100."

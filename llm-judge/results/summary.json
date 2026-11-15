@@ -1,0 +1,544 @@
+{
+  "baseline": {
+    "assessments": 100,
+    "judge_pass": 92,
+    "judge_fail": 8,
+    "ambiguity_flags": 10,
+    "original_exact_match": 92,
+    "reviewed_exact_match": 93,
+    "judge_vs_original_label": 100,
+    "judge_vs_reviewed_label": 99,
+    "score_vs_original_em": 100,
+    "score_vs_reviewed_em": 99,
+    "original_confusion": {
+      "EM=1,judge=1": 92,
+      "EM=0,judge=0": 8
+    },
+    "reviewed_confusion": {
+      "EM=1,judge=1": 92,
+      "EM=0,judge=0": 7,
+      "EM=1,judge=0": 1
+    }
+  },
+  "focused": {
+    "assessments": 100,
+    "judge_pass": 93,
+    "judge_fail": 7,
+    "ambiguity_flags": 12,
+    "original_exact_match": 94,
+    "reviewed_exact_match": 93,
+    "judge_vs_original_label": 99,
+    "judge_vs_reviewed_label": 98,
+    "score_vs_original_em": 99,
+    "score_vs_reviewed_em": 98,
+    "original_confusion": {
+      "EM=1,judge=1": 93,
+      "EM=0,judge=0": 6,
+      "EM=1,judge=0": 1
+    },
+    "reviewed_confusion": {
+      "EM=1,judge=1": 92,
+      "EM=0,judge=0": 6,
+      "EM=1,judge=0": 1,
+      "EM=0,judge=1": 1
+    }
+  },
+  "paired": {
+    "changes": {
+      "UNCHANGED_PASS": 85,
+      "WIN": 8,
+      "REGRESSION": 7
+    },
+    "judge_delta_percentage_points": 1,
+    "proposed_intent_inconsistency_ids": [
+      "t033"
+    ],
+    "ambiguity_inconsistency_ids": [
+      "t033",
+      "t056",
+      "t057",
+      "t059"
+    ],
+    "identical_input_pairs": 86,
+    "identical_input_score_disagreement_ids": [
+      "t033"
+    ],
+    "identical_input_score_delta": -1,
+    "changed_prediction_score_delta": 2
+  },
+  "by_reference_intent": {
+    "baseline": {
+      "order_status": {
+        "n": 20,
+        "judge_pass": 16
+      },
+      "refund_request": {
+        "n": 20,
+        "judge_pass": 20
+      },
+      "product_issue": {
+        "n": 20,
+        "judge_pass": 16
+      },
+      "account_help": {
+        "n": 20,
+        "judge_pass": 20
+      },
+      "other": {
+        "n": 20,
+        "judge_pass": 20
+      }
+    },
+    "focused": {
+      "order_status": {
+        "n": 20,
+        "judge_pass": 20
+      },
+      "refund_request": {
+        "n": 20,
+        "judge_pass": 13
+      },
+      "product_issue": {
+        "n": 20,
+        "judge_pass": 20
+      },
+      "account_help": {
+        "n": 20,
+        "judge_pass": 20
+      },
+      "other": {
+        "n": 20,
+        "judge_pass": 20
+      }
+    }
+  },
+  "by_review_failure_category": {
+    "baseline": {
+      "Refund payment confused with order delivery": {
+        "n": 6,
+        "judge_pass": 6,
+        "score_agrees_with_reviewed_em": 6
+      },
+      "Requested remedy overrides underlying problem": {
+        "n": 8,
+        "judge_pass": 0,
+        "score_agrees_with_reviewed_em": 7
+      }
+    },
+    "focused": {
+      "Refund payment confused with order delivery": {
+        "n": 6,
+        "judge_pass": 0,
+        "score_agrees_with_reviewed_em": 6
+      },
+      "Requested remedy overrides underlying problem": {
+        "n": 8,
+        "judge_pass": 8,
+        "score_agrees_with_reviewed_em": 7
+      }
+    }
+  },
+  "by_seed_family": {
+    "seed_00": {
+      "baseline": 4,
+      "focused": 4
+    },
+    "seed_01": {
+      "baseline": 0,
+      "focused": 4
+    },
+    "seed_02": {
+      "baseline": 4,
+      "focused": 4
+    },
+    "seed_03": {
+      "baseline": 4,
+      "focused": 4
+    },
+    "seed_04": {
+      "baseline": 4,
+      "focused": 4
+    },
+    "seed_05": {
+      "baseline": 4,
+      "focused": 4
+    },
+    "seed_06": {
+      "baseline": 4,
+      "focused": 0
+    },
+    "seed_07": {
+      "baseline": 4,
+      "focused": 2
+    },
+    "seed_08": {
+      "baseline": 4,
+      "focused": 3
+    },
+    "seed_09": {
+      "baseline": 4,
+      "focused": 4
+    },
+    "seed_10": {
+      "baseline": 4,
+      "focused": 4
+    },
+    "seed_11": {
+      "baseline": 0,
+      "focused": 4
+    },
+    "seed_12": {
+      "baseline": 4,
+      "focused": 4
+    },
+    "seed_13": {
+      "baseline": 4,
+      "focused": 4
+    },
+    "seed_14": {
+      "baseline": 4,
+      "focused": 4
+    },
+    "seed_15": {
+      "baseline": 4,
+      "focused": 4
+    },
+    "seed_16": {
+      "baseline": 4,
+      "focused": 4
+    },
+    "seed_17": {
+      "baseline": 4,
+      "focused": 4
+    },
+    "seed_18": {
+      "baseline": 4,
+      "focused": 4
+    },
+    "seed_19": {
+      "baseline": 4,
+      "focused": 4
+    },
+    "seed_20": {
+      "baseline": 4,
+      "focused": 4
+    },
+    "seed_21": {
+      "baseline": 4,
+      "focused": 4
+    },
+    "seed_22": {
+      "baseline": 4,
+      "focused": 4
+    },
+    "seed_23": {
+      "baseline": 4,
+      "focused": 4
+    },
+    "seed_24": {
+      "baseline": 4,
+      "focused": 4
+    }
+  },
+  "retry_sensitivity": {
+    "parsed_rejected_responses": 24,
+    "score_changes": 0,
+    "proposed_intent_changes": 0,
+    "detail": [
+      {
+        "id": "t004",
+        "version": "focused",
+        "attempt": 1,
+        "score_changed": false,
+        "proposed_intent_changed": false,
+        "rejected_score": 1,
+        "accepted_score": 1,
+        "rejected_proposed_intent": "order_status",
+        "accepted_proposed_intent": "order_status"
+      },
+      {
+        "id": "t004",
+        "version": "focused",
+        "attempt": 2,
+        "score_changed": false,
+        "proposed_intent_changed": false,
+        "rejected_score": 1,
+        "accepted_score": 1,
+        "rejected_proposed_intent": "order_status",
+        "accepted_proposed_intent": "order_status"
+      },
+      {
+        "id": "t008",
+        "version": "baseline",
+        "attempt": 1,
+        "score_changed": false,
+        "proposed_intent_changed": false,
+        "rejected_score": 1,
+        "accepted_score": 1,
+        "rejected_proposed_intent": "order_status",
+        "accepted_proposed_intent": "order_status"
+      },
+      {
+        "id": "t008",
+        "version": "baseline",
+        "attempt": 2,
+        "score_changed": false,
+        "proposed_intent_changed": false,
+        "rejected_score": 1,
+        "accepted_score": 1,
+        "rejected_proposed_intent": "order_status",
+        "accepted_proposed_intent": "order_status"
+      },
+      {
+        "id": "t008",
+        "version": "focused",
+        "attempt": 1,
+        "score_changed": false,
+        "proposed_intent_changed": false,
+        "rejected_score": 1,
+        "accepted_score": 1,
+        "rejected_proposed_intent": "order_status",
+        "accepted_proposed_intent": "order_status"
+      },
+      {
+        "id": "t008",
+        "version": "focused",
+        "attempt": 2,
+        "score_changed": false,
+        "proposed_intent_changed": false,
+        "rejected_score": 1,
+        "accepted_score": 1,
+        "rejected_proposed_intent": "order_status",
+        "accepted_proposed_intent": "order_status"
+      },
+      {
+        "id": "t015",
+        "version": "baseline",
+        "attempt": 1,
+        "score_changed": false,
+        "proposed_intent_changed": false,
+        "rejected_score": 1,
+        "accepted_score": 1,
+        "rejected_proposed_intent": "order_status",
+        "accepted_proposed_intent": "order_status"
+      },
+      {
+        "id": "t026",
+        "version": "focused",
+        "attempt": 2,
+        "score_changed": false,
+        "proposed_intent_changed": false,
+        "rejected_score": 0,
+        "accepted_score": 0,
+        "rejected_proposed_intent": "refund_request",
+        "accepted_proposed_intent": "refund_request"
+      },
+      {
+        "id": "t027",
+        "version": "focused",
+        "attempt": 1,
+        "score_changed": false,
+        "proposed_intent_changed": false,
+        "rejected_score": 0,
+        "accepted_score": 0,
+        "rejected_proposed_intent": "refund_request",
+        "accepted_proposed_intent": "refund_request"
+      },
+      {
+        "id": "t028",
+        "version": "focused",
+        "attempt": 1,
+        "score_changed": false,
+        "proposed_intent_changed": false,
+        "rejected_score": 0,
+        "accepted_score": 0,
+        "rejected_proposed_intent": "refund_request",
+        "accepted_proposed_intent": "refund_request"
+      },
+      {
+        "id": "t029",
+        "version": "focused",
+        "attempt": 1,
+        "score_changed": false,
+        "proposed_intent_changed": false,
+        "rejected_score": 0,
+        "accepted_score": 0,
+        "rejected_proposed_intent": "refund_request",
+        "accepted_proposed_intent": "refund_request"
+      },
+      {
+        "id": "t034",
+        "version": "baseline",
+        "attempt": 1,
+        "score_changed": false,
+        "proposed_intent_changed": false,
+        "rejected_score": 1,
+        "accepted_score": 1,
+        "rejected_proposed_intent": "refund_request",
+        "accepted_proposed_intent": "refund_request"
+      },
+      {
+        "id": "t035",
+        "version": "baseline",
+        "attempt": 1,
+        "score_changed": false,
+        "proposed_intent_changed": false,
+        "rejected_score": 1,
+        "accepted_score": 1,
+        "rejected_proposed_intent": "refund_request",
+        "accepted_proposed_intent": "refund_request"
+      },
+      {
+        "id": "t036",
+        "version": "focused",
+        "attempt": 1,
+        "score_changed": false,
+        "proposed_intent_changed": false,
+        "rejected_score": 1,
+        "accepted_score": 1,
+        "rejected_proposed_intent": "refund_request",
+        "accepted_proposed_intent": "refund_request"
+      },
+      {
+        "id": "t037",
+        "version": "focused",
+        "attempt": 1,
+        "score_changed": false,
+        "proposed_intent_changed": false,
+        "rejected_score": 1,
+        "accepted_score": 1,
+        "rejected_proposed_intent": "refund_request",
+        "accepted_proposed_intent": "refund_request"
+      },
+      {
+        "id": "t045",
+        "version": "baseline",
+        "attempt": 1,
+        "score_changed": false,
+        "proposed_intent_changed": false,
+        "rejected_score": 0,
+        "accepted_score": 0,
+        "rejected_proposed_intent": "product_issue",
+        "accepted_proposed_intent": "product_issue"
+      },
+      {
+        "id": "t045",
+        "version": "baseline",
+        "attempt": 2,
+        "score_changed": false,
+        "proposed_intent_changed": false,
+        "rejected_score": 0,
+        "accepted_score": 0,
+        "rejected_proposed_intent": "product_issue",
+        "accepted_proposed_intent": "product_issue"
+      },
+      {
+        "id": "t045",
+        "version": "focused",
+        "attempt": 1,
+        "score_changed": false,
+        "proposed_intent_changed": false,
+        "rejected_score": 1,
+        "accepted_score": 1,
+        "rejected_proposed_intent": "product_issue",
+        "accepted_proposed_intent": "product_issue"
+      },
+      {
+        "id": "t046",
+        "version": "focused",
+        "attempt": 2,
+        "score_changed": false,
+        "proposed_intent_changed": false,
+        "rejected_score": 1,
+        "accepted_score": 1,
+        "rejected_proposed_intent": "product_issue",
+        "accepted_proposed_intent": "product_issue"
+      },
+      {
+        "id": "t047",
+        "version": "focused",
+        "attempt": 1,
+        "score_changed": false,
+        "proposed_intent_changed": false,
+        "rejected_score": 1,
+        "accepted_score": 1,
+        "rejected_proposed_intent": "product_issue",
+        "accepted_proposed_intent": "product_issue"
+      },
+      {
+        "id": "t053",
+        "version": "focused",
+        "attempt": 1,
+        "score_changed": false,
+        "proposed_intent_changed": false,
+        "rejected_score": 1,
+        "accepted_score": 1,
+        "rejected_proposed_intent": "product_issue",
+        "accepted_proposed_intent": "product_issue"
+      },
+      {
+        "id": "t054",
+        "version": "baseline",
+        "attempt": 1,
+        "score_changed": false,
+        "proposed_intent_changed": false,
+        "rejected_score": 1,
+        "accepted_score": 1,
+        "rejected_proposed_intent": "product_issue",
+        "accepted_proposed_intent": "product_issue"
+      },
+      {
+        "id": "t054",
+        "version": "baseline",
+        "attempt": 2,
+        "score_changed": false,
+        "proposed_intent_changed": false,
+        "rejected_score": 1,
+        "accepted_score": 1,
+        "rejected_proposed_intent": "product_issue",
+        "accepted_proposed_intent": "product_issue"
+      },
+      {
+        "id": "t056",
+        "version": "focused",
+        "attempt": 1,
+        "score_changed": false,
+        "proposed_intent_changed": false,
+        "rejected_score": 1,
+        "accepted_score": 1,
+        "rejected_proposed_intent": "product_issue",
+        "accepted_proposed_intent": "product_issue"
+      }
+    ]
+  },
+  "usage": {
+    "api_attempts": 254,
+    "failed_attempts": 54,
+    "prompt_tokens": 152206,
+    "cached_prompt_tokens": 0,
+    "completion_tokens_including_reasoning": 24222,
+    "interrupted_unrecorded_requests_maximum": 4,
+    "estimated_cost_usd": 0.2231535,
+    "cost_note": "Calculated from returned usage and published rates; not an invoiced charge. Missing response usage and interrupted in-flight calls cannot be billed exactly here."
+  },
+  "review_ticket_ids": [
+    "t004",
+    "t005",
+    "t006",
+    "t007",
+    "t033",
+    "t044",
+    "t045",
+    "t046",
+    "t047",
+    "t056",
+    "t057",
+    "t058",
+    "t059"
+  ],
+  "failure_types": {
+    "RuntimeError": 29,
+    "ValueError": 24,
+    "RemoteDisconnected": 1
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "status": "PASS",
+  "code_cells_executed": 6,
+  "execution_method": "Sequential execution of the exact notebook Python sources in a shared namespace; no IPython-only features or API calls",
+  "python": "3.12.14"
+}

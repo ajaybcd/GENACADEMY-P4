@@ -1,0 +1,52 @@
+{
+  "completed_utc": "2026-11-15T01:28:20.170351+00:00",
+  "assessments": 100,
+  "before_rubric_version": "v1",
+  "after_rubric_version": "v2",
+  "before_judge_pass": 99,
+  "after_judge_pass": 100,
+  "delta_percentage_points": 1,
+  "classifier_exact_match_before": 100,
+  "classifier_exact_match_after": 100,
+  "paired_changes": {
+    "WIN": 1,
+    "REGRESSION": 0,
+    "UNCHANGED_PASS": 99,
+    "UNCHANGED_FAIL": 0
+  },
+  "score_changed_ids": [
+    "t033"
+  ],
+  "proposed_intent_changed_ids": [
+    "t033"
+  ],
+  "new_score_disagreement_ids": [],
+  "new_ambiguity_flags": 12,
+  "new_review_ticket_ids": [
+    "t004",
+    "t005",
+    "t006",
+    "t007",
+    "t044",
+    "t045",
+    "t046",
+    "t047",
+    "t056",
+    "t057",
+    "t058",
+    "t059"
+  ],
+  "t033": {
+    "user_review_intent": "refund_request",
+    "human_score_separately_saved": 1,
+    "before_judge_score": 0,
+    "after_judge_score": 1,
+    "after_judge_proposed_intent": "refund_request"
+  },
+  "previous_judgments_preserved": true,
+  "classifier_predictions_preserved": true,
+  "model_schema_settings_unchanged": true,
+  "recorded_api_attempts": 114,
+  "failed_attempts": 14,
+  "limitation": "Rubric was calibrated using known t033 disagreement and then rerun on the same100 known synthetic tickets. A single rerun, not independent held-out validation or a general reliability guarantee. Ambiguity flags are not automatic approvals."
+}

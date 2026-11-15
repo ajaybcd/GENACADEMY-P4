@@ -1,0 +1,86 @@
+{
+  "main": [
+    [
+      "1 Introduction",
+      "My project evaluates an AI customer support classifier using LangSmith. The goal is to route tickets correctly, investigate failures, and test clearer instructions. The final v3 classifier scored one hundred percent on our existing dataset. A separately calibrated LLM judge also passed all one hundred outputs. These are results on known examples, so they do not establish perfect performance on new customer tickets."
+    ],
+    [
+      "2 Task and sources",
+      "I used the Evaluations Using LangSmith handout and the Gen Academy evaluation repository. The dataset contains one hundred synthetic tickets across five support categories. Twenty-five seed scenarios each have an original and three paraphrases. This tests consistency across different wording, but the related examples are not one hundred independent real customer problems."
+    ],
+    [
+      "3 Evaluation method",
+      "OpenAI GPT-4o-mini produced structured intent predictions. Exact Match compared each prediction with its reference category. I compared saved baseline and focused outputs with a fresh v3 run under the same final labels. LangSmith stores traces and separate evaluation feedback. The LLM judge used GPT-5.4-mini to assess the query and predicted category without seeing reference labels or human approvals."
+    ],
+    [
+      "4 What went wrong",
+      "The original prompt sometimes prioritized a requested refund over an underlying delivery or product problem. The focused prompt helped those cases, but it also mistook missing refund payments for missing parcels. Returned-item refunds and cancellation requests therefore needed clearer treatment. This showed that broad precedence rules can fix one pattern while introducing another."
+    ],
+    [
+      "5 The v3 change",
+      "V3 keeps damaged products under product issue and actual non-delivery under order status. It explicitly sends missing refund money after a return, and unwanted-order cancellation with a refund request, to refund request. A refund or order-number mention alone does not establish a delivery problem. This corrected six focused-model predictions without introducing a regression."
+    ],
+    [
+      "6 My review and annotations",
+      "I reviewed explanations, added and confirmed Excel notes in column L, and approved reviews in column M. Fifteen fresh run reviews across fourteen tickets were completed in LangSmith, with seventy-five feedback records verified. I approved product issue for damaged ticket t046 in the final policy. For t033, I separately accepted refund request for an overcharge reimbursement. Earlier predictions, approvals and automated judge scores remain preserved."
+    ],
+    [
+      "7 Before and after",
+      "The earlier reviewed scores were ninety-three percent for both prompts. That label policy differed from the final damaged-product policy. Under the same final labels, baseline is ninety-two percent, focused is ninety-four, and v3 is one hundred. The fair improvement over focused is six percentage points. Moving from the historical ninety-three to one hundred includes one label-policy point and six corrected model predictions."
+    ],
+    [
+      "8 LLM judge calibration",
+      "The first judge passed ninety-nine v3 outputs and rejected t033 as account help. I clarified that overcharge reimbursements are refund requests, while account help requires an actual technical checkout failure. All one hundred saved outputs were assessed again. The calibrated judge passed one hundred, with only t033 changing score. My human review, the old zero, and the new automated one are separate records. Twelve ambiguity flags remain, all passing."
+    ],
+    [
+      "9 Conclusion",
+      "LangSmith feedback was read back and verified for the final classifier and both judge rubrics. The project now demonstrates measurable improvements and an auditable review trail. Calibration used a known disagreement on the same dataset. The next test should use independent tickets and repeated judging. One hundred percent here means this known dataset passed, rather than a guarantee of universal accuracy."
+    ]
+  ],
+  "demo": [
+    [
+      "0:00 to 0:15 Open the final report",
+      "This report shows the final customer support evaluation. Under the same approved policy, baseline scored ninety-two, focused ninety-four, and v3 one hundred out of one hundred. The earlier ninety-three percent used a different damaged-product label."
+    ],
+    [
+      "0:15 to 0:35 Show the highlighted v3 workbook",
+      "In Changes to review, green highlights six corrected predictions, t024 through t029. Purple marks the approved t046 label policy. All one hundred tickets has every comparison. The historical Excel notes and approvals remain preserved in the original workbook."
+    ],
+    [
+      "0:35 to 0:50 Show Judge v2 review",
+      "Here the judge moves from ninety-nine to one hundred. Ticket t033 requests an overcharge refund. My separate human review accepts refund request. The old automated zero is preserved beside the new result."
+    ],
+    [
+      "0:50 to 1:12 Show LangSmith comparison and feedback",
+      "In LangSmith, open the v3 experiment. Exact Match and judge rubric v2 both score one hundred. Rubric v1 remains ninety-nine. The separate human feedback records my t033 decision. Completed queues hold the earlier annotations."
+    ],
+    [
+      "1:12 to 1:30 Show evidence and GitHub",
+      "The notebook reproduces the scores offline from saved evidence. Twelve ambiguity flags still need interpretation. GitHub contains the report, notebook, transcript, presentation and raw results. These scores reflect known synthetic examples; independent testing is the next step."
+    ]
+  ],
+  "summary": [
+    "The project evaluates customer support intent classification using OpenAI and LangSmith.",
+    "The goal is to understand failures, clarify routing rules and measure before-and-after performance.",
+    "Sources are the Evaluations Using LangSmith handout and the Gen Academy evaluation repository.",
+    "The dataset contains 100 synthetic tickets: 25 seed scenarios, each original plus three paraphrases.",
+    "The five intents are order_status, refund_request, product_issue, account_help and other.",
+    "OpenAI gpt-4o-mini generated structured baseline, focused and fresh v3 predictions.",
+    "Code-based Exact Match compares each prediction with an approved reference intent.",
+    "LangSmith stores experiment traces, evaluator feedback and completed human annotation queues.",
+    "I reviewed AI-assisted explanations, added and confirmed Excel notes in L, and approved reviews in M.",
+    "The original queues contain 15 completed run reviews for 14 tickets and 75 verified feedback records.",
+    "Historical reviewed scores of 93% baseline and 93% focused remain preserved under their earlier labels.",
+    "I approved product_issue for damaged t046; all versions now use that same final label policy.",
+    "Under the final policy, saved baseline scored 92%, focused 94%, and fresh v3 100%.",
+    "V3 clarifies returned-item refund payments and unwanted-order cancellation refunds as refund_request.",
+    "It corrected six predictions, t024–t029, with zero regressions: a six-point gain over focused.",
+    "The old 93% to final 100% difference includes one label-policy point and six prediction fixes.",
+    "GPT-5.4-mini judge rubric v1 passed 99/100 v3 outputs, disagreeing only on overcharge ticket t033.",
+    "I separately approved refund_request for t033 and clarified billing refunds versus technical checkout failures.",
+    "All 100 outputs were judged again: rubric v2 passed 100/100; old scores remain and 12 ambiguity flags persist.",
+    "LangSmith results are verified; 100% describes this known synthetic dataset, with independent testing still needed."
+  ],
+  "main_words": 537,
+  "demo_words": 176
+}

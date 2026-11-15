@@ -1,0 +1,1402 @@
+[
+  {
+    "id": "t068",
+    "version": "baseline",
+    "query": "The website won't let me check out — it keeps logging me out mid-payment.",
+    "prediction": "account_help",
+    "run_id": "01a185b4-cef3-7ff7-8e5d-df7d49fe45ea"
+  },
+  {
+    "id": "t021",
+    "version": "focused",
+    "query": "I want to return the unopened headphones I purchased last week and get a refund. This is so frustrating!",
+    "prediction": "refund_request",
+    "run_id": "01a185b5-1380-7191-97b8-1f08c1639c39"
+  },
+  {
+    "id": "t040",
+    "version": "focused",
+    "query": "The coffee maker arrived with a cracked carafe. Really disappointed.",
+    "prediction": "product_issue",
+    "run_id": "01a185b5-240b-7b64-87e1-417ad94459b3"
+  },
+  {
+    "id": "t014",
+    "version": "focused",
+    "query": "I ordered my items expecting them to arrive in 2 days as your site said, but here I am 9 days later with no package. What is going on?",
+    "prediction": "order_status",
+    "run_id": "01a185b5-563c-76cf-a488-7cd6b612d78f"
+  },
+  {
+    "id": "t064",
+    "version": "focused",
+    "query": "How do I update the credit card on file? I don't see the option anywhere in settings.",
+    "prediction": "account_help",
+    "run_id": "01a185b4-e2f6-7e89-8aa2-ef52e4bce637"
+  },
+  {
+    "id": "t013",
+    "version": "focused",
+    "query": "I was promised 2-day shipping, but it has now been 9 days! This is ridiculous!",
+    "prediction": "order_status",
+    "run_id": "01a185b5-4c0f-74c9-816d-b257af2b750e"
+  },
+  {
+    "id": "t045",
+    "version": "focused",
+    "query": "I received my laptop in awful condition and I'm not interested in a replacement. I just want my money back, please.",
+    "prediction": "product_issue",
+    "run_id": "01a185b5-327e-7ef8-a18a-30df6aa852eb"
+  },
+  {
+    "id": "t022",
+    "version": "baseline",
+    "query": "Hello, I would like to initiate a return for the headphones I ordered last week. They are still in their original packaging, and I would appreciate a full refund. Thank you!",
+    "prediction": "refund_request",
+    "run_id": "01a185b4-ac8e-7b41-8b83-09029aa95eb7"
+  },
+  {
+    "id": "t090",
+    "version": "baseline",
+    "query": "Could you let me know when the red variant of SKU-1140 will be restocked? I'm quite eager to buy it!",
+    "prediction": "other",
+    "run_id": "01a185b4-cc45-7a4f-8cfd-b6ba84d3ea28"
+  },
+  {
+    "id": "t094",
+    "version": "baseline",
+    "query": "Excuse me, but I was hoping to use a student discount on my order, but I didn't see it available at checkout. Can you help me out with that? My invoice number is 67890.",
+    "prediction": "other",
+    "run_id": "01a185b4-5504-73ab-8c30-bb58c560ce88"
+  },
+  {
+    "id": "t059",
+    "version": "baseline",
+    "query": "The item works great, but I'm really disappointed that the box is completely wrecked and I didn’t get the manual.",
+    "prediction": "product_issue",
+    "run_id": "01a185b4-7e2a-7cf7-bcbb-85d0e97e09f5"
+  },
+  {
+    "id": "t065",
+    "version": "focused",
+    "query": "I've been trying to figure out how to change my credit card info, but honestly, I can't find any option for it in the settings. Can someone help?",
+    "prediction": "account_help",
+    "run_id": "01a185b5-0f5b-75d2-a933-734d00f6e701"
+  },
+  {
+    "id": "t035",
+    "version": "focused",
+    "query": "I was expecting to pay $79 as advertised, but somehow I got charged $89. Can you please fix this and refund me the difference?",
+    "prediction": "refund_request",
+    "run_id": "01a185b4-eeb8-7f0c-9824-16bd242c4535"
+  },
+  {
+    "id": "t006",
+    "version": "focused",
+    "query": "Can someone please help me? My order hasn't arrived, and I'm looking for a full refund.",
+    "prediction": "order_status",
+    "run_id": "01a185b4-edc7-7cc1-9266-c1010405dd4a"
+  },
+  {
+    "id": "t000",
+    "version": "baseline",
+    "query": "Hi, I ordered a blender 5 days ago and the tracking page hasn't updated. Can you tell me where it is?",
+    "prediction": "order_status",
+    "run_id": "01a185b4-d97b-7ce0-a316-3d298c0b26ba"
+  },
+  {
+    "id": "t041",
+    "version": "focused",
+    "query": "I can't believe the coffee maker I ordered came with a shattered carafe. What a letdown!",
+    "prediction": "product_issue",
+    "run_id": "01a185b5-49db-7ac6-8564-3ad36b5627b1"
+  },
+  {
+    "id": "t079",
+    "version": "focused",
+    "query": "Why am I suddenly getting 2FA codes that I didn't ask for? Is there a chance my account has been hacked?",
+    "prediction": "account_help",
+    "run_id": "01a185b5-296d-79d8-92fe-1468af4ff786"
+  },
+  {
+    "id": "t049",
+    "version": "focused",
+    "query": "I'm really frustrated because you sent me a medium shirt instead of the large I ordered. This is the second time I've experienced this issue!",
+    "prediction": "product_issue",
+    "run_id": "01a185b5-0c98-7c2c-9aa0-ec5b5ca7ae2c"
+  },
+  {
+    "id": "t092",
+    "version": "focused",
+    "query": "Do you offer a student discount? Couldn't find one at checkout.",
+    "prediction": "other",
+    "run_id": "01a185b5-0531-749e-ac70-131a86777ded"
+  },
+  {
+    "id": "t032",
+    "version": "baseline",
+    "query": "I was charged $89 but the website showed $79 at checkout. Please refund the difference.",
+    "prediction": "refund_request",
+    "run_id": "01a185b4-b3a3-7304-963a-26e027c03b4e"
+  },
+  {
+    "id": "t051",
+    "version": "baseline",
+    "query": "It’s unfortunate that I was sent a medium shirt instead of the large I requested. This is the second occurrence of this problem and it’s quite disappointing.",
+    "prediction": "product_issue",
+    "run_id": "01a185b4-b58f-767c-b6ec-9f406d1357c5"
+  },
+  {
+    "id": "t091",
+    "version": "baseline",
+    "query": "Hey, is the red SKU-1140 back in stock yet? It feels like forever since I last checked.",
+    "prediction": "other",
+    "run_id": "01a185b4-b773-78ae-ae85-33a69a623a12"
+  },
+  {
+    "id": "t060",
+    "version": "focused",
+    "query": "I can't log into my account — it keeps saying my password is wrong even after I reset it.",
+    "prediction": "account_help",
+    "run_id": "01a185b5-3031-7133-8179-ddae3587538d"
+  },
+  {
+    "id": "t096",
+    "version": "focused",
+    "query": "When's your next sale? My birthday is coming up and I'd love to splurge.",
+    "prediction": "other",
+    "run_id": "01a185b5-2b83-71f7-a814-a3b87343acce"
+  },
+  {
+    "id": "t008",
+    "version": "focused",
+    "query": "Order shows delivered last Tuesday but it's not at my door, my neighbor's, or the mailroom. What now?",
+    "prediction": "order_status",
+    "run_id": "01a185b5-2d99-7911-b29e-66dbb505a74d"
+  },
+  {
+    "id": "t017",
+    "version": "focused",
+    "query": "The tracking link I received in the email just keeps loading endlessly. My order number is 88421.",
+    "prediction": "order_status",
+    "run_id": "01a185b5-473c-76e6-9583-d3c165db2fe9"
+  },
+  {
+    "id": "t028",
+    "version": "focused",
+    "query": "Please cancel order 99021 and refund my card. I no longer need it.",
+    "prediction": "order_status",
+    "run_id": "01a185b5-18c9-7048-8ef9-976f2d473447"
+  },
+  {
+    "id": "t073",
+    "version": "focused",
+    "query": "Hi, I need help with my shipping details. I changed my address last month and I don't want any deliveries sent to my old place anymore. Please take care of this ASAP! Thanks!",
+    "prediction": "account_help",
+    "run_id": "01a185b5-5b36-7f50-a655-48154cff0236"
+  },
+  {
+    "id": "t055",
+    "version": "baseline",
+    "query": "It's frustrating to see that the item I ordered, which was labeled as 'wireless', actually requires a separate dongle to function. That's definitely not what I expected.",
+    "prediction": "product_issue",
+    "run_id": "01a185b4-be06-788c-8d72-b3c8a19284e7"
+  },
+  {
+    "id": "t083",
+    "version": "baseline",
+    "query": "Quick question: do you ship to Canada? I couldn’t find any mention of it on the FAQ page.",
+    "prediction": "other",
+    "run_id": "01a185b4-b684-7ffa-95ac-2435f7de260c"
+  },
+  {
+    "id": "t024",
+    "version": "focused",
+    "query": "Where is my refund? I returned the item two weeks ago and still nothing on my card.",
+    "prediction": "order_status",
+    "run_id": "01a185b5-423a-7dd0-8c30-2a311cbf88ab"
+  },
+  {
+    "id": "t003",
+    "version": "focused",
+    "query": "Hi there, it’s been five days since I ordered my blender, and the tracking status is still the same. Could you let me know what's happening with it?",
+    "prediction": "order_status",
+    "run_id": "01a185b5-49d4-7c4f-85a4-c9f0ec1edf04"
+  },
+  {
+    "id": "t002",
+    "version": "baseline",
+    "query": "Hey, I ordered a blender about five days ago, and the tracking hasn’t shown any progress. What’s going on with my order?",
+    "prediction": "order_status",
+    "run_id": "01a185b4-a159-7459-b335-022616783d35"
+  },
+  {
+    "id": "t070",
+    "version": "baseline",
+    "query": "Could you please help me? I’m trying to buy the yoga mat I have in my cart, but the website keeps signing me out just as I’m about to pay.",
+    "prediction": "account_help",
+    "run_id": "01a185b4-85ac-7cec-a5c4-6f01164a4742"
+  },
+  {
+    "id": "t025",
+    "version": "baseline",
+    "query": "I'm really frustrated right now! I sent back my order, number 2345, two weeks ago, and I've yet to see my refund hit my credit card. What’s the hold-up?",
+    "prediction": "refund_request",
+    "run_id": "01a185b4-78dd-7145-8e7d-e64e81d70df3"
+  },
+  {
+    "id": "t032",
+    "version": "focused",
+    "query": "I was charged $89 but the website showed $79 at checkout. Please refund the difference.",
+    "prediction": "refund_request",
+    "run_id": "01a185b5-3286-73f8-8d22-896f3605f2c0"
+  },
+  {
+    "id": "t089",
+    "version": "baseline",
+    "query": "I was wondering if the red SKU-1140 is available again? It's been a while and I really need it!",
+    "prediction": "other",
+    "run_id": "01a185b4-db4b-77d2-9272-7cf46a2f3f8c"
+  },
+  {
+    "id": "t080",
+    "version": "focused",
+    "query": "Do you guys ship to Canada? Couldn't find it on the FAQ page.",
+    "prediction": "other",
+    "run_id": "01a185b5-1618-7741-8085-764e00a33e61"
+  },
+  {
+    "id": "t029",
+    "version": "focused",
+    "query": "I'm really frustrated right now. Can you please cancel my order 99021 and process a refund to my card? I don't need this anymore.",
+    "prediction": "order_status",
+    "run_id": "01a185b5-474a-7469-8507-262edd098a29"
+  },
+  {
+    "id": "t098",
+    "version": "focused",
+    "query": "I am curious about your upcoming sale dates. My birthday is around the corner, and I want to indulge a bit!",
+    "prediction": "other",
+    "run_id": "01a185b4-f5e8-716e-ae03-754190e33321"
+  },
+  {
+    "id": "t056",
+    "version": "focused",
+    "query": "Item itself works fine but the box was crushed and the instruction manual is missing.",
+    "prediction": "product_issue",
+    "run_id": "01a185b5-1954-72be-bf71-28bc63054e28"
+  },
+  {
+    "id": "t027",
+    "version": "focused",
+    "query": "Hey, can someone tell me what's going on with my refund? It’s been two weeks since I returned the item (order #5432) and I still haven't seen anything on my card. This is getting ridiculous!",
+    "prediction": "order_status",
+    "run_id": "01a185b5-5895-7180-b0ef-55b4d41e17a1"
+  },
+  {
+    "id": "t047",
+    "version": "baseline",
+    "query": "The laptop I ordered is broken, and I refuse to accept a replacement. I simply want a complete refund.",
+    "prediction": "refund_request",
+    "run_id": "01a185b4-8b8d-7100-befa-c0176d0b73c1"
+  },
+  {
+    "id": "t038",
+    "version": "baseline",
+    "query": "I guess store credit is okay for returning these, but honestly, I'd really prefer getting my money back to the card I used.",
+    "prediction": "refund_request",
+    "run_id": "01a185b4-aa7e-7e8f-9162-d27933ea9426"
+  },
+  {
+    "id": "t001",
+    "version": "focused",
+    "query": "Hello, I placed an order for a blender five days back, but the tracking information hasn't changed at all. Can you please provide an update on its whereabouts?",
+    "prediction": "order_status",
+    "run_id": "01a185b5-28b1-7d46-b3da-9748feb823eb"
+  },
+  {
+    "id": "t045",
+    "version": "baseline",
+    "query": "I received my laptop in awful condition and I'm not interested in a replacement. I just want my money back, please.",
+    "prediction": "refund_request",
+    "run_id": "01a185b4-b18f-7719-b137-7d572619b8b7"
+  },
+  {
+    "id": "t079",
+    "version": "baseline",
+    "query": "Why am I suddenly getting 2FA codes that I didn't ask for? Is there a chance my account has been hacked?",
+    "prediction": "account_help",
+    "run_id": "01a185b4-a959-79fb-ab24-a171a3d00ac7"
+  },
+  {
+    "id": "t051",
+    "version": "focused",
+    "query": "It’s unfortunate that I was sent a medium shirt instead of the large I requested. This is the second occurrence of this problem and it’s quite disappointing.",
+    "prediction": "product_issue",
+    "run_id": "01a185b5-3514-7980-a1f1-aa52a0e0439d"
+  },
+  {
+    "id": "t097",
+    "version": "baseline",
+    "query": "Could you please tell me when your next sale is? My birthday is approaching, and I would really like to treat myself.",
+    "prediction": "other",
+    "run_id": "01a185b4-d8a6-70c5-9c1f-d5140b219508"
+  },
+  {
+    "id": "t099",
+    "version": "baseline",
+    "query": "Hey, any idea when you’re having your next sale? My birthday is soon, and I'm eager to go all out on some shopping.",
+    "prediction": "other",
+    "run_id": "01a185b4-6ad5-7090-a419-6f4e28e515f5"
+  },
+  {
+    "id": "t088",
+    "version": "focused",
+    "query": "Is the red version of SKU-1140 back in stock?",
+    "prediction": "other",
+    "run_id": "01a185b4-e881-7eb6-9ca3-af53145c960d"
+  },
+  {
+    "id": "t062",
+    "version": "baseline",
+    "query": "Hello, I'm having trouble accessing my account. It keeps rejecting my password, despite the fact that I recently reset it. Could you please assist?",
+    "prediction": "account_help",
+    "run_id": "01a185b4-bd03-7e4c-a1f5-1ea55e562932"
+  },
+  {
+    "id": "t080",
+    "version": "baseline",
+    "query": "Do you guys ship to Canada? Couldn't find it on the FAQ page.",
+    "prediction": "other",
+    "run_id": "01a185b4-9723-731d-9376-aafe47c3c1eb"
+  },
+  {
+    "id": "t052",
+    "version": "baseline",
+    "query": "The product description said 'wireless' but I had to buy a separate dongle to use it. Misleading.",
+    "prediction": "product_issue",
+    "run_id": "01a185b4-82ef-72c6-8915-d801f467d8c8"
+  },
+  {
+    "id": "t053",
+    "version": "focused",
+    "query": "I can't believe the product is advertised as 'wireless' and yet I needed to purchase an additional dongle to make it work. This feels very misleading.",
+    "prediction": "product_issue",
+    "run_id": "01a185b5-428a-796b-834a-89779e266a13"
+  },
+  {
+    "id": "t046",
+    "version": "baseline",
+    "query": "Hey, my laptop showed up damaged, and I would prefer to get a full refund instead of receiving a new one.",
+    "prediction": "refund_request",
+    "run_id": "01a185b4-9e56-7301-b288-9cc52664ff16"
+  },
+  {
+    "id": "t010",
+    "version": "baseline",
+    "query": "According to the tracking, my package was delivered last Tuesday, yet I can't find it anywhere—neither at my doorstep nor at my neighbor's nor in the mailroom. What happens now?",
+    "prediction": "order_status",
+    "run_id": "01a185b4-7310-7d4e-847b-cdab52dd6fb5"
+  },
+  {
+    "id": "t076",
+    "version": "focused",
+    "query": "I keep getting 2FA codes I didn't request. Is someone trying to access my account?",
+    "prediction": "account_help",
+    "run_id": "01a185b4-ec72-71c7-aaee-9a3b5a0c1ca9"
+  },
+  {
+    "id": "t001",
+    "version": "baseline",
+    "query": "Hello, I placed an order for a blender five days back, but the tracking information hasn't changed at all. Can you please provide an update on its whereabouts?",
+    "prediction": "order_status",
+    "run_id": "01a185b4-a7c1-78a6-ac9c-ef195e09f1e0"
+  },
+  {
+    "id": "t064",
+    "version": "baseline",
+    "query": "How do I update the credit card on file? I don't see the option anywhere in settings.",
+    "prediction": "account_help",
+    "run_id": "01a185b4-5c86-7d3e-8416-79f77f4abb04"
+  },
+  {
+    "id": "t066",
+    "version": "focused",
+    "query": "Excuse me, but I can't seem to locate where to update my credit card on your site. It's not showing up in the settings. Would you enlighten me?",
+    "prediction": "account_help",
+    "run_id": "01a185b5-0a61-74ae-8737-7cf9df80e30a"
+  },
+  {
+    "id": "t075",
+    "version": "baseline",
+    "query": "Hey, I just noticed that my old address is still on file, and I moved a month ago. Can you make sure that nothing gets shipped there? That would be great.",
+    "prediction": "account_help",
+    "run_id": "01a185b4-88aa-7bf4-8ae8-bfac7d18d399"
+  },
+  {
+    "id": "t098",
+    "version": "baseline",
+    "query": "I am curious about your upcoming sale dates. My birthday is around the corner, and I want to indulge a bit!",
+    "prediction": "other",
+    "run_id": "01a185b4-75f3-77c7-a6f2-2df3f4a0874d"
+  },
+  {
+    "id": "t007",
+    "version": "focused",
+    "query": "I can't believe this! My order is missing, and I want my money back right away.",
+    "prediction": "order_status",
+    "run_id": "01a185b5-16e4-7a04-8420-874d61648b3e"
+  },
+  {
+    "id": "t060",
+    "version": "baseline",
+    "query": "I can't log into my account — it keeps saying my password is wrong even after I reset it.",
+    "prediction": "account_help",
+    "run_id": "01a185b4-b0f0-727a-ad15-85190dd77d9a"
+  },
+  {
+    "id": "t035",
+    "version": "baseline",
+    "query": "I was expecting to pay $79 as advertised, but somehow I got charged $89. Can you please fix this and refund me the difference?",
+    "prediction": "refund_request",
+    "run_id": "01a185b4-6f95-74dc-9ace-392154ae56eb"
+  },
+  {
+    "id": "t088",
+    "version": "baseline",
+    "query": "Is the red version of SKU-1140 back in stock?",
+    "prediction": "other",
+    "run_id": "01a185b4-66bf-76be-a5cb-68c68683eb01"
+  },
+  {
+    "id": "t031",
+    "version": "focused",
+    "query": "Order 99021—please cancel and refund my card. I'm not interested anymore.",
+    "prediction": "refund_request",
+    "run_id": "01a185b4-e84b-7cb9-b246-c538915a690f"
+  },
+  {
+    "id": "t015",
+    "version": "baseline",
+    "query": "I thought I paid for 2-day shipping. It’s been 9 days already—what’s taking so long?",
+    "prediction": "order_status",
+    "run_id": "01a185b4-7500-7046-830a-ded88cf2f1ba"
+  },
+  {
+    "id": "t058",
+    "version": "baseline",
+    "query": "I received my order, and while the product itself is okay, the box is all smashed up, and I can't find the instructions anywhere.",
+    "prediction": "product_issue",
+    "run_id": "01a185b4-ca49-739f-a206-69324363fe32"
+  },
+  {
+    "id": "t037",
+    "version": "baseline",
+    "query": "I want to return these for store credit, but to be honest, I'd much rather have a refund to my card instead.",
+    "prediction": "refund_request",
+    "run_id": "01a185b4-804e-7f3a-abc4-92cc494d8f8c"
+  },
+  {
+    "id": "t011",
+    "version": "baseline",
+    "query": "So my order says it was delivered last Tuesday, but surprise, surprise! I haven't seen it at my door, my neighbor's, or even in the mailroom. What gives?",
+    "prediction": "order_status",
+    "run_id": "01a185b4-b8da-7031-af05-e3c2a8dd86a1"
+  },
+  {
+    "id": "t026",
+    "version": "baseline",
+    "query": "Hi there, I hope you’re doing well. I wanted to inquire about my refund for the item I returned (order #9876) two weeks ago; unfortunately, it hasn’t appeared on my card yet. Could you please help me with this?",
+    "prediction": "refund_request",
+    "run_id": "01a185b4-aeda-76fb-bafd-d5a7262471b8"
+  },
+  {
+    "id": "t019",
+    "version": "baseline",
+    "query": "The tracking URL in the email is stuck in a loop. Can you check on my order #88421?",
+    "prediction": "order_status",
+    "run_id": "01a185b4-5da8-7e23-b39d-19b198bd9f1c"
+  },
+  {
+    "id": "t044",
+    "version": "baseline",
+    "query": "My laptop arrived damaged and I want a full refund, not a replacement.",
+    "prediction": "refund_request",
+    "run_id": "01a185b4-7bb2-75f4-9240-6f6afeab44d6"
+  },
+  {
+    "id": "t050",
+    "version": "focused",
+    "query": "I've received a medium shirt when I clearly ordered a large. This is getting ridiculous; it's already happened once before!",
+    "prediction": "product_issue",
+    "run_id": "01a185b5-2693-7787-b526-98c8adcc1f0b"
+  },
+  {
+    "id": "t086",
+    "version": "focused",
+    "query": "I just have to mention that the support agent I had yesterday was incredible. I appreciate it!",
+    "prediction": "other",
+    "run_id": "01a185b4-f124-789f-9b90-04c4010282d4"
+  },
+  {
+    "id": "t004",
+    "version": "baseline",
+    "query": "I never received my order and I want my money back.",
+    "prediction": "refund_request",
+    "run_id": "01a185b4-bacb-7cf5-9b7a-6c9bfb18c144"
+  },
+  {
+    "id": "t067",
+    "version": "baseline",
+    "query": "I need to switch the credit card linked to my account, but there's no option in the settings menu. It's quite frustrating! Can someone point me in the right direction?",
+    "prediction": "account_help",
+    "run_id": "01a185b4-d5cb-7d4d-90b8-b8a934ae2fff"
+  },
+  {
+    "id": "t039",
+    "version": "focused",
+    "query": "While returning these for store credit works, I would much rather receive a cash refund back onto my original card, if possible.",
+    "prediction": "refund_request",
+    "run_id": "01a185b4-e0e4-78d1-92af-ca5421fd271c"
+  },
+  {
+    "id": "t049",
+    "version": "baseline",
+    "query": "I'm really frustrated because you sent me a medium shirt instead of the large I ordered. This is the second time I've experienced this issue!",
+    "prediction": "product_issue",
+    "run_id": "01a185b4-8ed1-78b2-8278-844f7dab8c37"
+  },
+  {
+    "id": "t012",
+    "version": "baseline",
+    "query": "The website said 2-day shipping. It's been 9 days. Are you kidding me?",
+    "prediction": "order_status",
+    "run_id": "01a185b4-ce84-7d46-bb37-e1615b629fee"
+  },
+  {
+    "id": "t008",
+    "version": "baseline",
+    "query": "Order shows delivered last Tuesday but it's not at my door, my neighbor's, or the mailroom. What now?",
+    "prediction": "order_status",
+    "run_id": "01a185b4-ae8f-7512-9d3f-43e3cfbc8c52"
+  },
+  {
+    "id": "t074",
+    "version": "focused",
+    "query": "Could you please update my shipping address? I relocated last month, and I really don't want my items being sent to my previous location. Thanks for your assistance.",
+    "prediction": "account_help",
+    "run_id": "01a185b5-44f4-705c-bb55-b90cfef21cf2"
+  },
+  {
+    "id": "t043",
+    "version": "focused",
+    "query": "Order #12345 just arrived, and guess what? The carafe on the coffee maker is cracked. This is so disappointing!",
+    "prediction": "product_issue",
+    "run_id": "01a185b5-3a57-7998-b803-785e55923ce6"
+  },
+  {
+    "id": "t005",
+    "version": "focused",
+    "query": "I still haven't gotten my order, and I demand a refund immediately.",
+    "prediction": "order_status",
+    "run_id": "01a185b5-4f1b-7f9d-b2f8-f651eb1fce44"
+  },
+  {
+    "id": "t027",
+    "version": "baseline",
+    "query": "Hey, can someone tell me what's going on with my refund? It’s been two weeks since I returned the item (order #5432) and I still haven't seen anything on my card. This is getting ridiculous!",
+    "prediction": "refund_request",
+    "run_id": "01a185b4-d423-76a6-9e29-111af3177580"
+  },
+  {
+    "id": "t095",
+    "version": "focused",
+    "query": "Hey, I'm trying to check out but I don't see any student discount. Do you offer that at all? My order is ABC123.",
+    "prediction": "other",
+    "run_id": "01a185b4-e594-7a8f-bfac-6f0071f82eb8"
+  },
+  {
+    "id": "t090",
+    "version": "focused",
+    "query": "Could you let me know when the red variant of SKU-1140 will be restocked? I'm quite eager to buy it!",
+    "prediction": "other",
+    "run_id": "01a185b5-5146-7401-847f-67acf32a5684"
+  },
+  {
+    "id": "t024",
+    "version": "baseline",
+    "query": "Where is my refund? I returned the item two weeks ago and still nothing on my card.",
+    "prediction": "refund_request",
+    "run_id": "01a185b4-bfb1-757e-a22f-30fab8314c94"
+  },
+  {
+    "id": "t099",
+    "version": "focused",
+    "query": "Hey, any idea when you’re having your next sale? My birthday is soon, and I'm eager to go all out on some shopping.",
+    "prediction": "other",
+    "run_id": "01a185b4-ead7-78e2-b6d4-15fb6fd03c6e"
+  },
+  {
+    "id": "t077",
+    "version": "baseline",
+    "query": "I've been receiving 2FA codes that I never asked for. Is someone attempting to break into my account?",
+    "prediction": "account_help",
+    "run_id": "01a185b4-9e3c-7d8e-96d8-9b09bcc5d771"
+  },
+  {
+    "id": "t021",
+    "version": "baseline",
+    "query": "I want to return the unopened headphones I purchased last week and get a refund. This is so frustrating!",
+    "prediction": "refund_request",
+    "run_id": "01a185b4-94f9-769f-871f-740aeb278ede"
+  },
+  {
+    "id": "t009",
+    "version": "focused",
+    "query": "I see that my order was marked as delivered last Tuesday, but it hasn't arrived at my place, my neighbor's, or even in the mailroom. What should I do next?",
+    "prediction": "order_status",
+    "run_id": "01a185b5-1b74-7592-9072-91a78b37d85a"
+  },
+  {
+    "id": "t029",
+    "version": "baseline",
+    "query": "I'm really frustrated right now. Can you please cancel my order 99021 and process a refund to my card? I don't need this anymore.",
+    "prediction": "refund_request",
+    "run_id": "01a185b4-c5c1-75f0-ad3d-db85576747ed"
+  },
+  {
+    "id": "t067",
+    "version": "focused",
+    "query": "I need to switch the credit card linked to my account, but there's no option in the settings menu. It's quite frustrating! Can someone point me in the right direction?",
+    "prediction": "account_help",
+    "run_id": "01a185b5-5942-7cb1-bf0a-2e0b10ebc7c3"
+  },
+  {
+    "id": "t094",
+    "version": "focused",
+    "query": "Excuse me, but I was hoping to use a student discount on my order, but I didn't see it available at checkout. Can you help me out with that? My invoice number is 67890.",
+    "prediction": "other",
+    "run_id": "01a185b4-e0e5-7348-a810-44cc77c10ae8"
+  },
+  {
+    "id": "t087",
+    "version": "focused",
+    "query": "Shoutout to the customer service person I spoke with yesterday; they were really helpful. Thanks a million!",
+    "prediction": "other",
+    "run_id": "01a185b5-56d7-772c-b10d-2b2651f2ff47"
+  },
+  {
+    "id": "t087",
+    "version": "baseline",
+    "query": "Shoutout to the customer service person I spoke with yesterday; they were really helpful. Thanks a million!",
+    "prediction": "other",
+    "run_id": "01a185b4-d357-74df-87f1-b1440a9d786e"
+  },
+  {
+    "id": "t046",
+    "version": "focused",
+    "query": "Hey, my laptop showed up damaged, and I would prefer to get a full refund instead of receiving a new one.",
+    "prediction": "product_issue",
+    "run_id": "01a185b5-1f03-70a8-8d39-2663547ab114"
+  },
+  {
+    "id": "t054",
+    "version": "focused",
+    "query": "I thought I was getting a wireless device, but I had to go and buy a dongle separately just to use it. This is quite deceiving.",
+    "prediction": "product_issue",
+    "run_id": "01a185b4-f35c-7de4-b71f-7a53c304f3e3"
+  },
+  {
+    "id": "t005",
+    "version": "baseline",
+    "query": "I still haven't gotten my order, and I demand a refund immediately.",
+    "prediction": "refund_request",
+    "run_id": "01a185b4-ca5b-7344-8575-0e891a0b2cf5"
+  },
+  {
+    "id": "t040",
+    "version": "baseline",
+    "query": "The coffee maker arrived with a cracked carafe. Really disappointed.",
+    "prediction": "product_issue",
+    "run_id": "01a185b4-a327-79ae-b03e-dd88ba5ae8b8"
+  },
+  {
+    "id": "t085",
+    "version": "baseline",
+    "query": "I'm really impressed with the customer service representative I talked to yesterday. They were fantastic, thanks a lot!",
+    "prediction": "other",
+    "run_id": "01a185b4-b406-7d52-b739-1bb7bb9d5447"
+  },
+  {
+    "id": "t065",
+    "version": "baseline",
+    "query": "I've been trying to figure out how to change my credit card info, but honestly, I can't find any option for it in the settings. Can someone help?",
+    "prediction": "account_help",
+    "run_id": "01a185b4-90c7-70d1-8b28-b8f7736465f6"
+  },
+  {
+    "id": "t092",
+    "version": "baseline",
+    "query": "Do you offer a student discount? Couldn't find one at checkout.",
+    "prediction": "other",
+    "run_id": "01a185b4-86b4-7b74-a340-4ece08d22429"
+  },
+  {
+    "id": "t042",
+    "version": "baseline",
+    "query": "Hi, I received my coffee maker today, but the carafe is broken. I'm quite upset about this.",
+    "prediction": "product_issue",
+    "run_id": "01a185b4-d0d2-7169-9859-8523f9289697"
+  },
+  {
+    "id": "t022",
+    "version": "focused",
+    "query": "Hello, I would like to initiate a return for the headphones I ordered last week. They are still in their original packaging, and I would appreciate a full refund. Thank you!",
+    "prediction": "refund_request",
+    "run_id": "01a185b5-2d6f-7304-b305-ececa07211b8"
+  },
+  {
+    "id": "t073",
+    "version": "baseline",
+    "query": "Hi, I need help with my shipping details. I changed my address last month and I don't want any deliveries sent to my old place anymore. Please take care of this ASAP! Thanks!",
+    "prediction": "account_help",
+    "run_id": "01a185b4-d69e-7760-9355-8ae2b071cc99"
+  },
+  {
+    "id": "t002",
+    "version": "focused",
+    "query": "Hey, I ordered a blender about five days ago, and the tracking hasn’t shown any progress. What’s going on with my order?",
+    "prediction": "order_status",
+    "run_id": "01a185b5-21be-7598-a095-504cc03056f1"
+  },
+  {
+    "id": "t034",
+    "version": "baseline",
+    "query": "Hello, I noticed that I ended up paying $89 for my order, but it should have been $79 according to the checkout page. Could you assist me by refunding the difference? Thank you!",
+    "prediction": "refund_request",
+    "run_id": "01a185b4-bbad-7808-bee7-312ccca4ab88"
+  },
+  {
+    "id": "t057",
+    "version": "baseline",
+    "query": "The item is functional, but the package arrived damaged, and there's no instruction manual included.",
+    "prediction": "product_issue",
+    "run_id": "01a185b4-a446-7c82-a42b-455dfe871ba6"
+  },
+  {
+    "id": "t072",
+    "version": "baseline",
+    "query": "Please remove my old shipping address. I moved last month and don't want stuff going there.",
+    "prediction": "account_help",
+    "run_id": "01a185b4-a1e4-76f3-aef4-30cd009ca99b"
+  },
+  {
+    "id": "t059",
+    "version": "focused",
+    "query": "The item works great, but I'm really disappointed that the box is completely wrecked and I didn’t get the manual.",
+    "prediction": "product_issue",
+    "run_id": "01a185b4-fd20-75ed-af7f-ed62832714b1"
+  },
+  {
+    "id": "t033",
+    "version": "baseline",
+    "query": "I can't believe I was charged $89 when the checkout clearly said $79. This is ridiculous! Please refund the extra $10 immediately!",
+    "prediction": "refund_request",
+    "run_id": "01a185b4-80d2-7bf9-8fed-9ddedccbb9ba"
+  },
+  {
+    "id": "t096",
+    "version": "baseline",
+    "query": "When's your next sale? My birthday is coming up and I'd love to splurge.",
+    "prediction": "other",
+    "run_id": "01a185b4-abbf-7a9b-b702-b99c6bbf1726"
+  },
+  {
+    "id": "t057",
+    "version": "focused",
+    "query": "The item is functional, but the package arrived damaged, and there's no instruction manual included.",
+    "prediction": "product_issue",
+    "run_id": "01a185b5-2437-703c-b036-a6543bb42abe"
+  },
+  {
+    "id": "t016",
+    "version": "baseline",
+    "query": "Tracking link in the email just spins forever. Order #88421.",
+    "prediction": "order_status",
+    "run_id": "01a185b4-a550-7cfd-a201-aa3344519905"
+  },
+  {
+    "id": "t037",
+    "version": "focused",
+    "query": "I want to return these for store credit, but to be honest, I'd much rather have a refund to my card instead.",
+    "prediction": "refund_request",
+    "run_id": "01a185b4-ff69-723c-b155-a41b9f639440"
+  },
+  {
+    "id": "t062",
+    "version": "focused",
+    "query": "Hello, I'm having trouble accessing my account. It keeps rejecting my password, despite the fact that I recently reset it. Could you please assist?",
+    "prediction": "account_help",
+    "run_id": "01a185b5-3fbd-7fcd-bd72-f3c291aa5afd"
+  },
+  {
+    "id": "t054",
+    "version": "baseline",
+    "query": "I thought I was getting a wireless device, but I had to go and buy a dongle separately just to use it. This is quite deceiving.",
+    "prediction": "product_issue",
+    "run_id": "01a185b4-7342-7b25-9a63-c3757b9ddb3b"
+  },
+  {
+    "id": "t068",
+    "version": "focused",
+    "query": "The website won't let me check out — it keeps logging me out mid-payment.",
+    "prediction": "account_help",
+    "run_id": "01a185b5-53b8-71c9-8931-2bcb90156604"
+  },
+  {
+    "id": "t020",
+    "version": "baseline",
+    "query": "I'd like to return the headphones I bought last week and get my money back. They're unopened.",
+    "prediction": "refund_request",
+    "run_id": "01a185b4-87ec-79d2-913e-4a60fa7d2341"
+  },
+  {
+    "id": "t048",
+    "version": "focused",
+    "query": "You sent me a size medium shirt but I ordered a large. Second time this has happened.",
+    "prediction": "product_issue",
+    "run_id": "01a185b5-111f-7ad2-9c74-1a329e1d72c1"
+  },
+  {
+    "id": "t014",
+    "version": "baseline",
+    "query": "I ordered my items expecting them to arrive in 2 days as your site said, but here I am 9 days later with no package. What is going on?",
+    "prediction": "order_status",
+    "run_id": "01a185b4-d125-78d6-9035-5a5c5ba54662"
+  },
+  {
+    "id": "t017",
+    "version": "baseline",
+    "query": "The tracking link I received in the email just keeps loading endlessly. My order number is 88421.",
+    "prediction": "order_status",
+    "run_id": "01a185b4-c43a-7985-a6b5-2aa991bdd8e0"
+  },
+  {
+    "id": "t039",
+    "version": "baseline",
+    "query": "While returning these for store credit works, I would much rather receive a cash refund back onto my original card, if possible.",
+    "prediction": "refund_request",
+    "run_id": "01a185b4-549c-7e50-9fb0-a3c3e8706b29"
+  },
+  {
+    "id": "t055",
+    "version": "focused",
+    "query": "It's frustrating to see that the item I ordered, which was labeled as 'wireless', actually requires a separate dongle to function. That's definitely not what I expected.",
+    "prediction": "product_issue",
+    "run_id": "01a185b5-3fc0-7ed1-bda2-2c7814f0b902"
+  },
+  {
+    "id": "t026",
+    "version": "focused",
+    "query": "Hi there, I hope you’re doing well. I wanted to inquire about my refund for the item I returned (order #9876) two weeks ago; unfortunately, it hasn’t appeared on my card yet. Could you please help me with this?",
+    "prediction": "order_status",
+    "run_id": "01a185b5-2fc4-7316-9249-981945f0db6e"
+  },
+  {
+    "id": "t013",
+    "version": "baseline",
+    "query": "I was promised 2-day shipping, but it has now been 9 days! This is ridiculous!",
+    "prediction": "order_status",
+    "run_id": "01a185b4-c835-795e-9cb0-1357b6d0596b"
+  },
+  {
+    "id": "t070",
+    "version": "focused",
+    "query": "Could you please help me? I’m trying to buy the yoga mat I have in my cart, but the website keeps signing me out just as I’m about to pay.",
+    "prediction": "account_help",
+    "run_id": "01a185b5-0406-7ce3-a087-3b5b3e8e53f5"
+  },
+  {
+    "id": "t047",
+    "version": "focused",
+    "query": "The laptop I ordered is broken, and I refuse to accept a replacement. I simply want a complete refund.",
+    "prediction": "product_issue",
+    "run_id": "01a185b5-0975-7ec2-8b89-de790865f908"
+  },
+  {
+    "id": "t085",
+    "version": "focused",
+    "query": "I'm really impressed with the customer service representative I talked to yesterday. They were fantastic, thanks a lot!",
+    "prediction": "other",
+    "run_id": "01a185b5-34dd-77a5-9aa5-f29202d07030"
+  },
+  {
+    "id": "t074",
+    "version": "baseline",
+    "query": "Could you please update my shipping address? I relocated last month, and I really don't want my items being sent to my previous location. Thanks for your assistance.",
+    "prediction": "account_help",
+    "run_id": "01a185b4-c32d-739e-b767-3613b937c8a3"
+  },
+  {
+    "id": "t084",
+    "version": "focused",
+    "query": "Just wanted to say the customer service rep I spoke to yesterday was amazing. Thank you!",
+    "prediction": "other",
+    "run_id": "01a185b4-ea7a-79fc-ba48-94f998465456"
+  },
+  {
+    "id": "t030",
+    "version": "baseline",
+    "query": "Hi there, I hope you're well! I would appreciate it if you could cancel my order 99021 and issue a refund to my card, as I've changed my mind on the purchase. Thank you!",
+    "prediction": "refund_request",
+    "run_id": "01a185b4-95bf-7031-9caa-a0ec2c357e56"
+  },
+  {
+    "id": "t078",
+    "version": "baseline",
+    "query": "I've noticed I'm getting multiple 2FA codes sent to me that I didn't request. Can someone clarify if my account is being compromised?",
+    "prediction": "account_help",
+    "run_id": "01a185b4-c215-7d52-8902-4eaa08df4a37"
+  },
+  {
+    "id": "t006",
+    "version": "baseline",
+    "query": "Can someone please help me? My order hasn't arrived, and I'm looking for a full refund.",
+    "prediction": "refund_request",
+    "run_id": "01a185b4-6d25-7331-9ed4-62ed41c10f9e"
+  },
+  {
+    "id": "t082",
+    "version": "baseline",
+    "query": "Hi there! I was wondering if you ship to Canada because I didn’t see that info in the FAQ section. Can you help?",
+    "prediction": "other",
+    "run_id": "01a185b4-78fe-77be-8985-f3a7b7cd4b51"
+  },
+  {
+    "id": "t082",
+    "version": "focused",
+    "query": "Hi there! I was wondering if you ship to Canada because I didn’t see that info in the FAQ section. Can you help?",
+    "prediction": "other",
+    "run_id": "01a185b4-f882-77c8-9441-0d47d1c52d46"
+  },
+  {
+    "id": "t063",
+    "version": "focused",
+    "query": "Ugh, I can't seem to get into my account — it keeps claiming my password is invalid, even though I just changed it. What’s going on?",
+    "prediction": "account_help",
+    "run_id": "01a185b5-0e84-74ab-8c50-480e2f4fbb02"
+  },
+  {
+    "id": "t076",
+    "version": "baseline",
+    "query": "I keep getting 2FA codes I didn't request. Is someone trying to access my account?",
+    "prediction": "account_help",
+    "run_id": "01a185b4-6b0e-7697-aff5-bde23eb21985"
+  },
+  {
+    "id": "t031",
+    "version": "baseline",
+    "query": "Order 99021—please cancel and refund my card. I'm not interested anymore.",
+    "prediction": "refund_request",
+    "run_id": "01a185b4-6518-7588-b852-8457fae7aafc"
+  },
+  {
+    "id": "t083",
+    "version": "focused",
+    "query": "Quick question: do you ship to Canada? I couldn’t find any mention of it on the FAQ page.",
+    "prediction": "other",
+    "run_id": "01a185b5-3768-7f69-a200-dfa3c4f5a54f"
+  },
+  {
+    "id": "t012",
+    "version": "focused",
+    "query": "The website said 2-day shipping. It's been 9 days. Are you kidding me?",
+    "prediction": "order_status",
+    "run_id": "01a185b5-51b7-728f-b005-1f21733b2878"
+  },
+  {
+    "id": "t089",
+    "version": "focused",
+    "query": "I was wondering if the red SKU-1140 is available again? It's been a while and I really need it!",
+    "prediction": "other",
+    "run_id": "01a185b5-5eb4-78fa-9161-d6377766abf2"
+  },
+  {
+    "id": "t016",
+    "version": "focused",
+    "query": "Tracking link in the email just spins forever. Order #88421.",
+    "prediction": "order_status",
+    "run_id": "01a185b5-266c-7d18-99b8-e21c48be762d"
+  },
+  {
+    "id": "t025",
+    "version": "focused",
+    "query": "I'm really frustrated right now! I sent back my order, number 2345, two weeks ago, and I've yet to see my refund hit my credit card. What’s the hold-up?",
+    "prediction": "order_status",
+    "run_id": "01a185b4-f822-70dc-a6ed-78171e301c6b"
+  },
+  {
+    "id": "t072",
+    "version": "focused",
+    "query": "Please remove my old shipping address. I moved last month and don't want stuff going there.",
+    "prediction": "account_help",
+    "run_id": "01a185b5-21ea-7008-878e-e42dae69141d"
+  },
+  {
+    "id": "t061",
+    "version": "baseline",
+    "query": "I've been trying to log into my account, but every time I do, it tells me my password is incorrect, even though I just reset it! This is so frustrating!",
+    "prediction": "account_help",
+    "run_id": "01a185b4-7c3e-74df-9ee5-ec24087bd721"
+  },
+  {
+    "id": "t095",
+    "version": "baseline",
+    "query": "Hey, I'm trying to check out but I don't see any student discount. Do you offer that at all? My order is ABC123.",
+    "prediction": "other",
+    "run_id": "01a185b4-6311-709b-8550-2811f486cae5"
+  },
+  {
+    "id": "t023",
+    "version": "baseline",
+    "query": "I'm trying to return the headphones I bought last week; they're still sealed. Can I get my money back?",
+    "prediction": "refund_request",
+    "run_id": "01a185b4-9351-7f81-8239-2cf15874d9c3"
+  },
+  {
+    "id": "t009",
+    "version": "baseline",
+    "query": "I see that my order was marked as delivered last Tuesday, but it hasn't arrived at my place, my neighbor's, or even in the mailroom. What should I do next?",
+    "prediction": "order_status",
+    "run_id": "01a185b4-9bf1-7239-9788-f3b44ae18bcb"
+  },
+  {
+    "id": "t058",
+    "version": "focused",
+    "query": "I received my order, and while the product itself is okay, the box is all smashed up, and I can't find the instructions anywhere.",
+    "prediction": "product_issue",
+    "run_id": "01a185b5-4c65-7d87-acc6-02c6e68a6358"
+  },
+  {
+    "id": "t000",
+    "version": "focused",
+    "query": "Hi, I ordered a blender 5 days ago and the tracking page hasn't updated. Can you tell me where it is?",
+    "prediction": "order_status",
+    "run_id": "01a185b5-5da8-7305-958e-f6f45c65661f"
+  },
+  {
+    "id": "t081",
+    "version": "focused",
+    "query": "Hey, do you even ship to Canada? I searched the FAQ and it’s not there. What’s the deal?",
+    "prediction": "other",
+    "run_id": "01a185b5-0339-7d51-b248-3ea4da439926"
+  },
+  {
+    "id": "t019",
+    "version": "focused",
+    "query": "The tracking URL in the email is stuck in a loop. Can you check on my order #88421?",
+    "prediction": "order_status",
+    "run_id": "01a185b4-e35c-71fa-99d4-bea1ea229f6d"
+  },
+  {
+    "id": "t077",
+    "version": "focused",
+    "query": "I've been receiving 2FA codes that I never asked for. Is someone attempting to break into my account?",
+    "prediction": "account_help",
+    "run_id": "01a185b5-1c72-7800-92e5-bb9b8ae71507"
+  },
+  {
+    "id": "t071",
+    "version": "baseline",
+    "query": "I’m having a really annoying issue with my order #34567 for the Bluetooth speaker. The checkout process keeps logging me out, which is quite inconvenient.",
+    "prediction": "account_help",
+    "run_id": "01a185b4-7e7c-7d3a-b8ac-13d97279b118"
+  },
+  {
+    "id": "t048",
+    "version": "baseline",
+    "query": "You sent me a size medium shirt but I ordered a large. Second time this has happened.",
+    "prediction": "product_issue",
+    "run_id": "01a185b4-92a2-7ee9-b693-e1a92c61b156"
+  },
+  {
+    "id": "t038",
+    "version": "focused",
+    "query": "I guess store credit is okay for returning these, but honestly, I'd really prefer getting my money back to the card I used.",
+    "prediction": "refund_request",
+    "run_id": "01a185b5-2b09-7354-af8f-2206c4f996b5"
+  },
+  {
+    "id": "t030",
+    "version": "focused",
+    "query": "Hi there, I hope you're well! I would appreciate it if you could cancel my order 99021 and issue a refund to my card, as I've changed my mind on the purchase. Thank you!",
+    "prediction": "refund_request",
+    "run_id": "01a185b5-1445-77f0-8f2d-0c1bd6a4a1a4"
+  },
+  {
+    "id": "t078",
+    "version": "focused",
+    "query": "I've noticed I'm getting multiple 2FA codes sent to me that I didn't request. Can someone clarify if my account is being compromised?",
+    "prediction": "account_help",
+    "run_id": "01a185b5-4492-7494-a243-563f7a8b3f78"
+  },
+  {
+    "id": "t023",
+    "version": "focused",
+    "query": "I'm trying to return the headphones I bought last week; they're still sealed. Can I get my money back?",
+    "prediction": "refund_request",
+    "run_id": "01a185b5-11ac-7667-b012-dd9f40662f74"
+  },
+  {
+    "id": "t063",
+    "version": "baseline",
+    "query": "Ugh, I can't seem to get into my account — it keeps claiming my password is invalid, even though I just changed it. What’s going on?",
+    "prediction": "account_help",
+    "run_id": "01a185b4-9087-700a-b6d5-80c2a125ac32"
+  },
+  {
+    "id": "t050",
+    "version": "baseline",
+    "query": "I've received a medium shirt when I clearly ordered a large. This is getting ridiculous; it's already happened once before!",
+    "prediction": "product_issue",
+    "run_id": "01a185b4-a714-737e-8878-33ec9171fd6c"
+  },
+  {
+    "id": "t093",
+    "version": "baseline",
+    "query": "I'm really disappointed that I can't find a student discount option. Do you guys even offer one? My order number is 12345.",
+    "prediction": "other",
+    "run_id": "01a185b4-cc44-71e3-9b8f-fa6ba32528ae"
+  },
+  {
+    "id": "t061",
+    "version": "focused",
+    "query": "I've been trying to log into my account, but every time I do, it tells me my password is incorrect, even though I just reset it! This is so frustrating!",
+    "prediction": "account_help",
+    "run_id": "01a185b4-fb13-7936-a0ad-a76f5beb6ba8"
+  },
+  {
+    "id": "t007",
+    "version": "baseline",
+    "query": "I can't believe this! My order is missing, and I want my money back right away.",
+    "prediction": "refund_request",
+    "run_id": "01a185b4-995e-77a1-864e-413bd5a9f3e9"
+  },
+  {
+    "id": "t011",
+    "version": "focused",
+    "query": "So my order says it was delivered last Tuesday, but surprise, surprise! I haven't seen it at my door, my neighbor's, or even in the mailroom. What gives?",
+    "prediction": "order_status",
+    "run_id": "01a185b5-39fb-72ae-9351-e61b8e238a8d"
+  },
+  {
+    "id": "t041",
+    "version": "baseline",
+    "query": "I can't believe the coffee maker I ordered came with a shattered carafe. What a letdown!",
+    "prediction": "product_issue",
+    "run_id": "01a185b4-c80d-7de3-8742-be580ac86ee6"
+  },
+  {
+    "id": "t053",
+    "version": "baseline",
+    "query": "I can't believe the product is advertised as 'wireless' and yet I needed to purchase an additional dongle to make it work. This feels very misleading.",
+    "prediction": "product_issue",
+    "run_id": "01a185b4-c0b4-701c-9732-21343c326156"
+  },
+  {
+    "id": "t069",
+    "version": "baseline",
+    "query": "I'm really frustrated — every time I try to complete my order for the new gaming headset, the site logs me out right before the payment step.",
+    "prediction": "account_help",
+    "run_id": "01a185b4-8e04-7297-bf7b-7ef374660556"
+  },
+  {
+    "id": "t056",
+    "version": "baseline",
+    "query": "Item itself works fine but the box was crushed and the instruction manual is missing.",
+    "prediction": "product_issue",
+    "run_id": "01a185b4-9b7d-74ed-bca7-5bb65eb8db75"
+  },
+  {
+    "id": "t044",
+    "version": "focused",
+    "query": "My laptop arrived damaged and I want a full refund, not a replacement.",
+    "prediction": "product_issue",
+    "run_id": "01a185b4-faa6-76f1-b568-6e6aa43e74e9"
+  },
+  {
+    "id": "t086",
+    "version": "baseline",
+    "query": "I just have to mention that the support agent I had yesterday was incredible. I appreciate it!",
+    "prediction": "other",
+    "run_id": "01a185b4-6fe1-7cd1-9bfb-ced720bbf658"
+  },
+  {
+    "id": "t091",
+    "version": "focused",
+    "query": "Hey, is the red SKU-1140 back in stock yet? It feels like forever since I last checked.",
+    "prediction": "other",
+    "run_id": "01a185b5-3814-7216-9ba9-13ead215438b"
+  },
+  {
+    "id": "t036",
+    "version": "baseline",
+    "query": "Returning these for store credit is fine but honestly I'd prefer cash back to my original card.",
+    "prediction": "refund_request",
+    "run_id": "01a185b4-a01a-715e-9df9-797e1b166d2d"
+  },
+  {
+    "id": "t003",
+    "version": "baseline",
+    "query": "Hi there, it’s been five days since I ordered my blender, and the tracking status is still the same. Could you let me know what's happening with it?",
+    "prediction": "order_status",
+    "run_id": "01a185b4-c66e-7e44-9228-3947b07f42db"
+  },
+  {
+    "id": "t010",
+    "version": "focused",
+    "query": "According to the tracking, my package was delivered last Tuesday, yet I can't find it anywhere—neither at my doorstep nor at my neighbor's nor in the mailroom. What happens now?",
+    "prediction": "order_status",
+    "run_id": "01a185b4-f342-7703-9183-8c92fcf7fb3e"
+  },
+  {
+    "id": "t020",
+    "version": "focused",
+    "query": "I'd like to return the headphones I bought last week and get my money back. They're unopened.",
+    "prediction": "refund_request",
+    "run_id": "01a185b5-06e4-79cb-8e4c-92a21ead1c99"
+  },
+  {
+    "id": "t018",
+    "version": "focused",
+    "query": "I'm having a bit of trouble with the tracking link; it just keeps spinning and won't load. This is for order #88421.",
+    "prediction": "order_status",
+    "run_id": "01a185b4-e581-7009-bca0-f310a7031aaa"
+  },
+  {
+    "id": "t084",
+    "version": "baseline",
+    "query": "Just wanted to say the customer service rep I spoke to yesterday was amazing. Thank you!",
+    "prediction": "other",
+    "run_id": "01a185b4-6913-7683-9a4b-5c77d5d8c208"
+  },
+  {
+    "id": "t018",
+    "version": "baseline",
+    "query": "I'm having a bit of trouble with the tracking link; it just keeps spinning and won't load. This is for order #88421.",
+    "prediction": "order_status",
+    "run_id": "01a185b4-62d8-7827-bb50-b42abb6e5915"
+  },
+  {
+    "id": "t097",
+    "version": "focused",
+    "query": "Could you please tell me when your next sale is? My birthday is approaching, and I would really like to treat myself.",
+    "prediction": "other",
+    "run_id": "01a185b5-5cd7-79a9-8f84-5feefdd05194"
+  },
+  {
+    "id": "t036",
+    "version": "focused",
+    "query": "Returning these for store credit is fine but honestly I'd prefer cash back to my original card.",
+    "prediction": "refund_request",
+    "run_id": "01a185b5-1f48-7f87-907a-feda912325a0"
+  },
+  {
+    "id": "t043",
+    "version": "baseline",
+    "query": "Order #12345 just arrived, and guess what? The carafe on the coffee maker is cracked. This is so disappointing!",
+    "prediction": "product_issue",
+    "run_id": "01a185b4-b998-7313-8b27-2bb8954823a2"
+  },
+  {
+    "id": "t015",
+    "version": "focused",
+    "query": "I thought I paid for 2-day shipping. It’s been 9 days already—what’s taking so long?",
+    "prediction": "order_status",
+    "run_id": "01a185b4-f571-7399-a76b-a59c8b8497a3"
+  },
+  {
+    "id": "t034",
+    "version": "focused",
+    "query": "Hello, I noticed that I ended up paying $89 for my order, but it should have been $79 according to the checkout page. Could you assist me by refunding the difference? Thank you!",
+    "prediction": "refund_request",
+    "run_id": "01a185b5-3d42-7c83-bf1b-40948adb7116"
+  },
+  {
+    "id": "t081",
+    "version": "baseline",
+    "query": "Hey, do you even ship to Canada? I searched the FAQ and it’s not there. What’s the deal?",
+    "prediction": "other",
+    "run_id": "01a185b4-84d5-7ef7-b89f-91ec5f4e7a92"
+  },
+  {
+    "id": "t033",
+    "version": "focused",
+    "query": "I can't believe I was charged $89 when the checkout clearly said $79. This is ridiculous! Please refund the extra $10 immediately!",
+    "prediction": "refund_request",
+    "run_id": "01a185b5-0049-7009-a2f3-365a54e203f0"
+  },
+  {
+    "id": "t075",
+    "version": "focused",
+    "query": "Hey, I just noticed that my old address is still on file, and I moved a month ago. Can you make sure that nothing gets shipped there? That would be great.",
+    "prediction": "account_help",
+    "run_id": "01a185b5-07f6-78b9-b4f6-fd5f750ee238"
+  },
+  {
+    "id": "t066",
+    "version": "baseline",
+    "query": "Excuse me, but I can't seem to locate where to update my credit card on your site. It's not showing up in the settings. Would you enlighten me?",
+    "prediction": "account_help",
+    "run_id": "01a185b4-8ca4-748a-b9b6-a6f4bc526cf0"
+  },
+  {
+    "id": "t093",
+    "version": "focused",
+    "query": "I'm really disappointed that I can't find a student discount option. Do you guys even offer one? My order number is 12345.",
+    "prediction": "other",
+    "run_id": "01a185b5-4f45-77b3-b60d-566708449f1b"
+  },
+  {
+    "id": "t004",
+    "version": "focused",
+    "query": "I never received my order and I want my money back.",
+    "prediction": "order_status",
+    "run_id": "01a185b5-3c85-7db4-a20f-adb8866f28af"
+  },
+  {
+    "id": "t052",
+    "version": "focused",
+    "query": "The product description said 'wireless' but I had to buy a separate dongle to use it. Misleading.",
+    "prediction": "product_issue",
+    "run_id": "01a185b5-01a0-7632-b84e-61a8565c1794"
+  },
+  {
+    "id": "t042",
+    "version": "focused",
+    "query": "Hi, I received my coffee maker today, but the carafe is broken. I'm quite upset about this.",
+    "prediction": "product_issue",
+    "run_id": "01a185b5-5437-787b-bed1-22f4585213c2"
+  },
+  {
+    "id": "t071",
+    "version": "focused",
+    "query": "I’m having a really annoying issue with my order #34567 for the Bluetooth speaker. The checkout process keeps logging me out, which is quite inconvenient.",
+    "prediction": "account_help",
+    "run_id": "01a185b4-fd3f-74ac-bbe9-98d898177532"
+  },
+  {
+    "id": "t028",
+    "version": "baseline",
+    "query": "Please cancel order 99021 and refund my card. I no longer need it.",
+    "prediction": "refund_request",
+    "run_id": "01a185b4-99c8-7e71-b089-2a0de122a2d1"
+  },
+  {
+    "id": "t069",
+    "version": "focused",
+    "query": "I'm really frustrated — every time I try to complete my order for the new gaming headset, the site logs me out right before the payment step.",
+    "prediction": "account_help",
+    "run_id": "01a185b5-0b9a-7912-aa66-01b94f6c1d1e"
+  }
+]

@@ -1,0 +1,16 @@
+{
+  "ticket_id": "t033",
+  "reviewer": "User, explicitly authorized in this conversation",
+  "recorded_utc": "2026-11-15T01:23:47.647609+00:00",
+  "approved_intent": "refund_request",
+  "human_adjudicated_score": 1,
+  "classifier_prediction": "refund_request",
+  "previous_judge_score": 0,
+  "previous_judge_proposed_intent": "account_help",
+  "note": "Human review: refund_request is correct. The customer disputes an overcharge and requests reimbursement. Mentioning checkout does not establish a technical checkout failure. The v3 prediction is accepted.",
+  "authorization": "User explicitly requested refund_request for t033, saving this review separately, clarifying the judge rubric, and rerunning all100.",
+  "old_judgment_sha256": "d6d7320c18cd5253d7ccf5daa10ac8f829803143b729402ff8f4d5b86ef1d166",
+  "separate_from_automated_judge": true,
+  "reference_label_changed": false,
+  "classifier_prediction_changed": false
+}

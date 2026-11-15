@@ -1,0 +1,8 @@
+{
+  "version": "v2",
+  "change": "Clarify monetary reimbursement versus technical checkout failure for all tickets, based on user t033 adjudication. No ticket IDs, exact example wording, human scores, or reference labels enter the judge requests.",
+  "previous_rubric_sha256": "a0f7babda76f86a7a229671e158e677b3db9dd909062b6092dd427d88e3339c3",
+  "new_rubric_sha256": "c2365496c34366bd0dc3c6d01f57bdb7482bec60140ed86b09234781363d1d48",
+  "model_or_settings_changed": false,
+  "classifier_outputs_changed": false
+}

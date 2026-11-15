@@ -1,0 +1,10 @@
+{
+  "checked_client_date": "2026-10-30",
+  "source_policy": "Official OpenAI documentation searched and opened before implementation; authenticated model listing checked separately.",
+  "sources": [
+    {"url": "https://developers.openai.com/api/docs/models/gpt-5.4-mini", "used_for": "Pinned model snapshot, Structured Outputs, supported low reasoning effort, input/cached/output token rates"},
+    {"url": "https://developers.openai.com/api/docs/guides/structured-outputs", "used_for": "Strict JSON Schema, additionalProperties false, refusal/incomplete response handling"},
+    {"url": "https://developers.openai.com/api/docs/guides/evaluation-best-practices", "used_for": "Clear criteria, pass/fail grading, human calibration and model judge limitations"}
+  ],
+  "selection_tradeoff": "Selected gpt-5.4-mini-2026-03-17 for an inexpensive explicit five-label rubric, not the most capable available judge. This is an engineering choice requiring independent human review before scalable approval, not a finding of greater accuracy than the classifier."
+}

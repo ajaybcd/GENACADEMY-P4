@@ -1,0 +1,31 @@
+{
+  "prepared_utc": "2026-11-15T00:54:57.701902+00:00",
+  "model": "gpt-4o-mini",
+  "temperature": 0,
+  "tickets": 100,
+  "source_hashes": {
+    "outputs\\customer_support_evaluation.xlsx": "4bd5b5e4c3b9ad881bfa0333b4ecd13ed8a897397c9c10ce21ecd723f18f3103",
+    "outputs\\final_review_snapshot.json": "5bbb3cd9268217f8f9006e2d3e7b2cd57a1af78bf4ba74d1cd95460fbdebf41f",
+    "live_runs\\comparison.csv": "e3e250380ee85e39120dde17e47b389288ec9efd35e5a9d1aa1ff5684694afbc",
+    "live_runs\\comparison.summary.json": "606dca4ac61dd9c2dcf5b597bc3c437b548f552da37ce4729d53d8c51fc27ad9",
+    "live_runs\\langsmith_evidence.json": "4b9efe269089cbe1265aa81e0033e90a058d0a0d42b3cd3902d5313db171922c",
+    "live_runs\\week4-p4-baseline-22024e81.csv": "20bdf4d328b65af28d7c0a16a258af0bb34dec2e6eb4dd85f4e210e2e6447e39",
+    "live_runs\\week4-p4-focused-7c8ba9cb.csv": "423cd8b4b4c383c8c5a69edfd95efe25ef47341702a95a0f1ce3d9b07622e213",
+    "prompts\\baseline.txt": "bb397ce57a21718684d1f45dd734c0a8d5b1916db1a121fb62b61d0419078f80",
+    "prompts\\focused.txt": "0784ffe3d15bfa0963b4d15a171888fe7920a659d0b57af45d828233d7f7a66f",
+    "outputs\\langsmith_annotation_sync\\completion_notes.txt": "0bf9f599bd69e3c85a2a86721e4302c883f24f71b81b7877d781838f833d72b7",
+    "outputs\\langsmith_annotation_sync\\review_transfer_plan.json": "623e2dca0ff44477e32070405be026ceb1c5e2ea5ccffb93184f75aaecc08c77",
+    "outputs\\langsmith_annotation_sync\\sync_evidence.json": "d3d9d27df7f603faa9919bae5330995756255d607776be77d0cc2b297b3bb253"
+  },
+  "v3_prompt_sha256": "1981b4aef50340f6afbc1b18a5935a0923a0b94db2c6ab33207d24e4bd4a73b4",
+  "policy_approval": "User explicitly approved product_issue for damaged products and v3 clarified refund rules in this conversation.",
+  "label_changes": [
+    {
+      "id": "t046",
+      "old": "refund_request",
+      "new": "product_issue",
+      "reason": "Consistent damaged-product routing, explicitly approved by user."
+    }
+  ],
+  "comparison_note": "Historical baseline and focused predictions are rescored under the same v3 policy labels. Only v3 makes new classifier calls. Calls occur on a later date; prompt effect is not isolated from service variability."
+}

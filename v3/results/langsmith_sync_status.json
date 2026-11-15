@@ -1,0 +1,7 @@
+{
+  "status": "VERIFIED",
+  "reason": null,
+  "new_classifier_calls_for_sync": 0,
+  "judge_feedback_verified": true,
+  "calibrated_judge_and_human_review_verified": true
+}

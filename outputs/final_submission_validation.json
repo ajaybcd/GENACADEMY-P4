@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "notebook_code_cells_executed": 6,
+  "classifier_same_policy": {
+    "baseline": 92,
+    "focused": 94,
+    "v3": 100
+  },
+  "judge_before": 99,
+  "judge_final": 100,
+  "ambiguity_flags": 12,
+  "summary_lines": 20,
+  "historical_source_hashes_verified_by_notebook": true
+}

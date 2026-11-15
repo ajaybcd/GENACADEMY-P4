@@ -1,5 +1,7 @@
 """Validate final evidence, notebook execution, and local report references."""
 import json
+import sys
+if hasattr(sys.stdout,'reconfigure'): sys.stdout.reconfigure(encoding='utf-8')
 from html.parser import HTMLParser
 from urllib.parse import unquote,urlsplit
 import submission_analysis as analysis
@@ -34,4 +36,9 @@ for stale in ('Participant review is still pending','Participant annotations rem
 assert '93/100' in report and '75 feedback records' in report
 print('PASS: all final metrics, approvals, queue evidence and workbook hash reconcile.')
 print('PASS:',count,'notebook analysis cells execute without network or model calls.')
-print('PASS: report links resolve; stale pending-review claims removed. Loom remains explicitly outstanding.')
+print('PASS: report links resolve; historical review evidence reconciles.')
+latest=json.loads((scope['ROOT']/'llm_judge_v2/summary.json').read_text(encoding='utf-8'))
+assert latest['judge_pass']==100 and latest['ambiguity_flags']==12
+assert scope['summary']['same_v3_policy_scores']=={'baseline':92,'focused':94,'v3':100}
+assert len((analysis.ROOT/'outputs/project_summary_20_lines.txt').read_text(encoding='utf-8').splitlines())==20
+print('PASS: final v3 100/100; calibrated judge 100/100; 12 ambiguity flags; 20 summary lines.')

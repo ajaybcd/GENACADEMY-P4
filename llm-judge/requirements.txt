@@ -1,0 +1,2 @@
+# Python 3.10+ standard library only for judge runner and offline analysis.
+# A Python 3 Jupyter kernel is needed only to interactively open/run the notebook.

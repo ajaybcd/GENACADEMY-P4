@@ -1,0 +1,56 @@
+{
+  "completed_utc": "2026-11-15T00:56:44.360443+00:00",
+  "tickets": 100,
+  "completed": 100,
+  "errors": 0,
+  "model_requested": "gpt-4o-mini",
+  "temperature": 0,
+  "returned_models": [
+    "gpt-4o-mini-2024-07-18"
+  ],
+  "historical_reviewed_label_scores": {
+    "baseline": 93,
+    "focused": 93
+  },
+  "same_v3_policy_scores": {
+    "baseline": 92,
+    "focused": 94,
+    "v3": 100
+  },
+  "label_policy_effect_before_new_calls": {
+    "baseline": -1,
+    "focused": 1
+  },
+  "v3_gain_vs_focused_percentage_points": 6,
+  "v3_paired_changes": {
+    "FIXED": 6,
+    "REGRESSION": 0,
+    "STILL_PASS": 94,
+    "STILL_FAIL": 0
+  },
+  "changed_prediction_ids": [
+    "t024",
+    "t025",
+    "t026",
+    "t027",
+    "t028",
+    "t029"
+  ],
+  "remaining_failed_ids": [],
+  "approved_label_changes": [
+    {
+      "id": "t046",
+      "old": "refund_request",
+      "new": "product_issue",
+      "reason": "Consistent damaged-product routing, explicitly approved by user."
+    }
+  ],
+  "historical_artifacts_unchanged": true,
+  "recorded_api_attempts": 100,
+  "failed_attempts": 0,
+  "usage": {
+    "prompt_tokens": 39362,
+    "completion_tokens": 580
+  },
+  "scope": "Same known 100 synthetic tickets, 25 related seed families; no independent test or v3 LLM judge run. Historical scores use saved predictions, not simultaneous control reruns."
+}

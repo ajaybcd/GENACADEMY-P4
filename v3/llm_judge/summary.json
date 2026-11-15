@@ -1,0 +1,36 @@
+{
+  "completed_utc": "2026-11-15T01:13:05.599785+00:00",
+  "model": "gpt-5.4-mini-2026-03-17",
+  "valid_assessments": 100,
+  "judge_pass": 99,
+  "judge_fail": 1,
+  "exact_match_correct": 100,
+  "ambiguity_flags": 9,
+  "review_ticket_ids": [
+    "t004",
+    "t005",
+    "t006",
+    "t007",
+    "t033",
+    "t044",
+    "t045",
+    "t046",
+    "t047"
+  ],
+  "score_disagreement_ids": [
+    "t033"
+  ],
+  "historical_judge_pass": {
+    "baseline": 92,
+    "focused": 93
+  },
+  "prior_judgments_and_v3_predictions_unchanged": true,
+  "rubric_identical_to_original": true,
+  "recorded_api_attempts": 112,
+  "failed_attempts": 12,
+  "usage": {
+    "prompt_tokens": 76089,
+    "completion_tokens_including_reasoning": 12183
+  },
+  "limitations": "Single new judge assessment per v3 output using prior frozen protocol; same100 known synthetic tickets, no new independent human calibration or held-out test. Prior t033 judge inconsistency remains historical evidence. Ambiguity flags are not auto-approvals."
+}

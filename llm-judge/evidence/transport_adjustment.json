@@ -1,0 +1,10 @@
+{
+  "event": "Interrupted initial full run after 30 accepted judgments total; resumed valid outputs rather than replacing them.",
+  "reason": "Intermittent transport timeouts at 120 seconds caused long stalls.",
+  "old_timeout_seconds": 120,
+  "new_timeout_seconds": 30,
+  "model_rubric_scoring_changes": [],
+  "unrecorded_inflight_requests_maximum": 4,
+  "billing_note": "Interrupted requests may have unknown usage or charges; aggregate returned-usage cost is not an exact total bill.",
+  "implementation_hardening": "Write a STARTED attempt record before each subsequent API call so interruption is visible. Existing raw attempts remain preserved."
+}

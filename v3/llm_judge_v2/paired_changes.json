@@ -1,0 +1,1002 @@
+[
+  {
+    "id": "t000",
+    "before_score": 1,
+    "after_score": 1,
+    "before_proposed_intent": "order_status",
+    "after_proposed_intent": "order_status",
+    "before_ambiguity": false,
+    "after_ambiguity": false,
+    "change": "UNCHANGED_PASS"
+  },
+  {
+    "id": "t001",
+    "before_score": 1,
+    "after_score": 1,
+    "before_proposed_intent": "order_status",
+    "after_proposed_intent": "order_status",
+    "before_ambiguity": false,
+    "after_ambiguity": false,
+    "change": "UNCHANGED_PASS"
+  },
+  {
+    "id": "t002",
+    "before_score": 1,
+    "after_score": 1,
+    "before_proposed_intent": "order_status",
+    "after_proposed_intent": "order_status",
+    "before_ambiguity": false,
+    "after_ambiguity": false,
+    "change": "UNCHANGED_PASS"
+  },
+  {
+    "id": "t003",
+    "before_score": 1,
+    "after_score": 1,
+    "before_proposed_intent": "order_status",
+    "after_proposed_intent": "order_status",
+    "before_ambiguity": false,
+    "after_ambiguity": false,
+    "change": "UNCHANGED_PASS"
+  },
+  {
+    "id": "t004",
+    "before_score": 1,
+    "after_score": 1,
+    "before_proposed_intent": "order_status",
+    "after_proposed_intent": "order_status",
+    "before_ambiguity": true,
+    "after_ambiguity": true,
+    "change": "UNCHANGED_PASS"
+  },
+  {
+    "id": "t005",
+    "before_score": 1,
+    "after_score": 1,
+    "before_proposed_intent": "order_status",
+    "after_proposed_intent": "order_status",
+    "before_ambiguity": true,
+    "after_ambiguity": true,
+    "change": "UNCHANGED_PASS"
+  },
+  {
+    "id": "t006",
+    "before_score": 1,
+    "after_score": 1,
+    "before_proposed_intent": "order_status",
+    "after_proposed_intent": "order_status",
+    "before_ambiguity": true,
+    "after_ambiguity": true,
+    "change": "UNCHANGED_PASS"
+  },
+  {
+    "id": "t007",
+    "before_score": 1,
+    "after_score": 1,
+    "before_proposed_intent": "order_status",
+    "after_proposed_intent": "order_status",
+    "before_ambiguity": true,
+    "after_ambiguity": true,
+    "change": "UNCHANGED_PASS"
+  },
+  {
+    "id": "t008",
+    "before_score": 1,
+    "after_score": 1,
+    "before_proposed_intent": "order_status",
+    "after_proposed_intent": "order_status",
+    "before_ambiguity": false,
+    "after_ambiguity": false,
+    "change": "UNCHANGED_PASS"
+  },
+  {
+    "id": "t009",
+    "before_score": 1,
+    "after_score": 1,
+    "before_proposed_intent": "order_status",
+    "after_proposed_intent": "order_status",
+    "before_ambiguity": false,
+    "after_ambiguity": false,
+    "change": "UNCHANGED_PASS"
+  },
+  {
+    "id": "t010",
+    "before_score": 1,
+    "after_score": 1,
+    "before_proposed_intent": "order_status",
+    "after_proposed_intent": "order_status",
+    "before_ambiguity": false,
+    "after_ambiguity": false,
+    "change": "UNCHANGED_PASS"
+  },
+  {
+    "id": "t011",
+    "before_score": 1,
+    "after_score": 1,
+    "before_proposed_intent": "order_status",
+    "after_proposed_intent": "order_status",
+    "before_ambiguity": false,
+    "after_ambiguity": false,
+    "change": "UNCHANGED_PASS"
+  },
+  {
+    "id": "t012",
+    "before_score": 1,
+    "after_score": 1,
+    "before_proposed_intent": "order_status",
+    "after_proposed_intent": "order_status",
+    "before_ambiguity": false,
+    "after_ambiguity": false,
+    "change": "UNCHANGED_PASS"
+  },
+  {
+    "id": "t013",
+    "before_score": 1,
+    "after_score": 1,
+    "before_proposed_intent": "order_status",
+    "after_proposed_intent": "order_status",
+    "before_ambiguity": false,
+    "after_ambiguity": false,
+    "change": "UNCHANGED_PASS"
+  },
+  {
+    "id": "t014",
+    "before_score": 1,
+    "after_score": 1,
+    "before_proposed_intent": "order_status",
+    "after_proposed_intent": "order_status",
+    "before_ambiguity": false,
+    "after_ambiguity": false,
+    "change": "UNCHANGED_PASS"
+  },
+  {
+    "id": "t015",
+    "before_score": 1,
+    "after_score": 1,
+    "before_proposed_intent": "order_status",
+    "after_proposed_intent": "order_status",
+    "before_ambiguity": false,
+    "after_ambiguity": false,
+    "change": "UNCHANGED_PASS"
+  },
+  {
+    "id": "t016",
+    "before_score": 1,
+    "after_score": 1,
+    "before_proposed_intent": "order_status",
+    "after_proposed_intent": "order_status",
+    "before_ambiguity": false,
+    "after_ambiguity": false,
+    "change": "UNCHANGED_PASS"
+  },
+  {
+    "id": "t017",
+    "before_score": 1,
+    "after_score": 1,
+    "before_proposed_intent": "order_status",
+    "after_proposed_intent": "order_status",
+    "before_ambiguity": false,
+    "after_ambiguity": false,
+    "change": "UNCHANGED_PASS"
+  },
+  {
+    "id": "t018",
+    "before_score": 1,
+    "after_score": 1,
+    "before_proposed_intent": "order_status",
+    "after_proposed_intent": "order_status",
+    "before_ambiguity": false,
+    "after_ambiguity": false,
+    "change": "UNCHANGED_PASS"
+  },
+  {
+    "id": "t019",
+    "before_score": 1,
+    "after_score": 1,
+    "before_proposed_intent": "order_status",
+    "after_proposed_intent": "order_status",
+    "before_ambiguity": false,
+    "after_ambiguity": false,
+    "change": "UNCHANGED_PASS"
+  },
+  {
+    "id": "t020",
+    "before_score": 1,
+    "after_score": 1,
+    "before_proposed_intent": "refund_request",
+    "after_proposed_intent": "refund_request",
+    "before_ambiguity": false,
+    "after_ambiguity": false,
+    "change": "UNCHANGED_PASS"
+  },
+  {
+    "id": "t021",
+    "before_score": 1,
+    "after_score": 1,
+    "before_proposed_intent": "refund_request",
+    "after_proposed_intent": "refund_request",
+    "before_ambiguity": false,
+    "after_ambiguity": false,
+    "change": "UNCHANGED_PASS"
+  },
+  {
+    "id": "t022",
+    "before_score": 1,
+    "after_score": 1,
+    "before_proposed_intent": "refund_request",
+    "after_proposed_intent": "refund_request",
+    "before_ambiguity": false,
+    "after_ambiguity": false,
+    "change": "UNCHANGED_PASS"
+  },
+  {
+    "id": "t023",
+    "before_score": 1,
+    "after_score": 1,
+    "before_proposed_intent": "refund_request",
+    "after_proposed_intent": "refund_request",
+    "before_ambiguity": false,
+    "after_ambiguity": false,
+    "change": "UNCHANGED_PASS"
+  },
+  {
+    "id": "t024",
+    "before_score": 1,
+    "after_score": 1,
+    "before_proposed_intent": "refund_request",
+    "after_proposed_intent": "refund_request",
+    "before_ambiguity": false,
+    "after_ambiguity": false,
+    "change": "UNCHANGED_PASS"
+  },
+  {
+    "id": "t025",
+    "before_score": 1,
+    "after_score": 1,
+    "before_proposed_intent": "refund_request",
+    "after_proposed_intent": "refund_request",
+    "before_ambiguity": false,
+    "after_ambiguity": false,
+    "change": "UNCHANGED_PASS"
+  },
+  {
+    "id": "t026",
+    "before_score": 1,
+    "after_score": 1,
+    "before_proposed_intent": "refund_request",
+    "after_proposed_intent": "refund_request",
+    "before_ambiguity": false,
+    "after_ambiguity": false,
+    "change": "UNCHANGED_PASS"
+  },
+  {
+    "id": "t027",
+    "before_score": 1,
+    "after_score": 1,
+    "before_proposed_intent": "refund_request",
+    "after_proposed_intent": "refund_request",
+    "before_ambiguity": false,
+    "after_ambiguity": false,
+    "change": "UNCHANGED_PASS"
+  },
+  {
+    "id": "t028",
+    "before_score": 1,
+    "after_score": 1,
+    "before_proposed_intent": "refund_request",
+    "after_proposed_intent": "refund_request",
+    "before_ambiguity": false,
+    "after_ambiguity": false,
+    "change": "UNCHANGED_PASS"
+  },
+  {
+    "id": "t029",
+    "before_score": 1,
+    "after_score": 1,
+    "before_proposed_intent": "refund_request",
+    "after_proposed_intent": "refund_request",
+    "before_ambiguity": false,
+    "after_ambiguity": false,
+    "change": "UNCHANGED_PASS"
+  },
+  {
+    "id": "t030",
+    "before_score": 1,
+    "after_score": 1,
+    "before_proposed_intent": "refund_request",
+    "after_proposed_intent": "refund_request",
+    "before_ambiguity": false,
+    "after_ambiguity": false,
+    "change": "UNCHANGED_PASS"
+  },
+  {
+    "id": "t031",
+    "before_score": 1,
+    "after_score": 1,
+    "before_proposed_intent": "refund_request",
+    "after_proposed_intent": "refund_request",
+    "before_ambiguity": false,
+    "after_ambiguity": false,
+    "change": "UNCHANGED_PASS"
+  },
+  {
+    "id": "t032",
+    "before_score": 1,
+    "after_score": 1,
+    "before_proposed_intent": "refund_request",
+    "after_proposed_intent": "refund_request",
+    "before_ambiguity": false,
+    "after_ambiguity": false,
+    "change": "UNCHANGED_PASS"
+  },
+  {
+    "id": "t033",
+    "before_score": 0,
+    "after_score": 1,
+    "before_proposed_intent": "account_help",
+    "after_proposed_intent": "refund_request",
+    "before_ambiguity": true,
+    "after_ambiguity": false,
+    "change": "WIN"
+  },
+  {
+    "id": "t034",
+    "before_score": 1,
+    "after_score": 1,
+    "before_proposed_intent": "refund_request",
+    "after_proposed_intent": "refund_request",
+    "before_ambiguity": false,
+    "after_ambiguity": false,
+    "change": "UNCHANGED_PASS"
+  },
+  {
+    "id": "t035",
+    "before_score": 1,
+    "after_score": 1,
+    "before_proposed_intent": "refund_request",
+    "after_proposed_intent": "refund_request",
+    "before_ambiguity": false,
+    "after_ambiguity": false,
+    "change": "UNCHANGED_PASS"
+  },
+  {
+    "id": "t036",
+    "before_score": 1,
+    "after_score": 1,
+    "before_proposed_intent": "refund_request",
+    "after_proposed_intent": "refund_request",
+    "before_ambiguity": false,
+    "after_ambiguity": false,
+    "change": "UNCHANGED_PASS"
+  },
+  {
+    "id": "t037",
+    "before_score": 1,
+    "after_score": 1,
+    "before_proposed_intent": "refund_request",
+    "after_proposed_intent": "refund_request",
+    "before_ambiguity": false,
+    "after_ambiguity": false,
+    "change": "UNCHANGED_PASS"
+  },
+  {
+    "id": "t038",
+    "before_score": 1,
+    "after_score": 1,
+    "before_proposed_intent": "refund_request",
+    "after_proposed_intent": "refund_request",
+    "before_ambiguity": false,
+    "after_ambiguity": false,
+    "change": "UNCHANGED_PASS"
+  },
+  {
+    "id": "t039",
+    "before_score": 1,
+    "after_score": 1,
+    "before_proposed_intent": "refund_request",
+    "after_proposed_intent": "refund_request",
+    "before_ambiguity": false,
+    "after_ambiguity": false,
+    "change": "UNCHANGED_PASS"
+  },
+  {
+    "id": "t040",
+    "before_score": 1,
+    "after_score": 1,
+    "before_proposed_intent": "product_issue",
+    "after_proposed_intent": "product_issue",
+    "before_ambiguity": false,
+    "after_ambiguity": false,
+    "change": "UNCHANGED_PASS"
+  },
+  {
+    "id": "t041",
+    "before_score": 1,
+    "after_score": 1,
+    "before_proposed_intent": "product_issue",
+    "after_proposed_intent": "product_issue",
+    "before_ambiguity": false,
+    "after_ambiguity": false,
+    "change": "UNCHANGED_PASS"
+  },
+  {
+    "id": "t042",
+    "before_score": 1,
+    "after_score": 1,
+    "before_proposed_intent": "product_issue",
+    "after_proposed_intent": "product_issue",
+    "before_ambiguity": false,
+    "after_ambiguity": false,
+    "change": "UNCHANGED_PASS"
+  },
+  {
+    "id": "t043",
+    "before_score": 1,
+    "after_score": 1,
+    "before_proposed_intent": "product_issue",
+    "after_proposed_intent": "product_issue",
+    "before_ambiguity": false,
+    "after_ambiguity": false,
+    "change": "UNCHANGED_PASS"
+  },
+  {
+    "id": "t044",
+    "before_score": 1,
+    "after_score": 1,
+    "before_proposed_intent": "product_issue",
+    "after_proposed_intent": "product_issue",
+    "before_ambiguity": true,
+    "after_ambiguity": true,
+    "change": "UNCHANGED_PASS"
+  },
+  {
+    "id": "t045",
+    "before_score": 1,
+    "after_score": 1,
+    "before_proposed_intent": "product_issue",
+    "after_proposed_intent": "product_issue",
+    "before_ambiguity": true,
+    "after_ambiguity": true,
+    "change": "UNCHANGED_PASS"
+  },
+  {
+    "id": "t046",
+    "before_score": 1,
+    "after_score": 1,
+    "before_proposed_intent": "product_issue",
+    "after_proposed_intent": "product_issue",
+    "before_ambiguity": true,
+    "after_ambiguity": true,
+    "change": "UNCHANGED_PASS"
+  },
+  {
+    "id": "t047",
+    "before_score": 1,
+    "after_score": 1,
+    "before_proposed_intent": "product_issue",
+    "after_proposed_intent": "product_issue",
+    "before_ambiguity": true,
+    "after_ambiguity": true,
+    "change": "UNCHANGED_PASS"
+  },
+  {
+    "id": "t048",
+    "before_score": 1,
+    "after_score": 1,
+    "before_proposed_intent": "product_issue",
+    "after_proposed_intent": "product_issue",
+    "before_ambiguity": false,
+    "after_ambiguity": false,
+    "change": "UNCHANGED_PASS"
+  },
+  {
+    "id": "t049",
+    "before_score": 1,
+    "after_score": 1,
+    "before_proposed_intent": "product_issue",
+    "after_proposed_intent": "product_issue",
+    "before_ambiguity": false,
+    "after_ambiguity": false,
+    "change": "UNCHANGED_PASS"
+  },
+  {
+    "id": "t050",
+    "before_score": 1,
+    "after_score": 1,
+    "before_proposed_intent": "product_issue",
+    "after_proposed_intent": "product_issue",
+    "before_ambiguity": false,
+    "after_ambiguity": false,
+    "change": "UNCHANGED_PASS"
+  },
+  {
+    "id": "t051",
+    "before_score": 1,
+    "after_score": 1,
+    "before_proposed_intent": "product_issue",
+    "after_proposed_intent": "product_issue",
+    "before_ambiguity": false,
+    "after_ambiguity": false,
+    "change": "UNCHANGED_PASS"
+  },
+  {
+    "id": "t052",
+    "before_score": 1,
+    "after_score": 1,
+    "before_proposed_intent": "product_issue",
+    "after_proposed_intent": "product_issue",
+    "before_ambiguity": false,
+    "after_ambiguity": false,
+    "change": "UNCHANGED_PASS"
+  },
+  {
+    "id": "t053",
+    "before_score": 1,
+    "after_score": 1,
+    "before_proposed_intent": "product_issue",
+    "after_proposed_intent": "product_issue",
+    "before_ambiguity": false,
+    "after_ambiguity": false,
+    "change": "UNCHANGED_PASS"
+  },
+  {
+    "id": "t054",
+    "before_score": 1,
+    "after_score": 1,
+    "before_proposed_intent": "product_issue",
+    "after_proposed_intent": "product_issue",
+    "before_ambiguity": false,
+    "after_ambiguity": false,
+    "change": "UNCHANGED_PASS"
+  },
+  {
+    "id": "t055",
+    "before_score": 1,
+    "after_score": 1,
+    "before_proposed_intent": "product_issue",
+    "after_proposed_intent": "product_issue",
+    "before_ambiguity": false,
+    "after_ambiguity": false,
+    "change": "UNCHANGED_PASS"
+  },
+  {
+    "id": "t056",
+    "before_score": 1,
+    "after_score": 1,
+    "before_proposed_intent": "product_issue",
+    "after_proposed_intent": "product_issue",
+    "before_ambiguity": false,
+    "after_ambiguity": true,
+    "change": "UNCHANGED_PASS"
+  },
+  {
+    "id": "t057",
+    "before_score": 1,
+    "after_score": 1,
+    "before_proposed_intent": "product_issue",
+    "after_proposed_intent": "product_issue",
+    "before_ambiguity": false,
+    "after_ambiguity": true,
+    "change": "UNCHANGED_PASS"
+  },
+  {
+    "id": "t058",
+    "before_score": 1,
+    "after_score": 1,
+    "before_proposed_intent": "product_issue",
+    "after_proposed_intent": "product_issue",
+    "before_ambiguity": false,
+    "after_ambiguity": true,
+    "change": "UNCHANGED_PASS"
+  },
+  {
+    "id": "t059",
+    "before_score": 1,
+    "after_score": 1,
+    "before_proposed_intent": "product_issue",
+    "after_proposed_intent": "product_issue",
+    "before_ambiguity": false,
+    "after_ambiguity": true,
+    "change": "UNCHANGED_PASS"
+  },
+  {
+    "id": "t060",
+    "before_score": 1,
+    "after_score": 1,
+    "before_proposed_intent": "account_help",
+    "after_proposed_intent": "account_help",
+    "before_ambiguity": false,
+    "after_ambiguity": false,
+    "change": "UNCHANGED_PASS"
+  },
+  {
+    "id": "t061",
+    "before_score": 1,
+    "after_score": 1,
+    "before_proposed_intent": "account_help",
+    "after_proposed_intent": "account_help",
+    "before_ambiguity": false,
+    "after_ambiguity": false,
+    "change": "UNCHANGED_PASS"
+  },
+  {
+    "id": "t062",
+    "before_score": 1,
+    "after_score": 1,
+    "before_proposed_intent": "account_help",
+    "after_proposed_intent": "account_help",
+    "before_ambiguity": false,
+    "after_ambiguity": false,
+    "change": "UNCHANGED_PASS"
+  },
+  {
+    "id": "t063",
+    "before_score": 1,
+    "after_score": 1,
+    "before_proposed_intent": "account_help",
+    "after_proposed_intent": "account_help",
+    "before_ambiguity": false,
+    "after_ambiguity": false,
+    "change": "UNCHANGED_PASS"
+  },
+  {
+    "id": "t064",
+    "before_score": 1,
+    "after_score": 1,
+    "before_proposed_intent": "account_help",
+    "after_proposed_intent": "account_help",
+    "before_ambiguity": false,
+    "after_ambiguity": false,
+    "change": "UNCHANGED_PASS"
+  },
+  {
+    "id": "t065",
+    "before_score": 1,
+    "after_score": 1,
+    "before_proposed_intent": "account_help",
+    "after_proposed_intent": "account_help",
+    "before_ambiguity": false,
+    "after_ambiguity": false,
+    "change": "UNCHANGED_PASS"
+  },
+  {
+    "id": "t066",
+    "before_score": 1,
+    "after_score": 1,
+    "before_proposed_intent": "account_help",
+    "after_proposed_intent": "account_help",
+    "before_ambiguity": false,
+    "after_ambiguity": false,
+    "change": "UNCHANGED_PASS"
+  },
+  {
+    "id": "t067",
+    "before_score": 1,
+    "after_score": 1,
+    "before_proposed_intent": "account_help",
+    "after_proposed_intent": "account_help",
+    "before_ambiguity": false,
+    "after_ambiguity": false,
+    "change": "UNCHANGED_PASS"
+  },
+  {
+    "id": "t068",
+    "before_score": 1,
+    "after_score": 1,
+    "before_proposed_intent": "account_help",
+    "after_proposed_intent": "account_help",
+    "before_ambiguity": false,
+    "after_ambiguity": false,
+    "change": "UNCHANGED_PASS"
+  },
+  {
+    "id": "t069",
+    "before_score": 1,
+    "after_score": 1,
+    "before_proposed_intent": "account_help",
+    "after_proposed_intent": "account_help",
+    "before_ambiguity": false,
+    "after_ambiguity": false,
+    "change": "UNCHANGED_PASS"
+  },
+  {
+    "id": "t070",
+    "before_score": 1,
+    "after_score": 1,
+    "before_proposed_intent": "account_help",
+    "after_proposed_intent": "account_help",
+    "before_ambiguity": false,
+    "after_ambiguity": false,
+    "change": "UNCHANGED_PASS"
+  },
+  {
+    "id": "t071",
+    "before_score": 1,
+    "after_score": 1,
+    "before_proposed_intent": "account_help",
+    "after_proposed_intent": "account_help",
+    "before_ambiguity": false,
+    "after_ambiguity": false,
+    "change": "UNCHANGED_PASS"
+  },
+  {
+    "id": "t072",
+    "before_score": 1,
+    "after_score": 1,
+    "before_proposed_intent": "account_help",
+    "after_proposed_intent": "account_help",
+    "before_ambiguity": false,
+    "after_ambiguity": false,
+    "change": "UNCHANGED_PASS"
+  },
+  {
+    "id": "t073",
+    "before_score": 1,
+    "after_score": 1,
+    "before_proposed_intent": "account_help",
+    "after_proposed_intent": "account_help",
+    "before_ambiguity": false,
+    "after_ambiguity": false,
+    "change": "UNCHANGED_PASS"
+  },
+  {
+    "id": "t074",
+    "before_score": 1,
+    "after_score": 1,
+    "before_proposed_intent": "account_help",
+    "after_proposed_intent": "account_help",
+    "before_ambiguity": false,
+    "after_ambiguity": false,
+    "change": "UNCHANGED_PASS"
+  },
+  {
+    "id": "t075",
+    "before_score": 1,
+    "after_score": 1,
+    "before_proposed_intent": "account_help",
+    "after_proposed_intent": "account_help",
+    "before_ambiguity": false,
+    "after_ambiguity": false,
+    "change": "UNCHANGED_PASS"
+  },
+  {
+    "id": "t076",
+    "before_score": 1,
+    "after_score": 1,
+    "before_proposed_intent": "account_help",
+    "after_proposed_intent": "account_help",
+    "before_ambiguity": false,
+    "after_ambiguity": false,
+    "change": "UNCHANGED_PASS"
+  },
+  {
+    "id": "t077",
+    "before_score": 1,
+    "after_score": 1,
+    "before_proposed_intent": "account_help",
+    "after_proposed_intent": "account_help",
+    "before_ambiguity": false,
+    "after_ambiguity": false,
+    "change": "UNCHANGED_PASS"
+  },
+  {
+    "id": "t078",
+    "before_score": 1,
+    "after_score": 1,
+    "before_proposed_intent": "account_help",
+    "after_proposed_intent": "account_help",
+    "before_ambiguity": false,
+    "after_ambiguity": false,
+    "change": "UNCHANGED_PASS"
+  },
+  {
+    "id": "t079",
+    "before_score": 1,
+    "after_score": 1,
+    "before_proposed_intent": "account_help",
+    "after_proposed_intent": "account_help",
+    "before_ambiguity": false,
+    "after_ambiguity": false,
+    "change": "UNCHANGED_PASS"
+  },
+  {
+    "id": "t080",
+    "before_score": 1,
+    "after_score": 1,
+    "before_proposed_intent": "other",
+    "after_proposed_intent": "other",
+    "before_ambiguity": false,
+    "after_ambiguity": false,
+    "change": "UNCHANGED_PASS"
+  },
+  {
+    "id": "t081",
+    "before_score": 1,
+    "after_score": 1,
+    "before_proposed_intent": "other",
+    "after_proposed_intent": "other",
+    "before_ambiguity": false,
+    "after_ambiguity": false,
+    "change": "UNCHANGED_PASS"
+  },
+  {
+    "id": "t082",
+    "before_score": 1,
+    "after_score": 1,
+    "before_proposed_intent": "other",
+    "after_proposed_intent": "other",
+    "before_ambiguity": false,
+    "after_ambiguity": false,
+    "change": "UNCHANGED_PASS"
+  },
+  {
+    "id": "t083",
+    "before_score": 1,
+    "after_score": 1,
+    "before_proposed_intent": "other",
+    "after_proposed_intent": "other",
+    "before_ambiguity": false,
+    "after_ambiguity": false,
+    "change": "UNCHANGED_PASS"
+  },
+  {
+    "id": "t084",
+    "before_score": 1,
+    "after_score": 1,
+    "before_proposed_intent": "other",
+    "after_proposed_intent": "other",
+    "before_ambiguity": false,
+    "after_ambiguity": false,
+    "change": "UNCHANGED_PASS"
+  },
+  {
+    "id": "t085",
+    "before_score": 1,
+    "after_score": 1,
+    "before_proposed_intent": "other",
+    "after_proposed_intent": "other",
+    "before_ambiguity": false,
+    "after_ambiguity": false,
+    "change": "UNCHANGED_PASS"
+  },
+  {
+    "id": "t086",
+    "before_score": 1,
+    "after_score": 1,
+    "before_proposed_intent": "other",
+    "after_proposed_intent": "other",
+    "before_ambiguity": false,
+    "after_ambiguity": false,
+    "change": "UNCHANGED_PASS"
+  },
+  {
+    "id": "t087",
+    "before_score": 1,
+    "after_score": 1,
+    "before_proposed_intent": "other",
+    "after_proposed_intent": "other",
+    "before_ambiguity": false,
+    "after_ambiguity": false,
+    "change": "UNCHANGED_PASS"
+  },
+  {
+    "id": "t088",
+    "before_score": 1,
+    "after_score": 1,
+    "before_proposed_intent": "other",
+    "after_proposed_intent": "other",
+    "before_ambiguity": false,
+    "after_ambiguity": false,
+    "change": "UNCHANGED_PASS"
+  },
+  {
+    "id": "t089",
+    "before_score": 1,
+    "after_score": 1,
+    "before_proposed_intent": "other",
+    "after_proposed_intent": "other",
+    "before_ambiguity": false,
+    "after_ambiguity": false,
+    "change": "UNCHANGED_PASS"
+  },
+  {
+    "id": "t090",
+    "before_score": 1,
+    "after_score": 1,
+    "before_proposed_intent": "other",
+    "after_proposed_intent": "other",
+    "before_ambiguity": false,
+    "after_ambiguity": false,
+    "change": "UNCHANGED_PASS"
+  },
+  {
+    "id": "t091",
+    "before_score": 1,
+    "after_score": 1,
+    "before_proposed_intent": "other",
+    "after_proposed_intent": "other",
+    "before_ambiguity": false,
+    "after_ambiguity": false,
+    "change": "UNCHANGED_PASS"
+  },
+  {
+    "id": "t092",
+    "before_score": 1,
+    "after_score": 1,
+    "before_proposed_intent": "other",
+    "after_proposed_intent": "other",
+    "before_ambiguity": false,
+    "after_ambiguity": false,
+    "change": "UNCHANGED_PASS"
+  },
+  {
+    "id": "t093",
+    "before_score": 1,
+    "after_score": 1,
+    "before_proposed_intent": "other",
+    "after_proposed_intent": "other",
+    "before_ambiguity": false,
+    "after_ambiguity": false,
+    "change": "UNCHANGED_PASS"
+  },
+  {
+    "id": "t094",
+    "before_score": 1,
+    "after_score": 1,
+    "before_proposed_intent": "other",
+    "after_proposed_intent": "other",
+    "before_ambiguity": false,
+    "after_ambiguity": false,
+    "change": "UNCHANGED_PASS"
+  },
+  {
+    "id": "t095",
+    "before_score": 1,
+    "after_score": 1,
+    "before_proposed_intent": "other",
+    "after_proposed_intent": "other",
+    "before_ambiguity": false,
+    "after_ambiguity": false,
+    "change": "UNCHANGED_PASS"
+  },
+  {
+    "id": "t096",
+    "before_score": 1,
+    "after_score": 1,
+    "before_proposed_intent": "other",
+    "after_proposed_intent": "other",
+    "before_ambiguity": false,
+    "after_ambiguity": false,
+    "change": "UNCHANGED_PASS"
+  },
+  {
+    "id": "t097",
+    "before_score": 1,
+    "after_score": 1,
+    "before_proposed_intent": "other",
+    "after_proposed_intent": "other",
+    "before_ambiguity": false,
+    "after_ambiguity": false,
+    "change": "UNCHANGED_PASS"
+  },
+  {
+    "id": "t098",
+    "before_score": 1,
+    "after_score": 1,
+    "before_proposed_intent": "other",
+    "after_proposed_intent": "other",
+    "before_ambiguity": false,
+    "after_ambiguity": false,
+    "change": "UNCHANGED_PASS"
+  },
+  {
+    "id": "t099",
+    "before_score": 1,
+    "after_score": 1,
+    "before_proposed_intent": "other",
+    "after_proposed_intent": "other",
+    "before_ambiguity": false,
+    "after_ambiguity": false,
+    "change": "UNCHANGED_PASS"
+  }
+]

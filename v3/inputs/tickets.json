@@ -1,0 +1,1002 @@
+[
+  {
+    "id": "t000",
+    "query": "Hi, I ordered a blender 5 days ago and the tracking page hasn't updated. Can you tell me where it is?",
+    "historical_reviewed_intent": "order_status",
+    "v3_policy_intent": "order_status",
+    "baseline_prediction": "order_status",
+    "focused_prediction": "order_status",
+    "source_workbook_row": 6,
+    "label_changed": false
+  },
+  {
+    "id": "t001",
+    "query": "Hello, I placed an order for a blender five days back, but the tracking information hasn't changed at all. Can you please provide an update on its whereabouts?",
+    "historical_reviewed_intent": "order_status",
+    "v3_policy_intent": "order_status",
+    "baseline_prediction": "order_status",
+    "focused_prediction": "order_status",
+    "source_workbook_row": 7,
+    "label_changed": false
+  },
+  {
+    "id": "t002",
+    "query": "Hey, I ordered a blender about five days ago, and the tracking hasn’t shown any progress. What’s going on with my order?",
+    "historical_reviewed_intent": "order_status",
+    "v3_policy_intent": "order_status",
+    "baseline_prediction": "order_status",
+    "focused_prediction": "order_status",
+    "source_workbook_row": 8,
+    "label_changed": false
+  },
+  {
+    "id": "t003",
+    "query": "Hi there, it’s been five days since I ordered my blender, and the tracking status is still the same. Could you let me know what's happening with it?",
+    "historical_reviewed_intent": "order_status",
+    "v3_policy_intent": "order_status",
+    "baseline_prediction": "order_status",
+    "focused_prediction": "order_status",
+    "source_workbook_row": 9,
+    "label_changed": false
+  },
+  {
+    "id": "t004",
+    "query": "I never received my order and I want my money back.",
+    "historical_reviewed_intent": "order_status",
+    "v3_policy_intent": "order_status",
+    "baseline_prediction": "refund_request",
+    "focused_prediction": "order_status",
+    "source_workbook_row": 10,
+    "label_changed": false
+  },
+  {
+    "id": "t005",
+    "query": "I still haven't gotten my order, and I demand a refund immediately.",
+    "historical_reviewed_intent": "order_status",
+    "v3_policy_intent": "order_status",
+    "baseline_prediction": "refund_request",
+    "focused_prediction": "order_status",
+    "source_workbook_row": 11,
+    "label_changed": false
+  },
+  {
+    "id": "t006",
+    "query": "Can someone please help me? My order hasn't arrived, and I'm looking for a full refund.",
+    "historical_reviewed_intent": "order_status",
+    "v3_policy_intent": "order_status",
+    "baseline_prediction": "refund_request",
+    "focused_prediction": "order_status",
+    "source_workbook_row": 12,
+    "label_changed": false
+  },
+  {
+    "id": "t007",
+    "query": "I can't believe this! My order is missing, and I want my money back right away.",
+    "historical_reviewed_intent": "order_status",
+    "v3_policy_intent": "order_status",
+    "baseline_prediction": "refund_request",
+    "focused_prediction": "order_status",
+    "source_workbook_row": 13,
+    "label_changed": false
+  },
+  {
+    "id": "t008",
+    "query": "Order shows delivered last Tuesday but it's not at my door, my neighbor's, or the mailroom. What now?",
+    "historical_reviewed_intent": "order_status",
+    "v3_policy_intent": "order_status",
+    "baseline_prediction": "order_status",
+    "focused_prediction": "order_status",
+    "source_workbook_row": 14,
+    "label_changed": false
+  },
+  {
+    "id": "t009",
+    "query": "I see that my order was marked as delivered last Tuesday, but it hasn't arrived at my place, my neighbor's, or even in the mailroom. What should I do next?",
+    "historical_reviewed_intent": "order_status",
+    "v3_policy_intent": "order_status",
+    "baseline_prediction": "order_status",
+    "focused_prediction": "order_status",
+    "source_workbook_row": 15,
+    "label_changed": false
+  },
+  {
+    "id": "t010",
+    "query": "According to the tracking, my package was delivered last Tuesday, yet I can't find it anywhere—neither at my doorstep nor at my neighbor's nor in the mailroom. What happens now?",
+    "historical_reviewed_intent": "order_status",
+    "v3_policy_intent": "order_status",
+    "baseline_prediction": "order_status",
+    "focused_prediction": "order_status",
+    "source_workbook_row": 16,
+    "label_changed": false
+  },
+  {
+    "id": "t011",
+    "query": "So my order says it was delivered last Tuesday, but surprise, surprise! I haven't seen it at my door, my neighbor's, or even in the mailroom. What gives?",
+    "historical_reviewed_intent": "order_status",
+    "v3_policy_intent": "order_status",
+    "baseline_prediction": "order_status",
+    "focused_prediction": "order_status",
+    "source_workbook_row": 17,
+    "label_changed": false
+  },
+  {
+    "id": "t012",
+    "query": "The website said 2-day shipping. It's been 9 days. Are you kidding me?",
+    "historical_reviewed_intent": "order_status",
+    "v3_policy_intent": "order_status",
+    "baseline_prediction": "order_status",
+    "focused_prediction": "order_status",
+    "source_workbook_row": 18,
+    "label_changed": false
+  },
+  {
+    "id": "t013",
+    "query": "I was promised 2-day shipping, but it has now been 9 days! This is ridiculous!",
+    "historical_reviewed_intent": "order_status",
+    "v3_policy_intent": "order_status",
+    "baseline_prediction": "order_status",
+    "focused_prediction": "order_status",
+    "source_workbook_row": 19,
+    "label_changed": false
+  },
+  {
+    "id": "t014",
+    "query": "I ordered my items expecting them to arrive in 2 days as your site said, but here I am 9 days later with no package. What is going on?",
+    "historical_reviewed_intent": "order_status",
+    "v3_policy_intent": "order_status",
+    "baseline_prediction": "order_status",
+    "focused_prediction": "order_status",
+    "source_workbook_row": 20,
+    "label_changed": false
+  },
+  {
+    "id": "t015",
+    "query": "I thought I paid for 2-day shipping. It’s been 9 days already—what’s taking so long?",
+    "historical_reviewed_intent": "order_status",
+    "v3_policy_intent": "order_status",
+    "baseline_prediction": "order_status",
+    "focused_prediction": "order_status",
+    "source_workbook_row": 21,
+    "label_changed": false
+  },
+  {
+    "id": "t016",
+    "query": "Tracking link in the email just spins forever. Order #88421.",
+    "historical_reviewed_intent": "order_status",
+    "v3_policy_intent": "order_status",
+    "baseline_prediction": "order_status",
+    "focused_prediction": "order_status",
+    "source_workbook_row": 22,
+    "label_changed": false
+  },
+  {
+    "id": "t017",
+    "query": "The tracking link I received in the email just keeps loading endlessly. My order number is 88421.",
+    "historical_reviewed_intent": "order_status",
+    "v3_policy_intent": "order_status",
+    "baseline_prediction": "order_status",
+    "focused_prediction": "order_status",
+    "source_workbook_row": 23,
+    "label_changed": false
+  },
+  {
+    "id": "t018",
+    "query": "I'm having a bit of trouble with the tracking link; it just keeps spinning and won't load. This is for order #88421.",
+    "historical_reviewed_intent": "order_status",
+    "v3_policy_intent": "order_status",
+    "baseline_prediction": "order_status",
+    "focused_prediction": "order_status",
+    "source_workbook_row": 24,
+    "label_changed": false
+  },
+  {
+    "id": "t019",
+    "query": "The tracking URL in the email is stuck in a loop. Can you check on my order #88421?",
+    "historical_reviewed_intent": "order_status",
+    "v3_policy_intent": "order_status",
+    "baseline_prediction": "order_status",
+    "focused_prediction": "order_status",
+    "source_workbook_row": 25,
+    "label_changed": false
+  },
+  {
+    "id": "t020",
+    "query": "I'd like to return the headphones I bought last week and get my money back. They're unopened.",
+    "historical_reviewed_intent": "refund_request",
+    "v3_policy_intent": "refund_request",
+    "baseline_prediction": "refund_request",
+    "focused_prediction": "refund_request",
+    "source_workbook_row": 26,
+    "label_changed": false
+  },
+  {
+    "id": "t021",
+    "query": "I want to return the unopened headphones I purchased last week and get a refund. This is so frustrating!",
+    "historical_reviewed_intent": "refund_request",
+    "v3_policy_intent": "refund_request",
+    "baseline_prediction": "refund_request",
+    "focused_prediction": "refund_request",
+    "source_workbook_row": 27,
+    "label_changed": false
+  },
+  {
+    "id": "t022",
+    "query": "Hello, I would like to initiate a return for the headphones I ordered last week. They are still in their original packaging, and I would appreciate a full refund. Thank you!",
+    "historical_reviewed_intent": "refund_request",
+    "v3_policy_intent": "refund_request",
+    "baseline_prediction": "refund_request",
+    "focused_prediction": "refund_request",
+    "source_workbook_row": 28,
+    "label_changed": false
+  },
+  {
+    "id": "t023",
+    "query": "I'm trying to return the headphones I bought last week; they're still sealed. Can I get my money back?",
+    "historical_reviewed_intent": "refund_request",
+    "v3_policy_intent": "refund_request",
+    "baseline_prediction": "refund_request",
+    "focused_prediction": "refund_request",
+    "source_workbook_row": 29,
+    "label_changed": false
+  },
+  {
+    "id": "t024",
+    "query": "Where is my refund? I returned the item two weeks ago and still nothing on my card.",
+    "historical_reviewed_intent": "refund_request",
+    "v3_policy_intent": "refund_request",
+    "baseline_prediction": "refund_request",
+    "focused_prediction": "order_status",
+    "source_workbook_row": 30,
+    "label_changed": false
+  },
+  {
+    "id": "t025",
+    "query": "I'm really frustrated right now! I sent back my order, number 2345, two weeks ago, and I've yet to see my refund hit my credit card. What’s the hold-up?",
+    "historical_reviewed_intent": "refund_request",
+    "v3_policy_intent": "refund_request",
+    "baseline_prediction": "refund_request",
+    "focused_prediction": "order_status",
+    "source_workbook_row": 31,
+    "label_changed": false
+  },
+  {
+    "id": "t026",
+    "query": "Hi there, I hope you’re doing well. I wanted to inquire about my refund for the item I returned (order #9876) two weeks ago; unfortunately, it hasn’t appeared on my card yet. Could you please help me with this?",
+    "historical_reviewed_intent": "refund_request",
+    "v3_policy_intent": "refund_request",
+    "baseline_prediction": "refund_request",
+    "focused_prediction": "order_status",
+    "source_workbook_row": 32,
+    "label_changed": false
+  },
+  {
+    "id": "t027",
+    "query": "Hey, can someone tell me what's going on with my refund? It’s been two weeks since I returned the item (order #5432) and I still haven't seen anything on my card. This is getting ridiculous!",
+    "historical_reviewed_intent": "refund_request",
+    "v3_policy_intent": "refund_request",
+    "baseline_prediction": "refund_request",
+    "focused_prediction": "order_status",
+    "source_workbook_row": 33,
+    "label_changed": false
+  },
+  {
+    "id": "t028",
+    "query": "Please cancel order 99021 and refund my card. I no longer need it.",
+    "historical_reviewed_intent": "refund_request",
+    "v3_policy_intent": "refund_request",
+    "baseline_prediction": "refund_request",
+    "focused_prediction": "order_status",
+    "source_workbook_row": 34,
+    "label_changed": false
+  },
+  {
+    "id": "t029",
+    "query": "I'm really frustrated right now. Can you please cancel my order 99021 and process a refund to my card? I don't need this anymore.",
+    "historical_reviewed_intent": "refund_request",
+    "v3_policy_intent": "refund_request",
+    "baseline_prediction": "refund_request",
+    "focused_prediction": "order_status",
+    "source_workbook_row": 35,
+    "label_changed": false
+  },
+  {
+    "id": "t030",
+    "query": "Hi there, I hope you're well! I would appreciate it if you could cancel my order 99021 and issue a refund to my card, as I've changed my mind on the purchase. Thank you!",
+    "historical_reviewed_intent": "refund_request",
+    "v3_policy_intent": "refund_request",
+    "baseline_prediction": "refund_request",
+    "focused_prediction": "refund_request",
+    "source_workbook_row": 36,
+    "label_changed": false
+  },
+  {
+    "id": "t031",
+    "query": "Order 99021—please cancel and refund my card. I'm not interested anymore.",
+    "historical_reviewed_intent": "refund_request",
+    "v3_policy_intent": "refund_request",
+    "baseline_prediction": "refund_request",
+    "focused_prediction": "refund_request",
+    "source_workbook_row": 37,
+    "label_changed": false
+  },
+  {
+    "id": "t032",
+    "query": "I was charged $89 but the website showed $79 at checkout. Please refund the difference.",
+    "historical_reviewed_intent": "refund_request",
+    "v3_policy_intent": "refund_request",
+    "baseline_prediction": "refund_request",
+    "focused_prediction": "refund_request",
+    "source_workbook_row": 38,
+    "label_changed": false
+  },
+  {
+    "id": "t033",
+    "query": "I can't believe I was charged $89 when the checkout clearly said $79. This is ridiculous! Please refund the extra $10 immediately!",
+    "historical_reviewed_intent": "refund_request",
+    "v3_policy_intent": "refund_request",
+    "baseline_prediction": "refund_request",
+    "focused_prediction": "refund_request",
+    "source_workbook_row": 39,
+    "label_changed": false
+  },
+  {
+    "id": "t034",
+    "query": "Hello, I noticed that I ended up paying $89 for my order, but it should have been $79 according to the checkout page. Could you assist me by refunding the difference? Thank you!",
+    "historical_reviewed_intent": "refund_request",
+    "v3_policy_intent": "refund_request",
+    "baseline_prediction": "refund_request",
+    "focused_prediction": "refund_request",
+    "source_workbook_row": 40,
+    "label_changed": false
+  },
+  {
+    "id": "t035",
+    "query": "I was expecting to pay $79 as advertised, but somehow I got charged $89. Can you please fix this and refund me the difference?",
+    "historical_reviewed_intent": "refund_request",
+    "v3_policy_intent": "refund_request",
+    "baseline_prediction": "refund_request",
+    "focused_prediction": "refund_request",
+    "source_workbook_row": 41,
+    "label_changed": false
+  },
+  {
+    "id": "t036",
+    "query": "Returning these for store credit is fine but honestly I'd prefer cash back to my original card.",
+    "historical_reviewed_intent": "refund_request",
+    "v3_policy_intent": "refund_request",
+    "baseline_prediction": "refund_request",
+    "focused_prediction": "refund_request",
+    "source_workbook_row": 42,
+    "label_changed": false
+  },
+  {
+    "id": "t037",
+    "query": "I want to return these for store credit, but to be honest, I'd much rather have a refund to my card instead.",
+    "historical_reviewed_intent": "refund_request",
+    "v3_policy_intent": "refund_request",
+    "baseline_prediction": "refund_request",
+    "focused_prediction": "refund_request",
+    "source_workbook_row": 43,
+    "label_changed": false
+  },
+  {
+    "id": "t038",
+    "query": "I guess store credit is okay for returning these, but honestly, I'd really prefer getting my money back to the card I used.",
+    "historical_reviewed_intent": "refund_request",
+    "v3_policy_intent": "refund_request",
+    "baseline_prediction": "refund_request",
+    "focused_prediction": "refund_request",
+    "source_workbook_row": 44,
+    "label_changed": false
+  },
+  {
+    "id": "t039",
+    "query": "While returning these for store credit works, I would much rather receive a cash refund back onto my original card, if possible.",
+    "historical_reviewed_intent": "refund_request",
+    "v3_policy_intent": "refund_request",
+    "baseline_prediction": "refund_request",
+    "focused_prediction": "refund_request",
+    "source_workbook_row": 45,
+    "label_changed": false
+  },
+  {
+    "id": "t040",
+    "query": "The coffee maker arrived with a cracked carafe. Really disappointed.",
+    "historical_reviewed_intent": "product_issue",
+    "v3_policy_intent": "product_issue",
+    "baseline_prediction": "product_issue",
+    "focused_prediction": "product_issue",
+    "source_workbook_row": 46,
+    "label_changed": false
+  },
+  {
+    "id": "t041",
+    "query": "I can't believe the coffee maker I ordered came with a shattered carafe. What a letdown!",
+    "historical_reviewed_intent": "product_issue",
+    "v3_policy_intent": "product_issue",
+    "baseline_prediction": "product_issue",
+    "focused_prediction": "product_issue",
+    "source_workbook_row": 47,
+    "label_changed": false
+  },
+  {
+    "id": "t042",
+    "query": "Hi, I received my coffee maker today, but the carafe is broken. I'm quite upset about this.",
+    "historical_reviewed_intent": "product_issue",
+    "v3_policy_intent": "product_issue",
+    "baseline_prediction": "product_issue",
+    "focused_prediction": "product_issue",
+    "source_workbook_row": 48,
+    "label_changed": false
+  },
+  {
+    "id": "t043",
+    "query": "Order #12345 just arrived, and guess what? The carafe on the coffee maker is cracked. This is so disappointing!",
+    "historical_reviewed_intent": "product_issue",
+    "v3_policy_intent": "product_issue",
+    "baseline_prediction": "product_issue",
+    "focused_prediction": "product_issue",
+    "source_workbook_row": 49,
+    "label_changed": false
+  },
+  {
+    "id": "t044",
+    "query": "My laptop arrived damaged and I want a full refund, not a replacement.",
+    "historical_reviewed_intent": "product_issue",
+    "v3_policy_intent": "product_issue",
+    "baseline_prediction": "refund_request",
+    "focused_prediction": "product_issue",
+    "source_workbook_row": 50,
+    "label_changed": false
+  },
+  {
+    "id": "t045",
+    "query": "I received my laptop in awful condition and I'm not interested in a replacement. I just want my money back, please.",
+    "historical_reviewed_intent": "product_issue",
+    "v3_policy_intent": "product_issue",
+    "baseline_prediction": "refund_request",
+    "focused_prediction": "product_issue",
+    "source_workbook_row": 51,
+    "label_changed": false
+  },
+  {
+    "id": "t046",
+    "query": "Hey, my laptop showed up damaged, and I would prefer to get a full refund instead of receiving a new one.",
+    "historical_reviewed_intent": "refund_request",
+    "v3_policy_intent": "product_issue",
+    "baseline_prediction": "refund_request",
+    "focused_prediction": "product_issue",
+    "source_workbook_row": 52,
+    "label_changed": true
+  },
+  {
+    "id": "t047",
+    "query": "The laptop I ordered is broken, and I refuse to accept a replacement. I simply want a complete refund.",
+    "historical_reviewed_intent": "product_issue",
+    "v3_policy_intent": "product_issue",
+    "baseline_prediction": "refund_request",
+    "focused_prediction": "product_issue",
+    "source_workbook_row": 53,
+    "label_changed": false
+  },
+  {
+    "id": "t048",
+    "query": "You sent me a size medium shirt but I ordered a large. Second time this has happened.",
+    "historical_reviewed_intent": "product_issue",
+    "v3_policy_intent": "product_issue",
+    "baseline_prediction": "product_issue",
+    "focused_prediction": "product_issue",
+    "source_workbook_row": 54,
+    "label_changed": false
+  },
+  {
+    "id": "t049",
+    "query": "I'm really frustrated because you sent me a medium shirt instead of the large I ordered. This is the second time I've experienced this issue!",
+    "historical_reviewed_intent": "product_issue",
+    "v3_policy_intent": "product_issue",
+    "baseline_prediction": "product_issue",
+    "focused_prediction": "product_issue",
+    "source_workbook_row": 55,
+    "label_changed": false
+  },
+  {
+    "id": "t050",
+    "query": "I've received a medium shirt when I clearly ordered a large. This is getting ridiculous; it's already happened once before!",
+    "historical_reviewed_intent": "product_issue",
+    "v3_policy_intent": "product_issue",
+    "baseline_prediction": "product_issue",
+    "focused_prediction": "product_issue",
+    "source_workbook_row": 56,
+    "label_changed": false
+  },
+  {
+    "id": "t051",
+    "query": "It’s unfortunate that I was sent a medium shirt instead of the large I requested. This is the second occurrence of this problem and it’s quite disappointing.",
+    "historical_reviewed_intent": "product_issue",
+    "v3_policy_intent": "product_issue",
+    "baseline_prediction": "product_issue",
+    "focused_prediction": "product_issue",
+    "source_workbook_row": 57,
+    "label_changed": false
+  },
+  {
+    "id": "t052",
+    "query": "The product description said 'wireless' but I had to buy a separate dongle to use it. Misleading.",
+    "historical_reviewed_intent": "product_issue",
+    "v3_policy_intent": "product_issue",
+    "baseline_prediction": "product_issue",
+    "focused_prediction": "product_issue",
+    "source_workbook_row": 58,
+    "label_changed": false
+  },
+  {
+    "id": "t053",
+    "query": "I can't believe the product is advertised as 'wireless' and yet I needed to purchase an additional dongle to make it work. This feels very misleading.",
+    "historical_reviewed_intent": "product_issue",
+    "v3_policy_intent": "product_issue",
+    "baseline_prediction": "product_issue",
+    "focused_prediction": "product_issue",
+    "source_workbook_row": 59,
+    "label_changed": false
+  },
+  {
+    "id": "t054",
+    "query": "I thought I was getting a wireless device, but I had to go and buy a dongle separately just to use it. This is quite deceiving.",
+    "historical_reviewed_intent": "product_issue",
+    "v3_policy_intent": "product_issue",
+    "baseline_prediction": "product_issue",
+    "focused_prediction": "product_issue",
+    "source_workbook_row": 60,
+    "label_changed": false
+  },
+  {
+    "id": "t055",
+    "query": "It's frustrating to see that the item I ordered, which was labeled as 'wireless', actually requires a separate dongle to function. That's definitely not what I expected.",
+    "historical_reviewed_intent": "product_issue",
+    "v3_policy_intent": "product_issue",
+    "baseline_prediction": "product_issue",
+    "focused_prediction": "product_issue",
+    "source_workbook_row": 61,
+    "label_changed": false
+  },
+  {
+    "id": "t056",
+    "query": "Item itself works fine but the box was crushed and the instruction manual is missing.",
+    "historical_reviewed_intent": "product_issue",
+    "v3_policy_intent": "product_issue",
+    "baseline_prediction": "product_issue",
+    "focused_prediction": "product_issue",
+    "source_workbook_row": 62,
+    "label_changed": false
+  },
+  {
+    "id": "t057",
+    "query": "The item is functional, but the package arrived damaged, and there's no instruction manual included.",
+    "historical_reviewed_intent": "product_issue",
+    "v3_policy_intent": "product_issue",
+    "baseline_prediction": "product_issue",
+    "focused_prediction": "product_issue",
+    "source_workbook_row": 63,
+    "label_changed": false
+  },
+  {
+    "id": "t058",
+    "query": "I received my order, and while the product itself is okay, the box is all smashed up, and I can't find the instructions anywhere.",
+    "historical_reviewed_intent": "product_issue",
+    "v3_policy_intent": "product_issue",
+    "baseline_prediction": "product_issue",
+    "focused_prediction": "product_issue",
+    "source_workbook_row": 64,
+    "label_changed": false
+  },
+  {
+    "id": "t059",
+    "query": "The item works great, but I'm really disappointed that the box is completely wrecked and I didn’t get the manual.",
+    "historical_reviewed_intent": "product_issue",
+    "v3_policy_intent": "product_issue",
+    "baseline_prediction": "product_issue",
+    "focused_prediction": "product_issue",
+    "source_workbook_row": 65,
+    "label_changed": false
+  },
+  {
+    "id": "t060",
+    "query": "I can't log into my account — it keeps saying my password is wrong even after I reset it.",
+    "historical_reviewed_intent": "account_help",
+    "v3_policy_intent": "account_help",
+    "baseline_prediction": "account_help",
+    "focused_prediction": "account_help",
+    "source_workbook_row": 66,
+    "label_changed": false
+  },
+  {
+    "id": "t061",
+    "query": "I've been trying to log into my account, but every time I do, it tells me my password is incorrect, even though I just reset it! This is so frustrating!",
+    "historical_reviewed_intent": "account_help",
+    "v3_policy_intent": "account_help",
+    "baseline_prediction": "account_help",
+    "focused_prediction": "account_help",
+    "source_workbook_row": 67,
+    "label_changed": false
+  },
+  {
+    "id": "t062",
+    "query": "Hello, I'm having trouble accessing my account. It keeps rejecting my password, despite the fact that I recently reset it. Could you please assist?",
+    "historical_reviewed_intent": "account_help",
+    "v3_policy_intent": "account_help",
+    "baseline_prediction": "account_help",
+    "focused_prediction": "account_help",
+    "source_workbook_row": 68,
+    "label_changed": false
+  },
+  {
+    "id": "t063",
+    "query": "Ugh, I can't seem to get into my account — it keeps claiming my password is invalid, even though I just changed it. What’s going on?",
+    "historical_reviewed_intent": "account_help",
+    "v3_policy_intent": "account_help",
+    "baseline_prediction": "account_help",
+    "focused_prediction": "account_help",
+    "source_workbook_row": 69,
+    "label_changed": false
+  },
+  {
+    "id": "t064",
+    "query": "How do I update the credit card on file? I don't see the option anywhere in settings.",
+    "historical_reviewed_intent": "account_help",
+    "v3_policy_intent": "account_help",
+    "baseline_prediction": "account_help",
+    "focused_prediction": "account_help",
+    "source_workbook_row": 70,
+    "label_changed": false
+  },
+  {
+    "id": "t065",
+    "query": "I've been trying to figure out how to change my credit card info, but honestly, I can't find any option for it in the settings. Can someone help?",
+    "historical_reviewed_intent": "account_help",
+    "v3_policy_intent": "account_help",
+    "baseline_prediction": "account_help",
+    "focused_prediction": "account_help",
+    "source_workbook_row": 71,
+    "label_changed": false
+  },
+  {
+    "id": "t066",
+    "query": "Excuse me, but I can't seem to locate where to update my credit card on your site. It's not showing up in the settings. Would you enlighten me?",
+    "historical_reviewed_intent": "account_help",
+    "v3_policy_intent": "account_help",
+    "baseline_prediction": "account_help",
+    "focused_prediction": "account_help",
+    "source_workbook_row": 72,
+    "label_changed": false
+  },
+  {
+    "id": "t067",
+    "query": "I need to switch the credit card linked to my account, but there's no option in the settings menu. It's quite frustrating! Can someone point me in the right direction?",
+    "historical_reviewed_intent": "account_help",
+    "v3_policy_intent": "account_help",
+    "baseline_prediction": "account_help",
+    "focused_prediction": "account_help",
+    "source_workbook_row": 73,
+    "label_changed": false
+  },
+  {
+    "id": "t068",
+    "query": "The website won't let me check out — it keeps logging me out mid-payment.",
+    "historical_reviewed_intent": "account_help",
+    "v3_policy_intent": "account_help",
+    "baseline_prediction": "account_help",
+    "focused_prediction": "account_help",
+    "source_workbook_row": 74,
+    "label_changed": false
+  },
+  {
+    "id": "t069",
+    "query": "I'm really frustrated — every time I try to complete my order for the new gaming headset, the site logs me out right before the payment step.",
+    "historical_reviewed_intent": "account_help",
+    "v3_policy_intent": "account_help",
+    "baseline_prediction": "account_help",
+    "focused_prediction": "account_help",
+    "source_workbook_row": 75,
+    "label_changed": false
+  },
+  {
+    "id": "t070",
+    "query": "Could you please help me? I’m trying to buy the yoga mat I have in my cart, but the website keeps signing me out just as I’m about to pay.",
+    "historical_reviewed_intent": "account_help",
+    "v3_policy_intent": "account_help",
+    "baseline_prediction": "account_help",
+    "focused_prediction": "account_help",
+    "source_workbook_row": 76,
+    "label_changed": false
+  },
+  {
+    "id": "t071",
+    "query": "I’m having a really annoying issue with my order #34567 for the Bluetooth speaker. The checkout process keeps logging me out, which is quite inconvenient.",
+    "historical_reviewed_intent": "account_help",
+    "v3_policy_intent": "account_help",
+    "baseline_prediction": "account_help",
+    "focused_prediction": "account_help",
+    "source_workbook_row": 77,
+    "label_changed": false
+  },
+  {
+    "id": "t072",
+    "query": "Please remove my old shipping address. I moved last month and don't want stuff going there.",
+    "historical_reviewed_intent": "account_help",
+    "v3_policy_intent": "account_help",
+    "baseline_prediction": "account_help",
+    "focused_prediction": "account_help",
+    "source_workbook_row": 78,
+    "label_changed": false
+  },
+  {
+    "id": "t073",
+    "query": "Hi, I need help with my shipping details. I changed my address last month and I don't want any deliveries sent to my old place anymore. Please take care of this ASAP! Thanks!",
+    "historical_reviewed_intent": "account_help",
+    "v3_policy_intent": "account_help",
+    "baseline_prediction": "account_help",
+    "focused_prediction": "account_help",
+    "source_workbook_row": 79,
+    "label_changed": false
+  },
+  {
+    "id": "t074",
+    "query": "Could you please update my shipping address? I relocated last month, and I really don't want my items being sent to my previous location. Thanks for your assistance.",
+    "historical_reviewed_intent": "account_help",
+    "v3_policy_intent": "account_help",
+    "baseline_prediction": "account_help",
+    "focused_prediction": "account_help",
+    "source_workbook_row": 80,
+    "label_changed": false
+  },
+  {
+    "id": "t075",
+    "query": "Hey, I just noticed that my old address is still on file, and I moved a month ago. Can you make sure that nothing gets shipped there? That would be great.",
+    "historical_reviewed_intent": "account_help",
+    "v3_policy_intent": "account_help",
+    "baseline_prediction": "account_help",
+    "focused_prediction": "account_help",
+    "source_workbook_row": 81,
+    "label_changed": false
+  },
+  {
+    "id": "t076",
+    "query": "I keep getting 2FA codes I didn't request. Is someone trying to access my account?",
+    "historical_reviewed_intent": "account_help",
+    "v3_policy_intent": "account_help",
+    "baseline_prediction": "account_help",
+    "focused_prediction": "account_help",
+    "source_workbook_row": 82,
+    "label_changed": false
+  },
+  {
+    "id": "t077",
+    "query": "I've been receiving 2FA codes that I never asked for. Is someone attempting to break into my account?",
+    "historical_reviewed_intent": "account_help",
+    "v3_policy_intent": "account_help",
+    "baseline_prediction": "account_help",
+    "focused_prediction": "account_help",
+    "source_workbook_row": 83,
+    "label_changed": false
+  },
+  {
+    "id": "t078",
+    "query": "I've noticed I'm getting multiple 2FA codes sent to me that I didn't request. Can someone clarify if my account is being compromised?",
+    "historical_reviewed_intent": "account_help",
+    "v3_policy_intent": "account_help",
+    "baseline_prediction": "account_help",
+    "focused_prediction": "account_help",
+    "source_workbook_row": 84,
+    "label_changed": false
+  },
+  {
+    "id": "t079",
+    "query": "Why am I suddenly getting 2FA codes that I didn't ask for? Is there a chance my account has been hacked?",
+    "historical_reviewed_intent": "account_help",
+    "v3_policy_intent": "account_help",
+    "baseline_prediction": "account_help",
+    "focused_prediction": "account_help",
+    "source_workbook_row": 85,
+    "label_changed": false
+  },
+  {
+    "id": "t080",
+    "query": "Do you guys ship to Canada? Couldn't find it on the FAQ page.",
+    "historical_reviewed_intent": "other",
+    "v3_policy_intent": "other",
+    "baseline_prediction": "other",
+    "focused_prediction": "other",
+    "source_workbook_row": 86,
+    "label_changed": false
+  },
+  {
+    "id": "t081",
+    "query": "Hey, do you even ship to Canada? I searched the FAQ and it’s not there. What’s the deal?",
+    "historical_reviewed_intent": "other",
+    "v3_policy_intent": "other",
+    "baseline_prediction": "other",
+    "focused_prediction": "other",
+    "source_workbook_row": 87,
+    "label_changed": false
+  },
+  {
+    "id": "t082",
+    "query": "Hi there! I was wondering if you ship to Canada because I didn’t see that info in the FAQ section. Can you help?",
+    "historical_reviewed_intent": "other",
+    "v3_policy_intent": "other",
+    "baseline_prediction": "other",
+    "focused_prediction": "other",
+    "source_workbook_row": 88,
+    "label_changed": false
+  },
+  {
+    "id": "t083",
+    "query": "Quick question: do you ship to Canada? I couldn’t find any mention of it on the FAQ page.",
+    "historical_reviewed_intent": "other",
+    "v3_policy_intent": "other",
+    "baseline_prediction": "other",
+    "focused_prediction": "other",
+    "source_workbook_row": 89,
+    "label_changed": false
+  },
+  {
+    "id": "t084",
+    "query": "Just wanted to say the customer service rep I spoke to yesterday was amazing. Thank you!",
+    "historical_reviewed_intent": "other",
+    "v3_policy_intent": "other",
+    "baseline_prediction": "other",
+    "focused_prediction": "other",
+    "source_workbook_row": 90,
+    "label_changed": false
+  },
+  {
+    "id": "t085",
+    "query": "I'm really impressed with the customer service representative I talked to yesterday. They were fantastic, thanks a lot!",
+    "historical_reviewed_intent": "other",
+    "v3_policy_intent": "other",
+    "baseline_prediction": "other",
+    "focused_prediction": "other",
+    "source_workbook_row": 91,
+    "label_changed": false
+  },
+  {
+    "id": "t086",
+    "query": "I just have to mention that the support agent I had yesterday was incredible. I appreciate it!",
+    "historical_reviewed_intent": "other",
+    "v3_policy_intent": "other",
+    "baseline_prediction": "other",
+    "focused_prediction": "other",
+    "source_workbook_row": 92,
+    "label_changed": false
+  },
+  {
+    "id": "t087",
+    "query": "Shoutout to the customer service person I spoke with yesterday; they were really helpful. Thanks a million!",
+    "historical_reviewed_intent": "other",
+    "v3_policy_intent": "other",
+    "baseline_prediction": "other",
+    "focused_prediction": "other",
+    "source_workbook_row": 93,
+    "label_changed": false
+  },
+  {
+    "id": "t088",
+    "query": "Is the red version of SKU-1140 back in stock?",
+    "historical_reviewed_intent": "other",
+    "v3_policy_intent": "other",
+    "baseline_prediction": "other",
+    "focused_prediction": "other",
+    "source_workbook_row": 94,
+    "label_changed": false
+  },
+  {
+    "id": "t089",
+    "query": "I was wondering if the red SKU-1140 is available again? It's been a while and I really need it!",
+    "historical_reviewed_intent": "other",
+    "v3_policy_intent": "other",
+    "baseline_prediction": "other",
+    "focused_prediction": "other",
+    "source_workbook_row": 95,
+    "label_changed": false
+  },
+  {
+    "id": "t090",
+    "query": "Could you let me know when the red variant of SKU-1140 will be restocked? I'm quite eager to buy it!",
+    "historical_reviewed_intent": "other",
+    "v3_policy_intent": "other",
+    "baseline_prediction": "other",
+    "focused_prediction": "other",
+    "source_workbook_row": 96,
+    "label_changed": false
+  },
+  {
+    "id": "t091",
+    "query": "Hey, is the red SKU-1140 back in stock yet? It feels like forever since I last checked.",
+    "historical_reviewed_intent": "other",
+    "v3_policy_intent": "other",
+    "baseline_prediction": "other",
+    "focused_prediction": "other",
+    "source_workbook_row": 97,
+    "label_changed": false
+  },
+  {
+    "id": "t092",
+    "query": "Do you offer a student discount? Couldn't find one at checkout.",
+    "historical_reviewed_intent": "other",
+    "v3_policy_intent": "other",
+    "baseline_prediction": "other",
+    "focused_prediction": "other",
+    "source_workbook_row": 98,
+    "label_changed": false
+  },
+  {
+    "id": "t093",
+    "query": "I'm really disappointed that I can't find a student discount option. Do you guys even offer one? My order number is 12345.",
+    "historical_reviewed_intent": "other",
+    "v3_policy_intent": "other",
+    "baseline_prediction": "other",
+    "focused_prediction": "other",
+    "source_workbook_row": 99,
+    "label_changed": false
+  },
+  {
+    "id": "t094",
+    "query": "Excuse me, but I was hoping to use a student discount on my order, but I didn't see it available at checkout. Can you help me out with that? My invoice number is 67890.",
+    "historical_reviewed_intent": "other",
+    "v3_policy_intent": "other",
+    "baseline_prediction": "other",
+    "focused_prediction": "other",
+    "source_workbook_row": 100,
+    "label_changed": false
+  },
+  {
+    "id": "t095",
+    "query": "Hey, I'm trying to check out but I don't see any student discount. Do you offer that at all? My order is ABC123.",
+    "historical_reviewed_intent": "other",
+    "v3_policy_intent": "other",
+    "baseline_prediction": "other",
+    "focused_prediction": "other",
+    "source_workbook_row": 101,
+    "label_changed": false
+  },
+  {
+    "id": "t096",
+    "query": "When's your next sale? My birthday is coming up and I'd love to splurge.",
+    "historical_reviewed_intent": "other",
+    "v3_policy_intent": "other",
+    "baseline_prediction": "other",
+    "focused_prediction": "other",
+    "source_workbook_row": 102,
+    "label_changed": false
+  },
+  {
+    "id": "t097",
+    "query": "Could you please tell me when your next sale is? My birthday is approaching, and I would really like to treat myself.",
+    "historical_reviewed_intent": "other",
+    "v3_policy_intent": "other",
+    "baseline_prediction": "other",
+    "focused_prediction": "other",
+    "source_workbook_row": 103,
+    "label_changed": false
+  },
+  {
+    "id": "t098",
+    "query": "I am curious about your upcoming sale dates. My birthday is around the corner, and I want to indulge a bit!",
+    "historical_reviewed_intent": "other",
+    "v3_policy_intent": "other",
+    "baseline_prediction": "other",
+    "focused_prediction": "other",
+    "source_workbook_row": 104,
+    "label_changed": false
+  },
+  {
+    "id": "t099",
+    "query": "Hey, any idea when you’re having your next sale? My birthday is soon, and I'm eager to go all out on some shopping.",
+    "historical_reviewed_intent": "other",
+    "v3_policy_intent": "other",
+    "baseline_prediction": "other",
+    "focused_prediction": "other",
+    "source_workbook_row": 105,
+    "label_changed": false
+  }
+]

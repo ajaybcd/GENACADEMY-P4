@@ -1,0 +1,5 @@
+FINAL V3 LLM JUDGE RESULTS
+
+Rubric v1: 99/100. Rubric v2: 100/100 after a general billing/refund clarification and a full new 100-assessment run. Only t033 changed score, zero regressions. Classifier Exact Match stayed 100/100. The old t033 automated 0, separate participant review 1, and new automated 1 remain separate. Twelve ambiguity flags remain, all passing. This is calibration on known data, not independent validation.
+
+Historical baseline/focused judge results: 92/100 and 93/100 from 200 saved-output assessments following a 16-assessment pilot. See llm-judge/ for frozen original evidence.

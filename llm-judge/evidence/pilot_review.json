@@ -1,0 +1,12 @@
+{
+  "decision": "PROCEED",
+  "reviewer": "Codex AI-assisted technical review; not participant approval",
+  "reviewed_at": "2026-10-31T03:07:39.042899+00:00",
+  "rubric_sha256": "a0f7babda76f86a7a229671e158e677b3db9dd909062b6092dd427d88e3339c3",
+  "valid_assessments": 16,
+  "failed_attempts": 8,
+  "routing_check": "All 16 accepted rationales inspected against frozen policy: delivery t000; non-delivery refund t004; post-return missing refund t024; unwanted cancellation t028; damaged refund t044/t046; login t060; discount t094. All apply the stated rule. Both predictions yield matching proposed intents on each pilot ticket.",
+  "limitations": "Pilot is operational and semantic sanity checking by the implementing AI, not independent human calibration. Ambiguity metadata violations were rejected and retried without prompt change. Transport failures retained; missing usage unknown. t046 remains a policy disagreement, not a label correction.",
+  "rubric_changes": [],
+  "model_changes": []
+}

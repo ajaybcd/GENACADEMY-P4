@@ -1,19 +1,16 @@
-Customer support evaluation final walkthrough
+FINAL V3 WALKTHROUGH
 
-0:00 Show the final report and dataset. Explain the five-intent classification task and the 100 fixed tickets. Distinguish the source repository's broader revision from this project's single focused prompt change.
+0:00 to 0:15 Open the final report
+This report shows the final customer support evaluation. Under the same approved policy, baseline scored ninety-two, focused ninety-four, and v3 one hundred out of one hundred. The earlier ninety-three percent used a different damaged-product label.
 
-0:25 Show the original LangSmith comparison: baseline 92/100, focused 94/100, eight wins and six regressions, no API errors. Explain Exact Match: output.intent equals the reference intent. This code-based evaluator uses no model tokens; the classifier calls used OpenAI.
+0:15 to 0:35 Show the highlighted v3 workbook
+In Changes to review, green highlights six corrected predictions, t024 through t029. Purple marks the approved t046 label policy. All one hundred tickets has every comparison. The historical Excel notes and approvals remain preserved in the original workbook.
 
-0:50 Show the one added routing-precedence paragraph. It addresses the baseline's confusion between refund remedies and underlying delivery or product problems. All other fresh experiment settings stayed fixed.
+0:35 to 0:50 Show Judge v2 review
+Here the judge moves from ninety-nine to one hundred. Ticket t033 requests an overcharge refund. My separate human review accepts refund request. The old automated zero is preserved beside the new result.
 
-1:15 Show t024-t029: refund payment and cancellation requests regress to order_status. The prompt change is not regression-free. Show t000 as a previously passing control that still passes.
+0:50 to 1:12 Show LangSmith comparison and feedback
+In LangSmith, open the v3 experiment. Exact Match and judge rubric v2 both score one hundred. Rubric v1 remains ninety-nine. The separate human feedback records my t033 decision. Completed queues hold the earlier annotations.
 
-1:40 Show t046 on Fresh evaluation. The participant changed its reviewed reference from product_issue to refund_request. Both unchanged predictions rescore under the same reviewed label: baseline 93/100 and focused 93/100, seven wins and seven regressions. Original LangSmith dataset labels and evaluator scores remain intact. The final conclusion is no net accuracy gain under reviewed labels.
-
-2:05 Show completed workbook review: Evaluation 11/11 and Fresh evaluation 14/14 approved. Approval means the participant reviewed a case, not that its prediction passed. Notes were AI-assisted and subsequently reviewed and approved.
-
-2:25 Open Annotation Queues in LangSmith and select Completed. Show baseline 8/8 and focused 7/7, zero pending. These 15 run reviews cover 14 tickets because t046 is in both. Show week4_p4_review_notes, failure_category, week4_p4_workbook_approved, week4_p4_reviewed_intent and week4_p4_reviewed_exact_match. Explain the API import from approved Excel rows and its source provenance; no model calls were made for the transfer.
-
-2:55 Next test: distinguish a missing order from a missing refund payment and preserve cancellation/refund routing when non-delivery is absent. Settle the product-versus-remedy policy, then test on unseen seed families. The optional LLM judge was not attempted.
-
-Finish by showing the final report, executed notebook, workbook and annotation evidence. Record the Loom video yourself and provide its actual link in the course submission.
+1:12 to 1:30 Show evidence and GitHub
+The notebook reproduces the scores offline from saved evidence. Twelve ambiguity flags still need interpretation. GitHub contains the report, notebook, transcript, presentation and raw results. These scores reflect known synthetic examples; independent testing is the next step.

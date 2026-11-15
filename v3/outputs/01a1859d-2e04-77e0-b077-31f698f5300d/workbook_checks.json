@@ -1,0 +1,18 @@
+{
+  "scores": [
+    92,
+    94,
+    100
+  ],
+  "formula_perturbation": "PASS: changing t024 prediction to other reduces v3 score to99, restoring it returns100",
+  "changed_rows": [
+    "t024",
+    "t025",
+    "t026",
+    "t027",
+    "t028",
+    "t029",
+    "t046"
+  ],
+  "historical_workbook_edited": false
+}

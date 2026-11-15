@@ -1,0 +1,15 @@
+{
+  "model": "gpt-5.4-mini-2026-03-17",
+  "reasoning_effort": "low",
+  "max_completion_tokens": 2048,
+  "store": false,
+  "temperature": null,
+  "temperature_note": "Omitted for reasoning model compatibility; provider default, no determinism guarantee.",
+  "concurrency": 4,
+  "max_attempts": 3,
+  "shuffle_seed": 20261030,
+  "pilot_ticket_ids": ["t000", "t004", "t024", "t028", "t044", "t046", "t060", "t094"],
+  "prices_usd_per_million": {"input": 0.75, "cached_input": 0.075, "output": 4.5},
+  "price_source": "https://developers.openai.com/api/docs/models/gpt-5.4-mini",
+  "selection": "Available pinned non-deprecated snapshot, structured output support, modest cost for a well-defined five-label rubric; not assumed superior to the classifier or a calibrated human. Low reasoning is an initial engineering choice, not a measured optimum. No model search based on desired score delta."
+}

@@ -1,111 +1,61 @@
-# GENACADEMY P4
+# Customer Support Intent Evaluation Using LangSmith
 
-Week 4 customer support intent evaluation using OpenAI and LangSmith.
+Final v3 submission for Week 4 Project 4 by Ajay David, updated November 14, 2026 (US Eastern).
 
-## Final submission
+## Final measured results
 
-- [Final report](outputs/project_report.html) — download and open in a browser.
-- [Executed analysis notebook](customer_support_evaluation.ipynb)
-- [Approved evaluation workbook](outputs/customer_support_evaluation.xlsx)
-- [LangSmith annotation completion evidence](outputs/langsmith_annotation_sync/completion_notes.txt)
-- [Walkthrough script](walkthrough_script.txt)
+| Measure | Before | Final |
+|---|---:|---:|
+| Classifier Exact Match, same approved policy | Focused 94/100 | V3 100/100 |
+| LLM judge on the same v3 outputs | Rubric v1 99/100 | Rubric v2 100/100 |
 
-| Scoring view | Baseline | Focused | Wins | Regressions |
-| --- | ---: | ---: | ---: | ---: |
-| Original LangSmith labels | 92/100 | 94/100 | 8 | 6 |
-| Participant-reviewed labels | 93/100 | 93/100 | 7 | 7 |
+The saved baseline scores 92/100 under that same final policy. V3 corrected six focused-model predictions, t024–t029, with zero regressions. Historical reviewed 93/100 versus 93/100 scores remain preserved; they used refund_request for damaged ticket t046. The participant now approved product_issue for that damaged-product case. Therefore the old 93% to final 100% difference includes one label-policy point and six prediction fixes.
 
-All failed-case reviews are approved: 11/11 saved-run cases and 14/14 fresh cases. The LangSmith queues have 8/8 baseline and 7/7 focused run reviews completed, with 75 feedback records verified. One reviewed reference label changed; original model predictions were preserved. The final reviewed comparison shows no net accuracy gain.
+These scores apply to the **known 100 synthetic tickets**, derived from 25 seed scenarios with three paraphrases each. There is no independent held-out test, and historical controls were rescored rather than rerun concurrently. Judge v2 was calibrated on the known t033 disagreement; it is not proof of general judge reliability. Twelve ambiguity flags remain, all passing; flags are not automatic human approvals.
 
-**Remaining participant step:** record the Loom walkthrough and submit its actual link. The optional LLM judge was not attempted.
+## Submission files
 
-Run `python verify_submission.py` to re-execute the 10 analysis cells and check the final evidence without API calls. The OpenAI/LangSmith SDK is required only for new live runs or annotation transfers. Saved credentials and local environments are excluded from this repository.
+- [Final report](outputs/project_report.html) — download the repository and open this HTML file in a browser.
+- [Executed project notebook](customer_support_evaluation.ipynb)
+- [Word narration, 90-second demo and 20-point summary](outputs/project_transcript_and_summary.docx)
+- [20-line summary](outputs/project_summary_20_lines.txt)
+- [PowerPoint with speaker notes](outputs/customer_support_project_presentation.pptx)
+- [Highlighted v3 comparison and judge workbook](v3/outputs/01a1859d-2e04-77e0-b077-31f698f5300d/v3_evaluation_review.xlsx)
+- [Preserved historical review workbook](outputs/customer_support_evaluation.xlsx)
+- [V3 and judge report](v3/REPORT.html), [executed v3 notebook](v3/v3_analysis.ipynb)
+- [Classifier comparison](v3/results/comparison.json), [judge before/after](v3/llm_judge_v2/before_after.json)
+- [Separate human t033 adjudication](v3/human_reviews/t033.json)
+- [Verified LangSmith evidence](v3/results/langsmith_v3_evidence.json)
+- [Original completed judge add-on](llm-judge/REPORT.md) — historical baseline/focused analysis.
 
+The existing [November 1 video walkthrough](outputs/2026-11-01%2021-08-52.mp4) predates v3. Use the updated transcript and demo script to record a walkthrough of the final results. The existing video and prior commits are preserved.
 
-This project implements the supplied **Evaluations Using LangSmith** handout using its linked customer-support repository. The initially supplied 4B social-media repository remains in `../repository` as reference. It is a different assignment.
+## What changed
 
-## Current evidence
+GPT-4o-mini predicts one of order_status, refund_request, product_issue, account_help or other. V3 retains actual non-delivery as order_status and damaged products as product_issue, but explicitly routes missing refund money after a return and unwanted-order cancellation refunds to refund_request. Prompts, inputs, responses, settings and scoring evidence are saved under v3.
 
-The 100 fixed tickets and two prediction exports come from `The-Gen-Academy/4A-Customer-Support-Agent-Evaluation`, commit `ef517b274cf86a2c4fa8ae72fdc89b3dce80f41d`. Saved predictions reproduce **92/100 baseline** and **97/100 upstream revised**, with **8 wins and 3 regressions**. These are repository results, not new model calls or new LangSmith experiments. The upstream revision changes multiple instructions and therefore does not establish the effect of our one focused change.
+GPT-5.4-mini-2026-03-17 separately judged saved query/prediction pairs without reference labels or human approval inputs. Rubric v1 rejected t033, an overcharge reimbursement request. The participant separately approved refund_request; rubric v2 generally clarifies billing refunds versus technical checkout failures. All 100 outputs were judged again using the same model, schema and settings. Only t033 changed score, from 0 to 1. Its old automated 0, human 1 and new automated 1 remain separate. All 100 final judgments validated after 114 attempts, including 14 failed/rejected attempts.
 
-Fresh LangSmith runs completed on the same 100 tickets with no API errors. Under their original labels, results are **92/100 baseline → 94/100 focused**, with **8 wins and 6 regressions**. After the participant changed t046 from product_issue to refund_request on Fresh evaluation, both unchanged predictions rescore to **93/100**, with **7 wins, 7 regressions, 86 unchanged passes and no unchanged failures**. The focused change provides no net gain under the final reviewed labels. Original cloud labels and evaluator scores are retained; reviewed labels and scores are separate feedback fields.
+## Human review and LangSmith
 
-[Open the actual LangSmith comparison](https://smith.langchain.com/o/b21f8ce6-e07f-4579-b2f2-b4ca372647f3/datasets/b97bfa75-95ea-4c09-b9b9-cbb8493da698/compare?selectedSessions=b2f408bc-391e-49a4-bb96-58ba78619308%2Cf1866797-b7bb-48c1-963a-2b154308d4fd).
+The participant added and confirmed Excel notes in column L and approved reviews in M. The original Evaluation tab retains 11/11 approved failed cases and Fresh evaluation 14/14. LangSmith queues contain 8 baseline and 7 focused completed run reviews, covering 14 distinct tickets, with 75 feedback records and zero pending. Approval records review completion rather than changing a prediction into a correct result.
 
-Failure reviews are complete: **11/11 saved-run cases and 14/14 fresh cases approved**. The LangSmith queues are complete: **8/8 baseline and 7/7 focused items**, covering 14 distinct tickets, with **75 feedback records read back**. The project includes the final report, executed notebook, workbook, reviewed CSV exports, prompts, retained predictions, queue evidence and screenshots. The remaining participant action is recording the Loom walkthrough and supplying its actual link. The optional LLM judge was not attempted.
+The v3 experiment stores 100 traces, 100 Exact Match scores, 100 rubric-v1 scores, 100 rubric-v2 scores and a separate human t033 feedback item. Cloud values were read back and verified, including preservation of the old automated t033 score.
 
-## Run locally
+[Open the baseline, focused and v3 LangSmith comparison](https://smith.langchain.com/o/b21f8ce6-e07f-4579-b2f2-b4ca372647f3/datasets/b97bfa75-95ea-4c09-b9b9-cbb8493da698/compare?selectedSessions=b2f408bc-391e-49a4-bb96-58ba78619308%2Cf1866797-b7bb-48c1-963a-2b154308d4fd%2C7ee03a10-f2a3-4c15-99f4-4dc902378b53). Account/workspace access is required.
 
-Python 3.10 or later is sufficient for offline analysis and the direct OpenAI runner.
+## Reproduce the saved analysis
 
-```powershell
-python build_deliverables.py
-python verify_submission.py
-```
+Run `python finalize_submission.py` or execute all cells in the main notebook. These operations read saved evidence and make no model/API calls. Run `python verify_submission.py` from the repository root to validate historical approvals, preserved hashes, final metrics, notebook execution and report links.
 
-Open `outputs/project_report.html`, `outputs/customer_support_evaluation.xlsx`, and `customer_support_evaluation.ipynb`. The finalizer reads the approved workbook and retained evidence, executes local analysis, and updates the report, notebook and final CSV/JSON snapshots. It makes no API calls and does not rewrite the workbook. The original workbook builder creates initial drafts and is not part of finalization. Original run exports remain untouched. Future label changes require another evidence reconciliation before submitting.
+Original classifiers and optional live LangSmith commands remain available in project.py. V3 code is in v3/experiment.py; grading is in v3/judge_v3.py and v3/judge_v2.py. Live runs require local OpenAI/LangSmith credentials and dependencies in requirements.txt. No keys are committed. Windows DPAPI storage can be configured with credentials.ps1; saved credentials are specific to the local Windows account. Offline analysis does not require credentials. Machine-specific CA bundles and environments are excluded.
 
-## Fresh runs
+Archived source snapshots and older judge manifests describe their original execution dates. The latest documents intentionally supersede their old conclusions while preserving raw inputs, predictions, historical labels, approvals and scores.
 
-For reusable Windows account-encrypted storage, run `powershell -NoProfile -STA -File .\credentials.ps1 -Action Configure`. Enter both keys in the masked local window. The encrypted `.credentials.local.json` is ignored by Git and can be decrypted only by this Windows account on this machine. Check it with `-Action Check`. Use `-Action RunBaseline`, `-Action RunFocused`, or `-Action RunLangSmith -DatasetName YOUR-UNIQUE-NAME` to load saved credentials for a run. The wrapper removes the keys from its process environment afterward. Install the LangSmith requirements before RunLangSmith. To replace keys, run Configure again.
+## Sources
 
-Set credentials locally in your shell or credential manager. Do not put keys in chat, the workbook, or source control. `.env.example` documents names; Python does not automatically load `.env`.
+The supplied Evaluations Using LangSmith handout links to [The Gen Academy customer-support repository](https://github.com/The-Gen-Academy/4A-Customer-Support-Agent-Evaluation), commit ef517b274cf86a2c4fa8ae72fdc89b3dce80f41d. The initially shared 4B social-media repository is a different assignment. The upstream broader-revision 92%→97% comparison is historical source context and is separate from the focused/v3 experiment reported here.
 
-```powershell
-python project.py live --version baseline --output live_runs/baseline.csv
-python project.py live --version focused --output live_runs/focused.csv
-python project.py compare --baseline live_runs/baseline.csv --focused live_runs/focused.csv
-```
+## Artifact checks
 
-Each command evaluates all 100 tickets using gpt-4o-mini at temperature 0. Output is exactly `{"intent": "..."}` under a strict enum schema. The classifier receives only the prompt and query. Ground truth enters Exact Match afterward. Errors stay unscored and are counted separately. Output files are created exclusively to preserve previous runs. API calls incur model charges; Exact Match itself does not use tokens.
-
-## LangSmith experiments
-
-Install `requirements.txt` in your own virtual environment, set `OPENAI_API_KEY` and `LANGSMITH_API_KEY`, then run:
-
-```powershell
-python project.py langsmith --dataset week4-p4-your-unique-dataset-name --prefix week4-p4
-```
-
-This creates a new dataset and two fresh experiments, with local prediction and experiment metadata exports in `live_runs`. A duplicate dataset name should be treated as an error; use a new name to preserve prior evidence. Use the actual experiment links printed by LangSmith. The SDK path is optional: the UI path below follows the handout directly.
-
-1. Upload `outputs/langsmith_dataset.csv` with **query → Input**, **intent → Output**, **id → Metadata**. Exactly these three columns are included.
-2. Paste `prompts/baseline.txt` as System and `{query}` as Human. Map `{query}` to `input.query`. Select f-string formatting.
-3. Configure required String property `intent` in the output schema, model `gpt-4o-mini`, temperature `0`.
-4. Add only code-based Exact Match on `output.intent` versus `referenceOutput.intent`. Run all 100 rows under a unique baseline experiment name.
-5. Filter score 0 and send every failure to an annotation queue. Write a note for every failure before defining categories. The supplied notes are AI-assisted drafts, not participant-completed annotations. If fresh failures differ, derive categories from the fresh notes.
-6. Add required categorical feedback `failure_category` using the categories actually discovered. Complete participant review.
-7. Replace only the System prompt with `prompts/focused.txt`. Keep dataset, labels, schema, model, temperature, and evaluator unchanged. Run all 100 rows under a new experiment name.
-8. Select both experiments in Comparison. Record total/completed/error counts, accuracy delta, wins, regressions, unchanged passes, and unchanged failures. Inspect t016, t094, and t095 explicitly.
-9. Save actual dataset and comparison URLs plus screenshots of column mapping, baseline summary, all failure annotations, prompt change, improved summary, and regressions. No links or screenshots have been fabricated.
-
-## Routing policy and label review
-
-The LangSmith annotation queue transfer is complete. `Week4 P4 baseline approved Excel reviews` has 8/8 completed items, and `Week4 P4 focused approved Excel reviews` has 7/7, with no pending reviews. These are imports of the participant-approved workbook reviews, recorded as API feedback with provenance. The 15 run records cover 14 unique tickets because t046 has a reference-label correction. The older Evaluation tab has no matching live run IDs and was not imported. See `outputs/langsmith_annotation_sync/completion_notes.txt` and `sync_evidence.json`. No model calls were made during the transfer. Original experiment labels and scores remain intact; reviewed labels and scores are separate feedback keys.
-
-The supplied seed policy prioritizes the underlying problem: non-delivery with a refund request stays `order_status`; a damaged item with a refund request stays `product_issue`. This is a business routing choice, not the only reasonable interpretation of customer intent. The baseline prompt under-specifies that precedence. Retain the policy for this comparison; have the participant approve it. If labels change, rescore **both** saved versions under the same reviewed labels and create a new dataset snapshot for fresh runs. Never relabel simply to agree with a model.
-
-The 100 tickets are 25 seed families with three paraphrases each, so apparent gains are correlated and do not establish performance on unseen ticket families. Evaluate a held-out set before making a broader reliability claim.
-
-## Deliverables and outstanding actions
-
-| Requirement | Artifact or action |
-| --- | --- |
-| Dataset | `outputs/langsmith_dataset.csv`, 100 rows, exact required columns |
-| Spreadsheet | `outputs/customer_support_evaluation.xlsx`; all failed-case participant approvals completed |
-| Notebook | `customer_support_evaluation.ipynb`; all analysis cells executed locally, no network or model calls |
-| Notes before taxonomy | `outputs/failure_notes_before_categories.csv` |
-| Taxonomy | `outputs/failure_categories.csv`, one baseline mechanism plus one observed upstream regression mechanism |
-| Prompt fix | `prompts/baseline.txt` and `prompts/focused.txt`, one added paragraph |
-| Saved regression evidence | `outputs/regression_results.csv`: all eight original failures, three upstream regressions, one previously passing control |
-| Fresh regression evidence | `outputs/fresh_regression_results.csv`, 14 affected tickets plus passing control; all 100 predictions retained in `live_runs` |
-| LangSmith evidence | Completed; actual dataset, experiment identifiers and comparison URLs in `live_runs/langsmith_evidence.json` |
-| Loom | `walkthrough_script.txt`; participant records and submits |
-
-## Technical references
-
-- [Source repository](https://github.com/The-Gen-Academy/4A-Customer-Support-Agent-Evaluation)
-- [LangSmith evaluation quickstart](https://docs.langchain.com/langsmith/evaluation-quickstart)
-- [OpenAI structured outputs](https://developers.openai.com/api/docs/guides/structured-outputs?api-mode=chat)
-
-The source notebook and exports are retained in `source/`; the SHA-256 manifest records their local contents. The original notebook demonstrates broader revisions and OpenTelemetry tracing. This implementation uses LangSmith experiments directly and avoids adding reference labels to classifier inputs.
+The final notebook executes six code cells offline and verifies preserved historical source hashes. The PowerPoint has ten rendered slides, editable tables and passing package/layout checks. Word text has 537 narration words, a 176-word demo and exactly 20 summary points. A five-page layout proof was inspected; native Word pagination is unverified because the packaged LibreOffice renderer is unavailable.

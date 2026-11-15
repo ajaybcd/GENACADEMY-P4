@@ -1,0 +1,38 @@
+{
+  "completed_utc": "2026-11-15T01:26:41.248029+00:00",
+  "model": "gpt-5.4-mini-2026-03-17",
+  "valid_assessments": 100,
+  "judge_pass": 100,
+  "judge_fail": 0,
+  "exact_match_correct": 100,
+  "ambiguity_flags": 12,
+  "review_ticket_ids": [
+    "t004",
+    "t005",
+    "t006",
+    "t007",
+    "t044",
+    "t045",
+    "t046",
+    "t047",
+    "t056",
+    "t057",
+    "t058",
+    "t059"
+  ],
+  "score_disagreement_ids": [],
+  "historical_judge_pass": {
+    "baseline": 92,
+    "focused": 93
+  },
+  "prior_judgments_and_v3_predictions_unchanged": true,
+  "rubric_identical_to_original": false,
+  "recorded_api_attempts": 114,
+  "failed_attempts": 14,
+  "usage": {
+    "prompt_tokens": 87034,
+    "completion_tokens_including_reasoning": 12126
+  },
+  "limitations": "Same pinned model, schema and settings, with a new user-authorized general overcharge/refund rubric clarification. Calibrated on known t033 disagreement and rerun on the same100 known synthetic tickets; not independent held-out validation. Human adjudication is separately saved; ambiguity flags are not automatic approvals.",
+  "judge_rubric_version": "v2"
+}

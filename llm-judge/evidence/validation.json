@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "assessments_validated": 200,
+  "negative_controls_passed": 8,
+  "frozen_inputs_match": true,
+  "original_project_files_unchanged": 135,
+  "all_requests_allowlisted": true,
+  "ground_truth_not_sent": true,
+  "langsmith_writes": 0,
+  "classifier_calls": 0,
+  "original_exact_match": [
+    92,
+    94
+  ],
+  "reviewed_exact_match": [
+    93,
+    93
+  ]
+}

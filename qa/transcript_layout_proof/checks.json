@@ -1,0 +1,9 @@
+{
+  "docx_readable": true,
+  "main_words": 537,
+  "demo_words": 176,
+  "summary_points": 20,
+  "hard_page_breaks": 4,
+  "proof_pages": 5,
+  "rendering_note": "Packaged render_docx.py failed: LibreOffice is absent. PDF proof approximates DOCX paragraph fonts, margins and spacing; native Word pagination remains unverified."
+}

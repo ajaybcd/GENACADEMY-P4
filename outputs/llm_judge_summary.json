@@ -1,0 +1,12 @@
+{
+  "classifier": {
+    "baseline": 92,
+    "focused": 94,
+    "v3": 100
+  },
+  "judge_v1": 99,
+  "judge_v2": 100,
+  "ambiguity_flags": 12,
+  "human_t033_review": "v3/human_reviews/t033.json",
+  "source": "v3/llm_judge_v2/before_after.json"
+}

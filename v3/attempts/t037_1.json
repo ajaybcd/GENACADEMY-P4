@@ -1,0 +1,84 @@
+{
+  "id": "t037",
+  "attempt": 1,
+  "started_utc": "2026-11-15T00:56:33.782746+00:00",
+  "request": {
+    "model": "gpt-4o-mini",
+    "temperature": 0,
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a triage system for an e-commerce support inbox.\nClassify the customer's ticket into EXACTLY ONE of these categories:\n- order_status: questions about where an order is, tracking, delivery ETA\n- refund_request: the customer wants their money back\n- product_issue: the item arrived broken, wrong, defective, or not as described\n- account_help: login, password, address, payment method changes\n- other: anything that doesn't fit the above (general questions, feedback, browsing)\nReturn only the intent key.\n\nRouting precedence: classify the underlying problem before the requested remedy. When a refund is requested because an order never arrived, choose order_status; when it is requested because an item arrived damaged, wrong, defective, or not as described, choose product_issue. Otherwise keep the category definitions above unchanged.\n\nRefund-processing exceptions: If the customer has already returned an item and is waiting for refund money, choose refund_request. A missing, delayed, or not-yet-received refund payment on a card is a refund-processing issue, not a missing delivery. If the customer asks to cancel an unwanted order and receive a refund because they no longer need it, choose refund_request unless an actual non-delivery or delivered-product problem is stated. Mentioning an order number, waiting, a card, or a refund does not by itself establish an order_status issue. Apply the underlying-problem precedence above only when the query actually describes an order that was not delivered or a delivered item that is damaged, wrong, defective, or not as described."
+      },
+      {
+        "role": "user",
+        "content": "I want to return these for store credit, but to be honest, I'd much rather have a refund to my card instead."
+      }
+    ],
+    "response_format": {
+      "type": "json_schema",
+      "json_schema": {
+        "name": "intent_classification",
+        "strict": true,
+        "schema": {
+          "type": "object",
+          "properties": {
+            "intent": {
+              "type": "string",
+              "enum": [
+                "order_status",
+                "refund_request",
+                "product_issue",
+                "account_help",
+                "other"
+              ]
+            }
+          },
+          "required": [
+            "intent"
+          ],
+          "additionalProperties": false
+        }
+      }
+    }
+  },
+  "response": {
+    "id": "chatcmpl-EkIplrrMkSEHGhybiqGPbzwjEe21J",
+    "object": "chat.completion",
+    "created": 1794704193,
+    "model": "gpt-4o-mini-2024-07-18",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "{\"intent\":\"refund_request\"}",
+          "refusal": null,
+          "annotations": []
+        },
+        "logprobs": null,
+        "finish_reason": "stop"
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 393,
+      "completion_tokens": 6,
+      "total_tokens": 399,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "audio_tokens": 0
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "audio_tokens": 0,
+        "accepted_prediction_tokens": 0,
+        "rejected_prediction_tokens": 0
+      }
+    },
+    "service_tier": "default",
+    "system_fingerprint": "fp_866b851362"
+  },
+  "status": "OK",
+  "prediction": "refund_request",
+  "ended_utc": "2026-11-15T00:56:34.157730+00:00"
+}

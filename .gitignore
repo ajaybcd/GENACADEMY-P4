@@ -1,7 +1,6 @@
 .env
 .credentials.local.json
 .venv/
-node_modules/
 __pycache__/
-tmp*/
-*.pyc
+node_modules/
+live_runs/

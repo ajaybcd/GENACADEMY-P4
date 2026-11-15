@@ -1,0 +1,20 @@
+01. The project evaluates customer support intent classification using OpenAI and LangSmith.
+02. The goal is to understand failures, clarify routing rules and measure before-and-after performance.
+03. Sources are the Evaluations Using LangSmith handout and the Gen Academy evaluation repository.
+04. The dataset contains 100 synthetic tickets: 25 seed scenarios, each original plus three paraphrases.
+05. The five intents are order_status, refund_request, product_issue, account_help and other.
+06. OpenAI gpt-4o-mini generated structured baseline, focused and fresh v3 predictions.
+07. Code-based Exact Match compares each prediction with an approved reference intent.
+08. LangSmith stores experiment traces, evaluator feedback and completed human annotation queues.
+09. I reviewed AI-assisted explanations, added and confirmed Excel notes in L, and approved reviews in M.
+10. The original queues contain 15 completed run reviews for 14 tickets and 75 verified feedback records.
+11. Historical reviewed scores of 93% baseline and 93% focused remain preserved under their earlier labels.
+12. I approved product_issue for damaged t046; all versions now use that same final label policy.
+13. Under the final policy, saved baseline scored 92%, focused 94%, and fresh v3 100%.
+14. V3 clarifies returned-item refund payments and unwanted-order cancellation refunds as refund_request.
+15. It corrected six predictions, t024–t029, with zero regressions: a six-point gain over focused.
+16. The old 93% to final 100% difference includes one label-policy point and six prediction fixes.
+17. GPT-5.4-mini judge rubric v1 passed 99/100 v3 outputs, disagreeing only on overcharge ticket t033.
+18. I separately approved refund_request for t033 and clarified billing refunds versus technical checkout failures.
+19. All 100 outputs were judged again: rubric v2 passed 100/100; old scores remain and 12 ambiguity flags persist.
+20. LangSmith results are verified; 100% describes this known synthetic dataset, with independent testing still needed.
